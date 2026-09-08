@@ -1,0 +1,7 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+mda_mb_231_txsa_in_vitro,Homo sapiens,MDA-MB-231-TXSA,Breast cancer cell (triple-negative),breast,breast cancer,in vitro 2D cell culture,"Triple-negative, high metastatic potential"
+mda_mb_453_in_vitro,Homo sapiens,MDA-MB-453,Breast cancer cell (HER2+),breast,breast cancer,in vitro 2D cell culture,HER2-positive
+t47d_in_vitro,Homo sapiens,T47D,Breast cancer cell (luminal),breast,breast cancer,in vitro 2D cell culture,"Luminal, ER/PR+"
+mcf_10a_in_vitro,Homo sapiens,MCF-10A,Normal breast epithelial cell,breast,normal control,in vitro 2D cell culture,Normal mammary epithelium
+mcf_12a_in_vitro,Homo sapiens,MCF-12A,Normal breast epithelial cell,breast,normal control,in vitro 2D cell culture,Normal mammary epithelium
+dermal_fibroblast_in_vitro,Homo sapiens,Dermal-fibroblast,Normal dermal fibroblast,skin,normal control,in vitro 2D cell culture,Normal fibroblast

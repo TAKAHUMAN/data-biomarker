@@ -1,0 +1,16 @@
+figure,panel,cell_line_or_group,target_or_observable,qualitative_result,reason_not_quantifiable
+Fig 1D,D,MiaPaca2 (parental),ABCB1 (Western blot),faint/low band,No densitometry values printed on WB; qualitative ranking only.
+Fig 1D,D,Mia-dx,ABCB1 (Western blot),undetectable/very faint band,No densitometry values printed on WB; qualitative ranking only.
+Fig 1D,D,Mia-B1,ABCB1 (Western blot),very strong (darkest band),No densitometry values printed on WB; qualitative ranking only.
+Fig 1D,D,A2780 (parental),ABCB1 (Western blot),faint/low band,No densitometry values printed on WB; qualitative ranking only.
+Fig 1D,D,A2780-dx,ABCB1 (Western blot),moderate-strong band,No densitometry values printed on WB; qualitative ranking only.
+Fig 1E-F,E-F,Mia-dx,ABCB1 (confocal immunofluorescence),very low red signal,No fluorescence-intensity scale bar for quantification; qualitative visual read only.
+Fig 1E-F,E-F,Mia-B1,ABCB1 (confocal immunofluorescence),strong red membrane signal,No fluorescence-intensity scale bar for quantification; qualitative visual read only.
+Fig 1E-F,E-F,A2780 (parental),ABCB1 (confocal immunofluorescence),low red signal,No fluorescence-intensity scale bar for quantification; qualitative visual read only.
+Fig 1E-F,E-F,A2780-dx,ABCB1 (confocal immunofluorescence),strong red membrane signal,No fluorescence-intensity scale bar for quantification; qualitative visual read only.
+Fig 2A-C,,A2780-dx,DOX accumulation (flow cytometry),"Sildenafil 10 uM or BEZ 50 nM: partial leftward-shift reversal, similar magnitude for both. BEZ 150 nM: near-complete reversal of resistant phenotype.",Overlay histograms of DOX auto-fluorescence with no printed MFI values or % positive gates; qualitative peak-shift description only.
+Fig 2A-C,,Mia-B1,DOX accumulation (flow cytometry),Sildenafil 10 uM or BEZ 50 nM: minor increase only (subdued response). BEZ 150 nM: enhanced accumulation but not as complete a reversal as A2780-dx.,Same as above.
+Fig 2A-C,,Mia-dx (ABCB1-undetectable),DOX accumulation (flow cytometry),"BEZ 50/150 nM: little to minimal effect on DOX accumulation. Sildenafil increased accumulation more than BEZ, suggesting BEZ is more ABCB1-specific.",Same as above.
+Fig 3A-C,,A2780-dx,DOX efflux (flow cytometry),BEZ and sildenafil inhibited DOX efflux in a dose-dependent manner,Overlay histograms (1h DOX load + 2h efflux) with no printed MFI values or % positive gates.
+Fig 3A-C,,Mia-B1,DOX efflux (flow cytometry),BEZ and sildenafil inhibited DOX efflux in a dose-dependent manner,Same as above.
+Fig 3A-C,,Mia-dx (ABCB1-undetectable),DOX efflux (flow cytometry),Neither sildenafil nor BEZ inhibited efflux to a greater extent (no ABCB1 to inhibit),Same as above.

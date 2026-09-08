@@ -1,0 +1,51 @@
+condition_key,context_key,condition_label,notes
+93t449_in_vitro__amg_900_1000_0_nm_72h,93t449_in_vitro,"AMG 900 1000 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_100_0_nm_72h,93t449_in_vitro,"AMG 900 100 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_10_0_nm_72h,93t449_in_vitro,"AMG 900 10 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_1_0_nm_72h,93t449_in_vitro,"AMG 900 1 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_25_0_nm_72h,93t449_in_vitro,"AMG 900 25 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_500_0_nm_72h,93t449_in_vitro,"AMG 900 500 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_5_0_nm_72h,93t449_in_vitro,"AMG 900 5 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_dose_response_0_1000_nm_72h,93t449_in_vitro,"AMG 900, 0-1000 nM concentration-response",Concentration-response condition used to estimate EC50; individual dose is not applicable.
+93t449_in_vitro__azd1152_hqpa_1000_0_nm_72h,93t449_in_vitro,"AZD1152-HQPA 1000 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__azd1152_hqpa_100_0_nm_72h,93t449_in_vitro,"AZD1152-HQPA 100 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__azd1152_hqpa_500_0_nm_72h,93t449_in_vitro,"AZD1152-HQPA 500 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__azd1152_hqpa_dose_response_0_1000_nm_72h,93t449_in_vitro,"AZD1152-HQPA, 0-1000 nM concentration-response",Concentration-response condition used to estimate EC50; individual dose is not applicable.
+93t449_in_vitro__dmso,93t449_in_vitro,DMSO control,Baseline control.
+93t449_in_vitro__mk_5108_1000_0_nm_72h,93t449_in_vitro,"MK-5108 1000 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__mk_5108_500_0_nm_72h,93t449_in_vitro,"MK-5108 500 nM, 72 h",Single-agent in vitro exposure.
+93t449_in_vitro__mk_5108_dose_response_0_1000_nm_72h,93t449_in_vitro,"MK-5108, 0-1000 nM concentration-response",Concentration-response condition used to estimate EC50; individual dose is not applicable.
+93t449_in_vitro__untreated,93t449_in_vitro,Untreated control,Untreated baseline expression.
+hct_116_in_vitro__amg_900_0_5_nm_72h,hct_116_in_vitro,"AMG 900 0.5 nM, 72 h",Single-agent in vitro exposure.
+hct_116_in_vitro__amg_900_2_0_nm_72h,hct_116_in_vitro,"AMG 900 2 nM, 72 h",Single-agent in vitro exposure.
+hct_116_in_vitro__amg_900_5_0_nm_72h,hct_116_in_vitro,"AMG 900 5 nM, 72 h",Single-agent in vitro exposure.
+hct_116_in_vitro__amg_900_dose_response_0_1000_nm_72h,hct_116_in_vitro,"AMG 900, 0-1000 nM concentration-response",Concentration-response condition used to estimate EC50; individual dose is not applicable.
+hct_116_in_vitro__azd1152_hqpa_50_0_nm_72h,hct_116_in_vitro,"AZD1152-HQPA 50 nM, 72 h",Single-agent in vitro exposure.
+hct_116_in_vitro__azd1152_hqpa_dose_response_0_1000_nm_72h,hct_116_in_vitro,"AZD1152-HQPA, 0-1000 nM concentration-response",Concentration-response condition used to estimate EC50; individual dose is not applicable.
+hct_116_in_vitro__mk_5108_dose_response_0_1000_nm_72h,hct_116_in_vitro,"MK-5108, 0-1000 nM concentration-response",Concentration-response condition used to estimate EC50; individual dose is not applicable.
+hct_116_in_vitro__untreated,hct_116_in_vitro,Untreated control,Untreated baseline expression.
+sw_872_in_vitro__amg_900_1000_0_nm_72h,sw_872_in_vitro,"AMG 900 1000 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_100_0_nm_72h,sw_872_in_vitro,"AMG 900 100 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_10_0_nm_72h,sw_872_in_vitro,"AMG 900 10 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_1_0_nm_72h,sw_872_in_vitro,"AMG 900 1 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_250_0_nm_72h,sw_872_in_vitro,"AMG 900 250 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_25_0_nm_72h,sw_872_in_vitro,"AMG 900 25 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_2_0_nm_72h,sw_872_in_vitro,"AMG 900 2 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_50_0_nm_72h,sw_872_in_vitro,"AMG 900 50 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_5_0_nm_72h,sw_872_in_vitro,"AMG 900 5 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_dose_response_0_1000_nm_72h,sw_872_in_vitro,"AMG 900, 0-1000 nM concentration-response",Concentration-response condition used to estimate EC50; individual dose is not applicable.
+sw_872_in_vitro__azd1152_hqpa_1000_0_nm_72h,sw_872_in_vitro,"AZD1152-HQPA 1000 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_100_0_nm_72h,sw_872_in_vitro,"AZD1152-HQPA 100 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_10_0_nm_72h,sw_872_in_vitro,"AZD1152-HQPA 10 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_250_0_nm_72h,sw_872_in_vitro,"AZD1152-HQPA 250 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_25_0_nm_72h,sw_872_in_vitro,"AZD1152-HQPA 25 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_500_0_nm_72h,sw_872_in_vitro,"AZD1152-HQPA 500 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_50_0_nm_72h,sw_872_in_vitro,"AZD1152-HQPA 50 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_dose_response_0_1000_nm_72h,sw_872_in_vitro,"AZD1152-HQPA, 0-1000 nM concentration-response",Concentration-response condition used to estimate EC50; individual dose is not applicable.
+sw_872_in_vitro__dmso,sw_872_in_vitro,DMSO control,Baseline control.
+sw_872_in_vitro__mk_5108_1000_0_nm_72h,sw_872_in_vitro,"MK-5108 1000 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__mk_5108_250_0_nm_72h,sw_872_in_vitro,"MK-5108 250 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__mk_5108_500_0_nm_72h,sw_872_in_vitro,"MK-5108 500 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__mk_5108_50_0_nm_72h,sw_872_in_vitro,"MK-5108 50 nM, 72 h",Single-agent in vitro exposure.
+sw_872_in_vitro__mk_5108_dose_response_0_1000_nm_72h,sw_872_in_vitro,"MK-5108, 0-1000 nM concentration-response",Concentration-response condition used to estimate EC50; individual dose is not applicable.
+sw_872_in_vitro__untreated,sw_872_in_vitro,Untreated control,Untreated baseline expression.

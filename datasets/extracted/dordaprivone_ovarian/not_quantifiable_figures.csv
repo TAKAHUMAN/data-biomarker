@@ -1,0 +1,8 @@
+figure,panel,cell_line_or_group,target_or_observable,qualitative_result,reason_not_quantifiable
+Fig 2C,C,OVCAR5/SKOV3,CDK4/CDK6/Cyclin D1 WB,Decreased with ONC201,Blot image only; no densitometry values.
+Fig 3B,B,OVCAR5/SKOV3,MCL-1/BCL-XL/cl-PARP/caspase-9 WB,Apoptotic marker changes,Blot image only.
+Fig 5D-F,D-F,OVCAR5/SKOV3,"PERK/IRE1a/ATF4/CHOP/ClpP WB, ClpP siRNA validation","ER stress activation, ClpP induction",Blot images; no numeric densitometry.
+Fig 5H,H,KpB tumors,ClpP IHC,ClpP increased with ONC201,Qualitative text only; no numeric % scale.
+Fig 7A,A,OVCAR5/SKOV3,MTT proliferation +/- NAC,NAC partially reversed cytotoxicity,Qualitative text; bar chart not reliably readable.
+Fig 7E,E,OVCAR5/SKOV3,ClpP/VEGF/Snail WB,Protein changes with NAC+ONC201,Blot images only.
+Fig 9,,Summary,Mechanistic schematic,ONC201 apoptosis/ROS/MAPK/mTOR pathways,Graphical diagram; no numeric data.

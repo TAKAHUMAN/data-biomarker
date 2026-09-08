@@ -1,0 +1,44 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID19584292",
+  "parsed_observation_count": 165,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "dactolisib_multipleMyeloma_extracted.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID19584292",
+      "path": "datasets/raw/workbooks/dactolisib_multipleMyeloma_extracted.xlsx",
+      "sha256": "4d2215450c6cc8352c8fa368e7f684d8635ef69366dc5abea7008f7b1030f450",
+      "source_artifact_id": "artifact_PMID19584292_workbook",
+      "source_description": "Supplied curated per-figure digitization workbook, preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "BEZ235_QSP_PD_Biomarker_Cascade_Annotations.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID19584292",
+      "path": "datasets/raw/workbooks/BEZ235_QSP_PD_Biomarker_Cascade_Annotations.xlsx",
+      "sha256": "723868efb38177ac26928835cd17aa829795381977c2de7154a6db02cb940278",
+      "source_artifact_id": "artifact_PMID19584292_annotation_workbook",
+      "source_description": "Supplied companion QSP/PD biomarker cascade annotation workbook (Cascade Map, Digitized Data, Figure Annotations, Modeling Notes), preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "EXTRACTION_ARTIFACT",
+      "figure": null,
+      "original_filename": "BEZ235_QSP_PD_Biomarker_Cascade.md",
+      "panel": null,
+      "paper_id": "paper_PMID19584292",
+      "path": "datasets/extracted/dactolisib_mm/BEZ235_QSP_PD_Biomarker_Cascade.md",
+      "sha256": "1f9ca1de63c84b9d1560d4eabc9edb2cd32acb3911778600d5b26f299d9cbf1f",
+      "source_artifact_id": "artifact_PMID19584292_moa_doc",
+      "source_description": "Supplied human-written mechanism-of-action / PD biomarker cascade reference document; source of the Fig1C/Fig2A/Fig2B digitized tables used here.",
+      "supplement_identifier": null
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+figure,model,time_h,treatment,ciap1_percent_vehicle,sem_percent_approx,note
+5B,451Lu_xenograft,0,vehicle,100,25,Digitized from author cIAP1 quantification bar graph
+5B,451Lu_xenograft,3,birinapant_30mgkg_IP,12,10,Digitized from author cIAP1 quantification bar graph
+5B,451Lu_xenograft,6,birinapant_30mgkg_IP,7,5,Digitized from author cIAP1 quantification bar graph
+5B,451Lu_xenograft,12,birinapant_30mgkg_IP,7,2,Digitized from author cIAP1 quantification bar graph
+5B,451Lu_xenograft,24,birinapant_30mgkg_IP,4,4,Digitized from author cIAP1 quantification bar graph
+5B,1205Lu_xenograft,0,vehicle,100,25,Digitized from author cIAP1 quantification bar graph
+5B,1205Lu_xenograft,3,birinapant_30mgkg_IP,12,3,Digitized from author cIAP1 quantification bar graph
+5B,1205Lu_xenograft,6,birinapant_30mgkg_IP,23,20,Digitized from author cIAP1 quantification bar graph
+5B,1205Lu_xenograft,12,birinapant_30mgkg_IP,23,15,Digitized from author cIAP1 quantification bar graph
+5B,1205Lu_xenograft,24,birinapant_30mgkg_IP,28,17,Digitized from author cIAP1 quantification bar graph

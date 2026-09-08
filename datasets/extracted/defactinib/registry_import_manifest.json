@@ -1,0 +1,32 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID29314097",
+  "parsed_observation_count": 0,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "Defactinib_QSP_PD_Biomarker_Cascade_Annotations.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID29314097",
+      "path": "datasets/raw/workbooks/Defactinib_QSP_PD_Biomarker_Cascade_Annotations.xlsx",
+      "sha256": "840ed75ea412ab5a0aca1bfdd4e577ae0a212146281a06ed9840f061b5cf35c0",
+      "source_artifact_id": "artifact_defactinib_annotation_workbook",
+      "source_description": "Supplied QSP/PD biomarker cascade annotation workbook (Cascade Map, Digitized Data 140 rows, Figure Annotations 23 rows, Modeling Notes), preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "EXTRACTION_ARTIFACT",
+      "figure": null,
+      "original_filename": "Defactinib_QSP_PD_Biomarker_Cascade.md",
+      "panel": null,
+      "paper_id": "paper_PMID29314097",
+      "path": "datasets/extracted/defactinib/Defactinib_QSP_PD_Biomarker_Cascade.md",
+      "sha256": "d759afdfcf44d73afbb4f149ea60802263ea427f8c16d33b84e9ec97ac1c6c21",
+      "source_artifact_id": "artifact_defactinib_moa_doc",
+      "source_description": "Human-written mechanism-of-action / PD biomarker cascade reference document (five-tier cascade, data-quality flags, direct equation validation).",
+      "supplement_identifier": null
+    }
+  ]
+}

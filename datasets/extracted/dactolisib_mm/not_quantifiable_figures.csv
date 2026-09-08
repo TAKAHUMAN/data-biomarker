@@ -1,0 +1,34 @@
+figure,panel,cell_line_or_group,target_or_observable,qualitative_result,reason_not_quantifiable
+Fig 2C,C,Parental MM.1S,Akt (total),"Stable across time points (0-24h, 100 nmol/L BEZ235)",No densitometry printed on blot; qualitative visual read only.
+Fig 2C,C,Parental MM.1S,p-Akt Ser473,"Decreased starting ~4-8h, most reduced by 24h",No densitometry printed on blot; qualitative visual read only.
+Fig 2C,C,Parental MM.1S,p-Akt Thr308,"Decreased starting ~4-8h, most reduced by 24h",No densitometry printed on blot; qualitative visual read only.
+Fig 2C,C,MM.1S-myr-Akt,Akt (total),"Stable, higher baseline than parental (overexpression)",No densitometry printed on blot; qualitative visual read only.
+Fig 2C,C,MM.1S-myr-Akt,p-Akt Ser473/Thr308,Comparable decrease pattern to parental,No densitometry printed on blot; qualitative visual read only.
+Fig 2D,D,Parental MM.1S,Bcl-2,Increased over time (compensatory upregulation),No densitometry printed on blot; qualitative visual read only.
+Fig 2D,D,Parental MM.1S,Bad,Stable,No densitometry printed on blot; qualitative visual read only.
+Fig 2D,D,Parental MM.1S,Bcl-XL,Stable,No densitometry printed on blot; qualitative visual read only.
+Fig 2D,D,MM.1S-Bcl-2,Bcl-2,"Constitutively high, stable",No densitometry printed on blot; qualitative visual read only.
+Fig 2D,D,MM.1S-Bcl-2,Bad / Bcl-XL,Stable,No densitometry printed on blot; qualitative visual read only.
+Fig 3B,B,MM.1S,PARP (full-length),Slight decrease at 24h (consistent with cleavage),No densitometry printed on blot; qualitative visual read only.
+Fig 3B,B,MM.1S,Caspase-3 (full-length),"Relatively stable, slight decrease at later time points",No densitometry printed on blot; qualitative visual read only.
+Fig 3B,B,MM.1S,Caspase-3 (cleaved),"Appears starting ~8h, increases through 24h",No densitometry printed on blot; qualitative visual read only.
+Fig 3C,C,MM.1S,Phospho-mTOR,"Sharply decreased by 2h, remains suppressed through 24h",No densitometry printed on blot; qualitative visual read only.
+Fig 3C,C,MM.1S,Total mTOR,Stable across time points,No densitometry printed on blot; qualitative visual read only.
+Fig 3C,C,MM.1S,Phospho-p70S6K,"Sharply decreased by 2h, remains suppressed through 24h",No densitometry printed on blot; qualitative visual read only.
+Fig 3C,C,MM.1S,Total p70S6K,Stable across time points,No densitometry printed on blot; qualitative visual read only.
+Fig 4,,MM.1S,myc (Zeller et al.) signature,"Decreased, as early as 4h, large decrease at 24h",12 overlapping gene signatures x 5 timepoints with large error bars densely overlapping; only direction/relative rank at 24h reliably readable; low-confidence visual estimate.
+Fig 4,,MM.1S,myc (Yu et al.) signature,"Decreased, as early as 4h, large decrease at 24h",Same as above.
+Fig 4,,MM.1S,High-risk MM (Q4) signature,"Decreased, as early as 4h, large decrease at 24h",Same as above.
+Fig 4,,MM.1S,Angiogenic (Hu et al.) signature,"Decreased, as early as 4h, moderate-large decrease at 24h",Same as above.
+Fig 4,,MM.1S,Proteasome signature,"Decreased, as early as 4h, moderate decrease at 24h",Same as above; check for a GEO/microarray accession before attempting further digitization.
+Fig 4,,MM.1S,Undifferentiated human ES cell signature,"Decreased, as early as 4h, moderate decrease at 24h",Same as above.
+Fig 4,,MM.1S,Mouse embryonic SC signature,"Decreased, later onset (8-24h), small-moderate decrease",Same as above.
+Fig 4,,MM.1S,Downregulated by p53 signature,"Mixed/small change, variable onset",Same as above.
+Fig 4,,MM.1S,Hedgehog signature,"Small increase, variable onset",Same as above.
+Fig 4,,MM.1S,hTERT signature,"Small increase, variable onset",Same as above.
+Fig 4,,MM.1S,IRF4 signature,"Increased at 24h, moderate increase",Same as above.
+Fig 4,,MM.1S,Notch signature,"Increased at 24h, moderate-large increase",Same as above.
+Fig 4,,MM.1S,Ribosome signature,"Decreased, as early as 4h, moderate decrease at 24h",Same as above.
+Fig 6A,A,"MM.1S (+ KMS-18/KMS-12PE/ARP-1 per Suppl. Fig. S7, not viewed)",BEZ235 + bortezomib (PS-341) combination,"Additive effect across broad dose range, no antagonism",3D response-surface mesh; static 2D image/screenshot has no gridline value labels at intermediate points and perspective distortion; z-values not reliably extractable.
+Fig 6B,B,MM.1S,BEZ235 + doxorubicin combination,"Additive effect across broad dose range, no antagonism",Same as Fig 6A.
+Fig 6C,C,MM.1S,BEZ235 + dexamethasone combination,"Additive effect across broad dose range, no antagonism",Same as Fig 6A.

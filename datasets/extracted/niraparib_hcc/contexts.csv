@@ -1,0 +1,2 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+huh7_in_vitro,Homo sapiens,Huh7,Hepatocellular carcinoma cell,liver,hepatocellular carcinoma (HCC),2D in vitro culture,HCC model for PARP inhibitor + autophagy inhibitor combination

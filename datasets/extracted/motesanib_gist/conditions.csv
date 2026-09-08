@@ -1,0 +1,12 @@
+condition_key,context_key,condition_label,notes
+kit_wt_motesanib,cho_cells_kit_wt,KIT WT + motesanib (2h autophosphorylation),Domain: WT
+kit_wt_imatinib,cho_cells_kit_wt,KIT WT + imatinib (2h autophosphorylation),Domain: WT
+kit_delta552_559_motesanib,baf3_kit_mutant,KIT Delta552-559 + motesanib (2h autophosphorylation),Domain: Juxtamembrane
+kit_delta552_559_imatinib,baf3_kit_mutant,KIT Delta552-559 + imatinib (2h autophosphorylation),Domain: Juxtamembrane
+kit_v560g_motesanib,baf3_kit_mutant,KIT V560G + motesanib (2h autophosphorylation),Domain: Juxtamembrane
+kit_v560g_imatinib,baf3_kit_mutant,KIT V560G + imatinib (2h autophosphorylation),Domain: Juxtamembrane
+kit_w557_k558del_motesanib,baf3_kit_mutant,KIT W557_K558del + motesanib (2h autophosphorylation),Domain: Juxtamembrane
+kit_w557_k558del_imatinib,baf3_kit_mutant,KIT W557_K558del + imatinib (2h autophosphorylation),Domain: Juxtamembrane
+kit_v654a_motesanib,baf3_kit_mutant,KIT V654A + motesanib (2h autophosphorylation),Domain: Kinase I
+kit_v654a_imatinib,baf3_kit_mutant,KIT V654A + imatinib (2h autophosphorylation),Domain: Kinase I
+kit_y823d_motesanib,baf3_kit_mutant,KIT Y823D + motesanib (2h autophosphorylation),Domain: Activation loop

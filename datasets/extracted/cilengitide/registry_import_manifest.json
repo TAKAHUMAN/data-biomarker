@@ -1,0 +1,56 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID23229276",
+  "parsed_observation_count": 73,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "PAPER",
+      "figure": null,
+      "original_filename": "PMID_23229276_PMC11824361.pdf",
+      "panel": null,
+      "paper_id": "paper_PMID23229276",
+      "path": "datasets/raw/papers/PMID_23229276_PMC11824361.pdf",
+      "sha256": "932dd21746f9df8c92d5450f5f08aff448ab1f3c5add3c3f9a0a992c049192c0",
+      "source_artifact_id": "artifact_PMID23229276_paper",
+      "source_description": "Article PDF obtained through Europe PMC.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "PAPER",
+      "figure": null,
+      "original_filename": "PMID_23229276_PMC11824361.html",
+      "panel": null,
+      "paper_id": "paper_PMID23229276",
+      "path": "datasets/raw/papers/PMID_23229276_PMC11824361.html",
+      "sha256": "761044a1a70d3778a69704466a5df6dacc2e14a05ae6cab765482c4398736ff7",
+      "source_artifact_id": "artifact_PMID23229276_paper_html",
+      "source_description": "PMC full-text HTML used for text verification.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "cilengitide_pd_qsp_inputs.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID23229276",
+      "path": "datasets/raw/workbooks/cilengitide_pd_qsp_inputs.xlsx",
+      "sha256": "739f49e8661c2469099cf567d9dc3b062dc98497ee603986946281cb4b1623f4",
+      "source_artifact_id": "artifact_PMID23229276_workbook",
+      "source_description": "Supplied annotated workbook, preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 2",
+      "original_filename": "Bretschi_2013_Figure_2.jpg",
+      "panel": "a-f",
+      "paper_id": "paper_PMID23229276",
+      "path": "datasets/raw/images/cilengitide/Bretschi_2013_Figure_2.jpg",
+      "sha256": "7ac8cceb22d162e5173ec0113fefa10dfdd0b0c3c0644b4590308926365a05ee",
+      "source_artifact_id": "artifact_PMID23229276_figure_2",
+      "source_description": "PMC Figure 2 source image for PET digitization.",
+      "supplement_identifier": null
+    }
+  ]
+}

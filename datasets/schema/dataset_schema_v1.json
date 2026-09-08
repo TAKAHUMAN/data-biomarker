@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "tables": {
+    "papers": ["paper_id", "pmid", "pmcid", "doi", "title", "year", "journal", "citation", "notes"],
+    "source_artifacts": ["source_artifact_id", "paper_id", "artifact_type", "path", "original_filename", "sha256", "figure", "panel", "supplement_identifier", "source_description"],
+    "contexts": ["context_id", "species", "cell_line", "cell_type", "tissue", "disease", "culture_context", "notes"],
+    "context_alterations": ["context_alteration_id", "context_id", "gene", "alteration_type", "alteration", "zygosity_or_copy_context", "source", "notes"],
+    "perturbations": ["perturbation_id", "name", "type", "target_if_reported", "source_name", "notes"],
+    "conditions": ["condition_id", "context_id", "condition_label", "notes"],
+    "condition_steps": ["condition_step_id", "condition_id", "perturbation_id", "dose_value", "dose_unit", "start_time", "end_time", "time_unit", "sequence_index", "notes"],
+    "assays": ["assay_id", "paper_id", "assay_type", "assay_name", "sample_type", "measurement_platform", "figure", "panel", "reported_time", "reported_time_unit", "replicate_count", "notes"],
+    "measurements": ["measurement_id", "observation_id", "replicate_index", "value", "value_unit", "source_artifact_id", "notes"],
+    "observations": ["observation_id", "paper_id", "context_id", "condition_id", "assay_id", "observable", "observable_raw_label", "value", "value_unit", "time_value", "time_unit", "statistic", "uncertainty_type", "uncertainty_value", "replicate_count", "normalization", "normalization_reference", "source_artifact_id", "figure", "panel", "table", "lane", "extraction_method", "quality_class", "is_censored", "censoring_limit", "notes"],
+    "extraction_runs": ["extraction_run_id", "source_artifact_id", "observation_id", "method", "software_or_script", "roi_information", "background_method", "raw_intensity", "background_corrected_intensity", "total_protein_intensity", "ratio", "normalization_method", "operator_or_process", "timestamp", "notes"],
+    "model_mappings": ["mapping_id", "observable", "model_id", "model_symbol_or_expression", "mapping_type", "mapping_version", "notes"]
+  }
+}

@@ -1,0 +1,52 @@
+observation_key,assay_key,condition_key,value,unit,quality_class,uncertainty_type,uncertainty_value,notes
+obs_1,fig1b_hypoxia,mda_mb_231_txsa_evofosf_0.0_21%o2_24h_fig1b,100,% viability (control=100),QUANTITATIVE,,,"21%_O2, visual est."
+obs_2,fig1b_hypoxia,mda_mb_231_txsa_evofosf_5.0_21%o2_24h_fig1b,98,% viability (control=100),QUANTITATIVE,,,"21%_O2, visual est."
+obs_3,fig1b_hypoxia,mda_mb_231_txsa_evofosf_10.0_21%o2_24h_fig1b,97,% viability (control=100),QUANTITATIVE,,,"21%_O2, visual est."
+obs_4,fig1b_hypoxia,mda_mb_231_txsa_evofosf_25.0_21%o2_24h_fig1b,97,% viability (control=100),QUANTITATIVE,,,"21%_O2, visual est."
+obs_5,fig1b_hypoxia,mda_mb_231_txsa_evofosf_0.0_5%o2_24h_fig1b,100,% viability (control=100),QUANTITATIVE,,,"5%_O2, visual est."
+obs_6,fig1b_hypoxia,mda_mb_231_txsa_evofosf_5.0_5%o2_24h_fig1b,95,% viability (control=100),QUANTITATIVE,,,"5%_O2, visual est."
+obs_7,fig1b_hypoxia,mda_mb_231_txsa_evofosf_10.0_5%o2_24h_fig1b,90,% viability (control=100),QUANTITATIVE,,,"5%_O2, visual est."
+obs_8,fig1b_hypoxia,mda_mb_231_txsa_evofosf_25.0_5%o2_24h_fig1b,80,% viability (control=100),QUANTITATIVE,,,"5%_O2, visual est."
+obs_9,fig1b_hypoxia,mda_mb_231_txsa_evofosf_0.0_1%o2_24h_fig1b,90,% viability (control=100),QUANTITATIVE,,,"1%_O2, visual est."
+obs_10,fig1b_hypoxia,mda_mb_231_txsa_evofosf_5.0_1%o2_24h_fig1b,80,% viability (control=100),QUANTITATIVE,,,"1%_O2, visual est."
+obs_11,fig1b_hypoxia,mda_mb_231_txsa_evofosf_10.0_1%o2_24h_fig1b,70,% viability (control=100),QUANTITATIVE,,,"1%_O2, visual est."
+obs_12,fig1b_hypoxia,mda_mb_231_txsa_evofosf_25.0_1%o2_24h_fig1b,58,% viability (control=100),QUANTITATIVE,,,"1%_O2, visual est."
+obs_13,fig1b_hypoxia,mda_mb_231_txsa_evofosf_0.0_Anoxiao2_24h_fig1b,88,% viability (control=100),QUANTITATIVE,,,"Anoxia, visual est."
+obs_14,fig1b_hypoxia,mda_mb_231_txsa_evofosf_5.0_Anoxiao2_24h_fig1b,55,% viability (control=100),QUANTITATIVE,,,"Anoxia, visual est."
+obs_15,fig1b_hypoxia,mda_mb_231_txsa_evofosf_10.0_Anoxiao2_24h_fig1b,35,% viability (control=100),QUANTITATIVE,,,"Anoxia, visual est."
+obs_16,fig1b_hypoxia,mda_mb_231_txsa_evofosf_25.0_Anoxiao2_24h_fig1b,15,% viability (control=100),QUANTITATIVE,,,"Anoxia, visual est."
+obs_17,fig1c_ic50_normal,mcf_10a_evofosf_25.0_1o2_48h_fig1c,25.0,umol/L (IC50),QUANTITATIVE,,,Explicit from Results text (1% O2)
+obs_18,fig1c_ic50_normal,mcf_12a_evofosf_2.0_1o2_48h_fig1c,2.0,umol/L (IC50),QUANTITATIVE,,,Explicit from Results text (1% O2)
+obs_19,fig1c_ic50_normal,dermal_fibroblast_evofosf_50.0_1o2_48h_fig1c,50.0,umol/L (IC50),QUANTITATIVE,,,Explicit from Results text (1% O2)
+obs_20,fig2_caspase3,mda_mb_231_txsa_evofosf_0_21%o2_24h_control_fig2,2500,RFU (caspase-3 activity),QUANTITATIVE,,,Visual est. Control
+obs_21,fig2_cell_death,mda_mb_231_txsa_evofosf_0_21%o2_24h_control_fig2,5,% cell death,QUANTITATIVE,,,Visual est. Control
+obs_22,fig2_caspase3,mda_mb_231_txsa_evofosf_50_21%o2_24h_th_302_50um_fig2,3000,RFU (caspase-3 activity),QUANTITATIVE,,,Visual est. TH-302_50uM
+obs_23,fig2_cell_death,mda_mb_231_txsa_evofosf_50_21%o2_24h_th_302_50um_fig2,15,% cell death,QUANTITATIVE,,,Visual est. TH-302_50uM
+obs_24,fig2_caspase3,mda_mb_231_txsa_evofosf_0_21%o2_24h_zvad_fig2,2500,RFU (caspase-3 activity),QUANTITATIVE,,,Visual est. zVAD
+obs_25,fig2_cell_death,mda_mb_231_txsa_evofosf_0_21%o2_24h_zvad_fig2,3,% cell death,QUANTITATIVE,,,Visual est. zVAD
+obs_26,fig2_caspase3,mda_mb_231_txsa_evofosf_50_21%o2_24h_th302_zvad_fig2,2000,RFU (caspase-3 activity),QUANTITATIVE,,,Visual est. TH302+zVAD
+obs_27,fig2_cell_death,mda_mb_231_txsa_evofosf_50_21%o2_24h_th302_zvad_fig2,2,% cell death,QUANTITATIVE,,,Visual est. TH302+zVAD
+obs_28,fig2_caspase3,mda_mb_231_txsa_evofosf_0_1%o2_24h_control_fig2,3000,RFU (caspase-3 activity),QUANTITATIVE,,,Visual est. Control
+obs_29,fig2_cell_death,mda_mb_231_txsa_evofosf_0_1%o2_24h_control_fig2,8,% cell death,QUANTITATIVE,,,Visual est. Control
+obs_30,fig2_caspase3,mda_mb_231_txsa_evofosf_50_1%o2_24h_th_302_50um_fig2,17500,RFU (caspase-3 activity),QUANTITATIVE,,,Visual est. TH-302_50uM
+obs_31,fig2_cell_death,mda_mb_231_txsa_evofosf_50_1%o2_24h_th_302_50um_fig2,60,% cell death,QUANTITATIVE,,,Visual est. TH-302_50uM
+obs_32,fig2_caspase3,mda_mb_231_txsa_evofosf_0_1%o2_24h_zvad_fig2,2500,RFU (caspase-3 activity),QUANTITATIVE,,,Visual est. zVAD
+obs_33,fig2_cell_death,mda_mb_231_txsa_evofosf_0_1%o2_24h_zvad_fig2,5,% cell death,QUANTITATIVE,,,Visual est. zVAD
+obs_34,fig2_caspase3,mda_mb_231_txsa_evofosf_50_1%o2_24h_th302_zvad_fig2,2000,RFU (caspase-3 activity),QUANTITATIVE,,,Visual est. TH302+zVAD
+obs_35,fig2_cell_death,mda_mb_231_txsa_evofosf_50_1%o2_24h_th302_zvad_fig2,3,% cell death,QUANTITATIVE,,,Visual est. TH302+zVAD
+obs_36,fig4b_tumor_growth,invivo_orthotopic_day1_vehicle_fig4b,500000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. Vehicle
+obs_37,fig4b_tumor_growth,invivo_orthotopic_day7_vehicle_fig4b,1500000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. Vehicle
+obs_38,fig4b_tumor_growth,invivo_orthotopic_day14_vehicle_fig4b,6500000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. Vehicle
+obs_39,fig4b_tumor_growth,invivo_orthotopic_day21_vehicle_fig4b,15700000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. Vehicle
+obs_40,fig4b_tumor_growth,invivo_orthotopic_day1_th_302_fig4b,500000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. TH-302
+obs_41,fig4b_tumor_growth,invivo_orthotopic_day7_th_302_fig4b,2000000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. TH-302
+obs_42,fig4b_tumor_growth,invivo_orthotopic_day14_th_302_fig4b,4300000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. TH-302
+obs_43,fig4b_tumor_growth,invivo_orthotopic_day21_th_302_fig4b,5300000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. TH-302
+obs_44,fig4b_tumor_growth,invivo_orthotopic_day1_paclitaxel_fig4b,400000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. Paclitaxel
+obs_45,fig4b_tumor_growth,invivo_orthotopic_day7_paclitaxel_fig4b,1000000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. Paclitaxel
+obs_46,fig4b_tumor_growth,invivo_orthotopic_day14_paclitaxel_fig4b,1500000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. Paclitaxel
+obs_47,fig4b_tumor_growth,invivo_orthotopic_day21_paclitaxel_fig4b,1900000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. Paclitaxel
+obs_48,fig4b_tumor_growth,invivo_orthotopic_day1_th_302_paclitaxel_fig4b,300000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. TH-302+Paclitaxel
+obs_49,fig4b_tumor_growth,invivo_orthotopic_day7_th_302_paclitaxel_fig4b,500000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. TH-302+Paclitaxel
+obs_50,fig4b_tumor_growth,invivo_orthotopic_day14_th_302_paclitaxel_fig4b,800000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. TH-302+Paclitaxel
+obs_51,fig4b_tumor_growth,invivo_orthotopic_day21_th_302_paclitaxel_fig4b,900000000,photons/sec (bioluminescence),QUANTITATIVE,,,Visual est. TH-302+Paclitaxel

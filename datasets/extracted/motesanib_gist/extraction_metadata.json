@@ -1,0 +1,20 @@
+{
+  "source_paper": "Caenepeel et al. J Exp Clin Cancer Res 2010;29:96",
+  "drug": "Motesanib (AMG 706)",
+  "mechanism": "Multi-kinase ATP-competitive inhibitor (Kit, PDGFR, Flt1)",
+  "disease": "KIT-mutant GIST",
+  "extraction": {
+    "extraction_date": "2026-09-08",
+    "total_observations": 11,
+    "kit_genotypes": [
+      "WT",
+      "Delta552-559",
+      "V560G",
+      "W557_K558del",
+      "V654A",
+      "Y823D",
+      "D816V"
+    ],
+    "key_finding": "Motesanib 3->40x more potent than imatinib. Retains activity against Y823D (imatinib-resistant). Both inactive vs D816V (DFG-out incompatible)."
+  }
+}

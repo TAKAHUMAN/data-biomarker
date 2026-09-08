@@ -1,0 +1,15 @@
+figure_panel,system,fgfr_context,drug,dose,dose_units,time,measured_observable,experimental_value,value_unit,error_uncertainty,replicate_count,value_provenance,quality_classification,notes
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,10,mg/kg,4 h,total plasma concentration,~4000,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,Single oral dose.
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,10,mg/kg,8 h,total plasma concentration,~3000,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,10,mg/kg,16 h,total plasma concentration,~60,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,10,mg/kg,24 h,total plasma concentration,~10,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,1,mg/kg,4 h,total plasma concentration,~250,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,1,mg/kg,8 h,total plasma concentration,~160,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,1,mg/kg,16 h,total plasma concentration,~8,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,1,mg/kg,24 h,total plasma concentration,~5,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,0.1,mg/kg,4 h,total plasma concentration,~30,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,0.1,mg/kg,8 h,total plasma concentration,~15,nM,error bars visible but not defensibly resolved,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,0.1,mg/kg,16 h,total plasma concentration,~1,nM,marker lies on lower plotting limit,,digitized_from_log_plot,PK_PD_only,
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,INCB054828,0.1,mg/kg,24 h,total plasma concentration,~1,nM,marker lies on lower plotting limit,,digitized_from_log_plot,PK_PD_only,
+Fig.3B,KATO III xenograft,FGFR2 amplification,INCB054828,plasma exposure,nM,after single oral dose,tumor pFGFR2 inhibition IC50,22,nM,not reported,not reported,text-derived,PK_PD_only,Direct text result; the individual graph points were not tabulated.
+Fig.3C,C57BL/6 mouse,physiologic FGF23 pathway,INCB054828,"0.01-30",mg/kg,24 h,serum phosphate,2.9,mg/kg,average ED50 from 2 experiments,2,text-derived,PK_PD_only,Direct text result; not a tumor-cell signaling endpoint.

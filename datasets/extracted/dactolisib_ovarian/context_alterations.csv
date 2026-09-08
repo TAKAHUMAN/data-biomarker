@@ -1,0 +1,3 @@
+context_key,gene,alteration_type,alteration,source
+mia_b1_in_vitro,ABCB1,OVEREXPRESSION,ABCB1 (P-glycoprotein) overexpression,PMID32061787 Figure 1D-F
+a2780_dx_in_vitro,ABCB1,OVEREXPRESSION,ABCB1 (P-glycoprotein) overexpression,PMID32061787 Figure 1D-F

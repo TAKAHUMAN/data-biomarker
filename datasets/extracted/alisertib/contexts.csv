@@ -1,0 +1,6 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+flo_1_in_vitro,human,FLO-1,,esophageal adenocarcinoma cells,esophageal adenocarcinoma,in vitro cell culture,
+flo_1_xenograft,mouse,FLO-1,,subcutaneous xenograft tumor,esophageal adenocarcinoma,human-cell xenograft in athymic nude mouse,Human tumor cell line in mouse host.
+oe19_in_vitro,human,OE19,,esophageal adenocarcinoma cells,esophageal adenocarcinoma,in vitro cell culture,
+oe33_in_vitro,human,OE33,,esophageal adenocarcinoma cells,esophageal adenocarcinoma,in vitro cell culture,
+oe33_xenograft,mouse,OE33,,subcutaneous xenograft tumor,esophageal adenocarcinoma,human-cell xenograft in athymic nude mouse,Human tumor cell line in mouse host.

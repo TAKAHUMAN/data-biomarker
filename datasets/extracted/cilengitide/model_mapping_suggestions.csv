@@ -1,0 +1,12 @@
+model_layer,state_observation,paper_variable_s,role,quantifiable_here,suggested_mathematical_use,priority,important_caution
+Target engagement,Integrin inhibition,alpha-v beta-3; alpha-v beta-5; ITGAV; ITGB3; ITGB5,Drug-target driver,Partial,External PK + affinity -> RO or Imax/Emax inhibition,Essential,Gene expression is not receptor occupancy
+Vascular,Vascular fraction,VB,Longitudinal PD observation,Yes,Turnover or indirect-response model driven by target inhibition,Essential,Earliest observed effect; figure-derived values
+Vascular,Angiogenic program,VEGFA; ANGPT2; PDGFB; ITGAV; ITGB3; ITGB5,Terminal mechanistic biomarkers,Terminal only,Steady-state pathway suppression or priors on effect direction,High,Single day-55 mRNA snapshot
+Metabolic,FDG transport,k1; GLUT1,Longitudinal functional biomarker,Yes / partial,Delayed turnover model; k1 as observation of latent transport state,Essential,k1 also depends on perfusion
+Metabolic,FDG phosphorylation,k3; HK1; HK3,Functional / molecular biomarker,Yes / partial,Observation model for glucose phosphorylation state,Medium,No significant treated longitudinal k3 change reported
+Metabolic,FDG dephosphorylation,k4,Longitudinal PD observation,Yes,Optional turnover observation,Low,Biological interpretation less direct than VB or k1
+Bone microenvironment,Osteoclast drive,RANKL; PTHrP; IL1; IL6; CSF1/2,Terminal mechanistic composite,Terminal only,Weighted latent osteolysis score or individual turnover states,Essential,Weights and protein kinetics require external data
+Bone microenvironment,Osteoblast / repair drive,BMP2; TGFB3; TNFA,Terminal counter-regulatory composite,Terminal only,Optional repair/remodelling state,Medium,TNFA biology is context-dependent
+ECM / adhesion,Remodelling and invasion,CD44; ADAMs; MMPs; collagen; cadherin; claudin,Mechanistic support,Terminal only,Optional secondary module,Low,Mixed directions; avoid one undifferentiated score
+Tumor outcome,Tumor / lesion burden,Not numerically reported in this paper,Disease endpoint,No,Growth-kill or tumor-growth-inhibition model,Essential external,Obtain longitudinal outcome from companion studies
+Bone outcome,Bone resorption / formation,Not numerically reported in this paper,Disease endpoint,No,Bone turnover or lesion model,Essential external,Obtain CT/MRI/histomorphometry from companion studies

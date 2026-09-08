@@ -1,0 +1,55 @@
+observation_key,assay_key,condition_key,value,unit,quality_class,uncertainty_type,uncertainty_value,notes
+obs_1,fig2b_protein_wb,heec_sta9090_0_fig2b,1.0,relative protein (HEEC HSP90=1.0),QUANTITATIVE,,,HSP90 baseline
+obs_2,fig2b_protein_wb,heec_sta9090_0_fig2b,0.2,relative protein (HEEC HSP90=1.0),QUANTITATIVE,,,MYC baseline
+obs_3,fig2b_protein_wb,te_1_sta9090_0_fig2b,0.8,relative protein (HEEC HSP90=1.0),QUANTITATIVE,,,HSP90 baseline
+obs_4,fig2b_protein_wb,te_1_sta9090_0_fig2b,0.2,relative protein (HEEC HSP90=1.0),QUANTITATIVE,,,MYC baseline
+obs_5,fig2b_protein_wb,kyse_150_sta9090_0_fig2b,1.3,relative protein (HEEC HSP90=1.0),QUANTITATIVE,,,HSP90 baseline
+obs_6,fig2b_protein_wb,kyse_150_sta9090_0_fig2b,0.65,relative protein (HEEC HSP90=1.0),QUANTITATIVE,,,MYC baseline
+obs_7,fig2b_protein_wb,eca_109_sta9090_0_fig2b,1.05,relative protein (HEEC HSP90=1.0),QUANTITATIVE,,,HSP90 baseline
+obs_8,fig2b_protein_wb,eca_109_sta9090_0_fig2b,0.47,relative protein (HEEC HSP90=1.0),QUANTITATIVE,,,MYC baseline
+obs_9,fig2c_ic50,kyse_150_sta9090_29.32_72h_fig2c,29.32,nM,QUANTITATIVE,,,IC50 explicit from Results text (PRISM6)
+obs_10,fig2c_ic50,eca_109_sta9090_69.44_72h_fig2c,69.44,nM,QUANTITATIVE,,,IC50 explicit from Results text (PRISM6)
+obs_11,fig2d_cellcycle,kyse_150_sta9090_0.0_24h_fig2d,34,% G0/G1,QUANTITATIVE,,,Visual est. from stacked bars
+obs_12,fig2d_cellcycle,kyse_150_sta9090_0.0_24h_fig2d,36,% S,QUANTITATIVE,,,Visual est. from stacked bars
+obs_13,fig2d_cellcycle,kyse_150_sta9090_0.0_24h_fig2d,30,% G2/M,QUANTITATIVE,,,Visual est. from stacked bars
+obs_14,fig2d_cellcycle,kyse_150_sta9090_50.0_24h_fig2d,62,% G0/G1,QUANTITATIVE,,,Visual est. from stacked bars
+obs_15,fig2d_cellcycle,kyse_150_sta9090_50.0_24h_fig2d,15,% S,QUANTITATIVE,,,Visual est. from stacked bars
+obs_16,fig2d_cellcycle,kyse_150_sta9090_50.0_24h_fig2d,23,% G2/M,QUANTITATIVE,,,Visual est. from stacked bars
+obs_17,fig2d_cellcycle,kyse_150_sta9090_100.0_24h_fig2d,67,% G0/G1,QUANTITATIVE,,,Visual est. from stacked bars
+obs_18,fig2d_cellcycle,kyse_150_sta9090_100.0_24h_fig2d,13,% S,QUANTITATIVE,,,Visual est. from stacked bars
+obs_19,fig2d_cellcycle,kyse_150_sta9090_100.0_24h_fig2d,20,% G2/M,QUANTITATIVE,,,Visual est. from stacked bars
+obs_20,fig2d_cellcycle,kyse_150_sta9090_500.0_24h_fig2d,72,% G0/G1,QUANTITATIVE,,,Visual est. from stacked bars
+obs_21,fig2d_cellcycle,kyse_150_sta9090_500.0_24h_fig2d,12,% S,QUANTITATIVE,,,Visual est. from stacked bars
+obs_22,fig2d_cellcycle,kyse_150_sta9090_500.0_24h_fig2d,16,% G2/M,QUANTITATIVE,,,Visual est. from stacked bars
+obs_23,fig2e_qpcr,kyse_150_sta9090_0.0_24h_fig2e,1.0,fold-change (control=1.0),QUANTITATIVE,,,p21 mRNA
+obs_24,fig2e_qpcr,kyse_150_sta9090_50.0_24h_fig2e,1.17,fold-change (control=1.0),QUANTITATIVE,,,p21 mRNA
+obs_25,fig2e_qpcr,kyse_150_sta9090_500.0_24h_fig2e,1.35,fold-change (control=1.0),QUANTITATIVE,,,p21 mRNA
+obs_26,fig2e_qpcr,kyse_150_sta9090_0.0_24h_fig2e,1.0,fold-change (control=1.0),QUANTITATIVE,,,p15 mRNA
+obs_27,fig2e_qpcr,kyse_150_sta9090_50.0_24h_fig2e,1.08,fold-change (control=1.0),QUANTITATIVE,,,p15 mRNA
+obs_28,fig2e_qpcr,kyse_150_sta9090_500.0_24h_fig2e,1.17,fold-change (control=1.0),QUANTITATIVE,,,p15 mRNA
+obs_29,fig2e_qpcr,eca_109_sta9090_0.0_24h_fig2e,1.0,fold-change (control=1.0),QUANTITATIVE,,,p21 mRNA
+obs_30,fig2e_qpcr,eca_109_sta9090_50.0_24h_fig2e,1.07,fold-change (control=1.0),QUANTITATIVE,,,p21 mRNA
+obs_31,fig2e_qpcr,eca_109_sta9090_500.0_24h_fig2e,1.72,fold-change (control=1.0),QUANTITATIVE,,,p21 mRNA
+obs_32,fig2e_qpcr,eca_109_sta9090_0.0_24h_fig2e,1.0,fold-change (control=1.0),QUANTITATIVE,,,p15 mRNA
+obs_33,fig2e_qpcr,eca_109_sta9090_50.0_24h_fig2e,1.12,fold-change (control=1.0),QUANTITATIVE,,,p15 mRNA
+obs_34,fig2e_qpcr,eca_109_sta9090_500.0_24h_fig2e,1.22,fold-change (control=1.0),QUANTITATIVE,,,p15 mRNA
+obs_35,fig3b_myc_wb,kyse_150_sta9090_0.0_24h_fig3b,1.0,relative c-Myc protein (1.0=control),QUANTITATIVE,,,Visual est. dose-dependent degradation
+obs_36,fig3b_myc_wb,kyse_150_sta9090_50.0_24h_fig3b,0.7,relative c-Myc protein (1.0=control),QUANTITATIVE,,,Visual est. dose-dependent degradation
+obs_37,fig3b_myc_wb,kyse_150_sta9090_100.0_24h_fig3b,0.4,relative c-Myc protein (1.0=control),QUANTITATIVE,,,Visual est. dose-dependent degradation
+obs_38,fig3b_myc_wb,kyse_150_sta9090_500.0_24h_fig3b,0.2,relative c-Myc protein (1.0=control),QUANTITATIVE,,,Visual est. dose-dependent degradation
+obs_39,fig3b_myc_wb,eca_109_sta9090_0.0_24h_fig3b,1.0,relative c-Myc protein (1.0=control),QUANTITATIVE,,,Visual est. dose-dependent degradation
+obs_40,fig3b_myc_wb,eca_109_sta9090_50.0_24h_fig3b,0.75,relative c-Myc protein (1.0=control),QUANTITATIVE,,,Visual est. dose-dependent degradation
+obs_41,fig3b_myc_wb,eca_109_sta9090_100.0_24h_fig3b,0.45,relative c-Myc protein (1.0=control),QUANTITATIVE,,,Visual est. dose-dependent degradation
+obs_42,fig3b_myc_wb,eca_109_sta9090_500.0_24h_fig3b,0.25,relative c-Myc protein (1.0=control),QUANTITATIVE,,,Visual est. dose-dependent degradation
+obs_43,fig3d_apoptosis,kyse_150_sta9090_0.0_fig3d,5,% Annexin V+ cells,QUANTITATIVE,,,Visual est. dose-dependent apoptosis
+obs_44,fig3d_apoptosis,kyse_150_sta9090_50.0_fig3d,15,% Annexin V+ cells,QUANTITATIVE,,,Visual est. dose-dependent apoptosis
+obs_45,fig3d_apoptosis,kyse_150_sta9090_100.0_fig3d,35,% Annexin V+ cells,QUANTITATIVE,,,Visual est. dose-dependent apoptosis
+obs_46,fig3d_apoptosis,kyse_150_sta9090_500.0_fig3d,65,% Annexin V+ cells,QUANTITATIVE,,,Visual est. dose-dependent apoptosis
+obs_47,fig3d_apoptosis,eca_109_sta9090_0.0_fig3d,3,% Annexin V+ cells,QUANTITATIVE,,,Visual est. dose-dependent apoptosis
+obs_48,fig3d_apoptosis,eca_109_sta9090_50.0_fig3d,10,% Annexin V+ cells,QUANTITATIVE,,,Visual est. dose-dependent apoptosis
+obs_49,fig3d_apoptosis,eca_109_sta9090_100.0_fig3d,28,% Annexin V+ cells,QUANTITATIVE,,,Visual est. dose-dependent apoptosis
+obs_50,fig3d_apoptosis,eca_109_sta9090_500.0_fig3d,55,% Annexin V+ cells,QUANTITATIVE,,,Visual est. dose-dependent apoptosis
+obs_51,fig4c_sirna_growth,kyse_150_sta9090_0.0_scramble_fig4c,1.0,relative growth (1.0=ctrl),QUANTITATIVE,,,scramble + 0nM STA-9090
+obs_52,fig4c_sirna_growth,kyse_150_sta9090_100.0_scramble_fig4c,0.75,relative growth (1.0=ctrl),QUANTITATIVE,,,scramble + 100nM STA-9090
+obs_53,fig4c_sirna_growth,kyse_150_sta9090_0.0_MYC_siRNA_fig4c,0.9,relative growth (1.0=ctrl),QUANTITATIVE,,,MYC_siRNA + 0nM STA-9090
+obs_54,fig4c_sirna_growth,kyse_150_sta9090_100.0_MYC_siRNA_fig4c,0.7,relative growth (1.0=ctrl),QUANTITATIVE,,,MYC_siRNA + 100nM STA-9090

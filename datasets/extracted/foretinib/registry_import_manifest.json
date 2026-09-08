@@ -1,0 +1,20 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_foretinib_flt3_itd_workbook",
+  "parsed_observation_count": 120,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "foretinib_experimental_data.xlsx",
+      "panel": null,
+      "paper_id": "paper_foretinib_flt3_itd_workbook",
+      "path": "datasets/raw/workbooks/foretinib_experimental_data.xlsx",
+      "sha256": "754413029a5319293f1e5879ce9ef4800bca1032b5331f04d062397c128c740d",
+      "source_artifact_id": "artifact_foretinib_flt3_itd_workbook",
+      "source_description": "Immutable Foretinib experiment workbook.",
+      "supplement_identifier": null
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "caveats": [
+    "The original paper PDF is not yet present under datasets/raw/papers.",
+    "No intermediate Figure 4 tumor-volume points were fabricated; only supplied Day-21 values are included.",
+    "Subjective blot values are IMAGE_DERIVED and SEMI_QUANTITATIVE, not objective densitometry.",
+    "The supplied TGI approximations were excluded because no calculation definition was documented."
+  ],
+  "doi": "10.1158/1535-7163.MCT-11-0623",
+  "extraction_date": "2026-09-07",
+  "generated_counts": {
+    "assays": 12,
+    "condition_steps": 24,
+    "conditions": 19,
+    "contexts": 5,
+    "observations": 93
+  },
+  "observation_counts_by_method": {
+    "COMPUTED_FROM_SOURCE_VALUES": 5,
+    "DIRECT_SOURCE": 15,
+    "IMAGE_DERIVED": 40,
+    "PLOT_DIGITIZED": 33
+  },
+  "paper_id": "paper_PMID22302096",
+  "pmcid": "PMC3297687",
+  "pmid": "22302096",
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "path": "datasets/raw/workbooks/Alisertib_MLN8237_Registry_Ready.xlsx",
+      "sha256": "b7252df56faeb30a841968f25c04a6e8343b07e3295528e119eb89bf1765ba28",
+      "source_key": "workbook"
+    },
+    {
+      "path": "datasets/extracted/alisertib/REGISTRY_IMPORT_DATA.json",
+      "sha256": "cbb9474e090bda449a456d67c43b65acba3fb21cd5b3943f8893a420662009c5",
+      "source_key": "import_json"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+assay_key,assay_type,assay_name,sample_type,measurement_platform,figure,panel,reported_time,reported_time_unit,replicate_count,notes
+kit_autophosphorylation,Kinase autophosphorylation inhibition,KIT autophosphorylation IC50 (biochemical),CHO cells (WT + mutant KIT),DELFIA-based cell assay (2h treatment),Figure 3-4,A-C,2,h,,"Motesanib vs imatinib IC50 (nM), 7 KIT genotypes. Table 2/3 printed values (ground truth)."
+baf3_viability,KIT-dependent cell viability,Ba/F3 viability dose-response (functional),Ba/F3 (WT + mutant KIT),IL-3-independence viability assay,Figure 3-4,C,,,,"IC50 (nM) motesanib vs imatinib, genotype-indexed. Functional consequence of Tier-1 biochemical inhibition."
+kit_ligand_response,SCF dose-response characterization,KIT phosphorylation vs SCF dose (genotype baseline),CHO cells (WT + 6 mutant KIT),Immunoassay (% phosphorylation),Figure 2,,,,,NO DRUG: WT Kit requires SCF activation; mutants constitutively active. Disease biology baseline (Tier 0).

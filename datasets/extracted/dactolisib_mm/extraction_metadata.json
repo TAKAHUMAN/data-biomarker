@@ -1,0 +1,52 @@
+{
+  "caveats": [
+    "No PK data exists in this paper at all: the 100 nmol/L in vitro kinetic dose (Fig2C/2D, Fig3B/3C) and the 30 mg/kg oral in vivo dose (Fig5) are not linked to a plasma-exposure model by any data in this source; an exposure-response bridge requires PK parameters from elsewhere in the pipeline or the literature.",
+    "Fig4 (13-signature x 5-timepoint gene-expression bar chart) is explicitly flagged by both the workbook and the companion MOA doc as a low-confidence visual estimate: bars for 12+ overlapping gene signatures with large, overlapping error bars could only be read for general direction and relative rank at 24h; no numeric values were promoted to observations.csv. Before attempting further digitization, check whether the underlying HT-U133A/U133B microarray data were deposited to a public repository (no GEO accession is stated in the visible text or reference list).",
+    "Several figures are explicitly NOT digitized to numeric values at all and appear only in not_quantifiable_figures.csv: Fig2C-D and Fig3B-C (single representative western blot images, no densitometry reported), and Fig6A-C (3D response-surface combination meshes -- BEZ235 + bortezomib/doxorubicin/dexamethasone, all read qualitatively as 'additive, no antagonism' per the text).",
+    "Fig1B (5 unlabeled primary patient sample curves) and Fig1D (pooled/representative PBMC range, originally 8 overlapping donor curves) are visual-estimate curve digitizations, not printed values; treat as SEMI_QUANTITATIVE.",
+    "Supplementary Figs S1-S7 (cited repeatedly for quantitative support, e.g. S2 commitment-to-death kinetics, S4 cell-cycle/sub-G1 distribution, S7 additional combination-sensitive cell lines) are not available locally and are not represented in this package.",
+    "All western blots referenced in this study (Fig2C-D, Fig3B-C) are single representative images with no densitometry; if continuous values are needed at these tiers, plan for image densitometry as a discrete follow-up task.",
+    "This package is workbook + companion-MOA-doc-only: no raw paper PDF/HTML or original figure image is available locally for PMID 19584292 (no PMCID); accordingly there is no PAPER-type source_artifacts row, mirroring the pemigatinib.py pattern for a real-PMID study without a local paper file."
+  ],
+  "corrections": [
+    "Fig1A IC50 for MM.1S differs by rounding between the raw curated workbook (22.78 nmol/L) and the companion MOA doc (22.16 nmol/L); the workbook's printed-on-figure value is used as authoritative since it is stated to be an explicit, not estimated, value; the MOA doc's own Fig1C selectivity curve for MM.1S implies an IC50 closer to 25-50 nmol/L by simple interpolation, a difference the MOA doc itself flags as plausible inter-experiment (day/passage) variability rather than a transcription error.",
+    "Fig2A/Fig2B parental MM.1S arms are two separate digitized replicates (one per rescue experiment) with slightly different values at matched doses (e.g. 50 nmol/L: 55% in Fig2A vs 42% in Fig2B); both are preserved as separate conditions/observations rather than merged, since they come from different figure panels/replicates per the source workbook and MOA doc.",
+    "Fig5A tumor-size day-47 control value differs by 1 mm2 between the workbook (167) and the MOA doc (166); the workbook value is used as authoritative (primary curated source), difference noted as visual-digitization variance, not corrected further.",
+    "Fig5B Kaplan-Meier step timepoints differ between the workbook (7 steps: days 0/25/38/40/50/55/60) and the MOA doc (9 steps: days 0/25/40/44/48/53/58/60/73); the workbook's table is used as authoritative here since it is the primary per-figure curated source for this package; both are independent visual re-reads of the same printed Kaplan-Meier curve and show the digitization variance typical of step-plot reconstruction."
+  ],
+  "doi": "10.1158/0008-5472.CAN-09-0715",
+  "extraction_date": "2026-09-08",
+  "generated_counts": {
+    "assays": 9,
+    "condition_steps": 125,
+    "conditions": 125,
+    "contexts": 32,
+    "not_quantifiable_figures": 33,
+    "observations": 165
+  },
+  "observation_counts_by_method": {
+    "DIRECT_SOURCE": 37,
+    "PLOT_DIGITIZED": 128
+  },
+  "paper_id": "paper_PMID19584292",
+  "pmcid": null,
+  "pmid": "19584292",
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "path": "datasets/raw/workbooks/dactolisib_multipleMyeloma_extracted.xlsx",
+      "sha256": "4d2215450c6cc8352c8fa368e7f684d8635ef69366dc5abea7008f7b1030f450",
+      "source_key": "workbook"
+    },
+    {
+      "path": "datasets/raw/workbooks/BEZ235_QSP_PD_Biomarker_Cascade_Annotations.xlsx",
+      "sha256": "723868efb38177ac26928835cd17aa829795381977c2de7154a6db02cb940278",
+      "source_key": "annotation_workbook"
+    },
+    {
+      "path": "datasets/extracted/dactolisib_mm/BEZ235_QSP_PD_Biomarker_Cascade.md",
+      "sha256": "1f9ca1de63c84b9d1560d4eabc9edb2cd32acb3911778600d5b26f299d9cbf1f",
+      "source_key": "moa_doc"
+    }
+  ]
+}

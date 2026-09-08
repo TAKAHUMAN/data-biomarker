@@ -1,0 +1,23 @@
+source,location,quantity,value,unit,uncertainty_type,uncertainty_value,classification,notes
+PMID33818908,Supplement Table S1,pMET Y1234-1235 kout,2.43,1/h,CV%,15.8,SOURCE_MODEL_PARAMETER,Clinical tumor PK/PD turnover-model estimate; not an experimental observation.
+PMID33818908,Supplement Table S1,pMET Y1234-1235 lambda,0.984,dimensionless,CV%,14.4,SOURCE_MODEL_PARAMETER,Clinical tumor PK/PD turnover-model estimate; not an experimental observation.
+PMID33818908,Supplement Table S1,pMET Y1234-1235 IC50,0.590,ng/mL,CV%,23.7,SOURCE_MODEL_PARAMETER,Clinical tumor PK/PD turnover-model estimate; not an experimental observation.
+PMID33818908,Supplement Table S2,KP-4 TGI KC50,23.9,ng/mL,CV%,44.4,SOURCE_MODEL_PARAMETER,Mouse Simeoni tumor-growth-model estimate; not an experimental observation.
+PMID33818908,Table 1,Hs746T tumor static concentration,8,ng/mL,CV%,2.7,SOURCE_MODEL_RESULT,Model-derived tumor static concentration; not an experimental observation.
+PMID33818908,Table 1,NIH3T3/TPR tumor static concentration,65,ng/mL,CV%,5.1,SOURCE_MODEL_RESULT,Model-derived tumor static concentration; not an experimental observation.
+PMID33818908,Table 1,KP-4 tumor static concentration,80,ng/mL,CV%,27.4,SOURCE_MODEL_RESULT,Model-derived tumor static concentration; not an experimental observation.
+PMID33818908,Table 1,Hs746T lowest tepotinib dose necessary for tumor control,10,mg/kg every 3 days,,,DIRECT_SOURCE,Direct table value; best response was complete regression.
+PMID33818908,Table 1,NIH3T3/TPR lowest tepotinib dose necessary for tumor control,12.5,mg/kg daily,,,DIRECT_SOURCE,Direct table value; best response was complete regression.
+PMID33818908,Table 1,KP-4 lowest tepotinib dose necessary for tumor control,50,mg/kg daily,,,DIRECT_SOURCE,Direct table value; best response was tumor shrinkage.
+PMID33818908,Table 2,MSC2571109A plasma AUCtau day 1,6699.40,ng*h/mL,,,SOURCE_MODEL_RESULT,Predicted AUCtau; not an experimental observation.
+PMID33818908,Table 2,MSC2571109A tumor AUCtau day 1,2737.00,ng*h/g,,,SOURCE_MODEL_RESULT,Predicted AUCtau; not an experimental observation.
+PMID33818908,Table 2,MSC2571109A plasma/tumor ratio day 1,2.45,ratio,,,SOURCE_MODEL_RESULT,Predicted value; not an experimental observation.
+PMID33818908,Table 2,MSC2571109A plasma AUCtau day 9,8832.50,ng*h/mL,,,SOURCE_MODEL_RESULT,Predicted AUCtau; not an experimental observation.
+PMID33818908,Table 2,MSC2571109A tumor AUCtau day 9,3608.90,ng*h/g,,,SOURCE_MODEL_RESULT,Predicted AUCtau; not an experimental observation.
+PMID33818908,Table 2,MSC2571109A plasma/tumor ratio day 9,2.45,ratio,,,SOURCE_MODEL_RESULT,Predicted value; not an experimental observation.
+PMID33818908,Table 2,Tepotinib plasma AUCtau day 1,5338.20,ng*h/mL,,,SOURCE_MODEL_RESULT,Predicted AUCtau; not an experimental observation.
+PMID33818908,Table 2,Tepotinib tumor AUCtau day 1,50461.00,ng*h/g,,,SOURCE_MODEL_RESULT,Predicted AUCtau; not an experimental observation.
+PMID33818908,Table 2,Tepotinib plasma/tumor ratio day 1,0.11,ratio,,,SOURCE_MODEL_RESULT,Predicted value; not an experimental observation.
+PMID33818908,Table 2,Tepotinib plasma AUCtau day 9,5903.30,ng*h/mL,,,SOURCE_MODEL_RESULT,Predicted AUCtau; not an experimental observation.
+PMID33818908,Table 2,Tepotinib tumor AUCtau day 9,58335.00,ng*h/g,,,SOURCE_MODEL_RESULT,Predicted AUCtau; not an experimental observation.
+PMID33818908,Table 2,Tepotinib plasma/tumor ratio day 9,0.10,ratio,,,SOURCE_MODEL_RESULT,Predicted value; not an experimental observation.

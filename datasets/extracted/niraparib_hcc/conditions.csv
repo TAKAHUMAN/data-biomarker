@@ -1,0 +1,18 @@
+condition_key,context_key,condition_label,notes
+huh7_niraparib_0um_24h_fig1,huh7_in_vitro,"Niraparib 0 µM, 24h (Fig1)",
+huh7_niraparib_5um_24h_fig1,huh7_in_vitro,"Niraparib 5 µM, 24h (Fig1)",
+huh7_niraparib_10um_24h_fig1,huh7_in_vitro,"Niraparib 10 µM, 24h (Fig1)",
+huh7_niraparib_20um_24h_fig1,huh7_in_vitro,"Niraparib 20 µM, 24h (Fig1)",
+huh7_niraparib_30um_24h_fig1,huh7_in_vitro,"Niraparib 30 µM, 24h (Fig1)",
+huh7_ctrl_cqctrl_48h_fig3,huh7_in_vitro,"Ctrl + Ctrl (Fig3, 48h)",Combination study
+huh7_ctrl_cqcq_48h_fig3,huh7_in_vitro,"Ctrl + CQ (Fig3, 48h)",Combination study
+huh7_niraparib_5um_cqctrl_48h_fig3,huh7_in_vitro,"Niraparib 5um + Ctrl (Fig3, 48h)",Combination study
+huh7_niraparib_5um_cqcq_48h_fig3,huh7_in_vitro,"Niraparib 5um + CQ (Fig3, 48h)",Combination study
+huh7_niraparib_10um_cqctrl_48h_fig3,huh7_in_vitro,"Niraparib 10um + Ctrl (Fig3, 48h)",Combination study
+huh7_niraparib_10um_cqcq_48h_fig3,huh7_in_vitro,"Niraparib 10um + CQ (Fig3, 48h)",Combination study
+huh7_niraparib_20um_cqctrl_48h_fig3,huh7_in_vitro,"Niraparib 20um + Ctrl (Fig3, 48h)",Combination study
+huh7_niraparib_20um_cqcq_48h_fig3,huh7_in_vitro,"Niraparib 20um + CQ (Fig3, 48h)",Combination study
+huh7_ctrl_cellcycle_fig4,huh7_in_vitro,"Ctrl (Fig4, cell cycle)",
+huh7_cq_cellcycle_fig4,huh7_in_vitro,"CQ (Fig4, cell cycle)",
+huh7_niraparib_10um_cellcycle_fig4,huh7_in_vitro,"Niraparib_10um (Fig4, cell cycle)",
+huh7_combo_cellcycle_fig4,huh7_in_vitro,"Combo (Fig4, cell cycle)",

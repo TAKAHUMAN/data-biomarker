@@ -1,0 +1,32 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID33818908",
+  "parsed_observation_count": 122,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "PAPER",
+      "figure": null,
+      "original_filename": "PMID_33818908_PMC8129711.pdf",
+      "panel": null,
+      "paper_id": "paper_PMID33818908",
+      "path": "datasets/raw/papers/PMID_33818908_PMC8129711.pdf",
+      "sha256": "52960de5ccd1df3164736dbaa6f224bb5f632550ae88c07928a374c98bae2981",
+      "source_artifact_id": "artifact_PMID33818908_paper",
+      "source_description": "Open-access full text, PMCID PMC8129711.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 2",
+      "original_filename": "PMID_33818908_fig2.jpg",
+      "panel": null,
+      "paper_id": "paper_PMID33818908",
+      "path": "datasets/raw/images/PMID_33818908_fig2.jpg",
+      "sha256": "1d14bbd34ff933e3f9047e877e22fc62b94e36452545d817ab6399f576f3b1d3",
+      "source_artifact_id": "artifact_PMID33818908_fig2",
+      "source_description": "PMC Figure 2 source image used for observed-point digitization.",
+      "supplement_identifier": null
+    }
+  ]
+}

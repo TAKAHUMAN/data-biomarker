@@ -1,0 +1,25 @@
+condition_step_key,condition_key,perturbation_name,dose_value,dose_unit,start_time,end_time,time_unit,sequence_index,notes
+flo_1_in_vitro__cisplatin_2_5_um__step_1,flo_1_in_vitro__cisplatin_2_5_um,Cisplatin,2.5,uM,0,24,h,1,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+flo_1_in_vitro__mln8237_0_5_um__step_1,flo_1_in_vitro__mln8237_0_5_um,MLN8237,0.5,uM,0,24,h,1,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+flo_1_in_vitro__mln8237_0_5_um_cisplatin_2_5_um__step_1,flo_1_in_vitro__mln8237_0_5_um_cisplatin_2_5_um,MLN8237,0.5,uM,0,24,h,1,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+flo_1_in_vitro__mln8237_0_5_um_cisplatin_2_5_um__step_2,flo_1_in_vitro__mln8237_0_5_um_cisplatin_2_5_um,Cisplatin,2.5,uM,0,24,h,2,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+flo_1_in_vitro__vehicle__step_1,flo_1_in_vitro__vehicle,Vehicle,0,,0,24,h,1,"Vehicle control; formulation, route, and schedule were not encoded in the supplied extraction."
+flo_1_xenograft__cisplatin_2_mg_kg__step_1,flo_1_xenograft__cisplatin_2_mg_kg,Cisplatin,2,mg/kg,0,21,d,1,"Intraperitoneal, twice weekly"
+flo_1_xenograft__mln8237_30_mg_kg__step_1,flo_1_xenograft__mln8237_30_mg_kg,MLN8237,30,mg/kg,0,21,d,1,"Oral, daily"
+flo_1_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg__step_1,flo_1_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg,MLN8237,30,mg/kg,0,21,d,1,"Oral, daily"
+flo_1_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg__step_2,flo_1_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg,Cisplatin,2,mg/kg,0,21,d,2,"Intraperitoneal, twice weekly"
+flo_1_xenograft__vehicle__step_1,flo_1_xenograft__vehicle,Vehicle,0,,0,21,d,1,"Vehicle control; formulation, route, and schedule were not encoded in the supplied extraction."
+oe19_in_vitro__cisplatin_2_5_um__step_1,oe19_in_vitro__cisplatin_2_5_um,Cisplatin,2.5,uM,0,24,h,1,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+oe19_in_vitro__mln8237_0_5_um__step_1,oe19_in_vitro__mln8237_0_5_um,MLN8237,0.5,uM,0,24,h,1,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+oe19_in_vitro__mln8237_0_5_um_cisplatin_2_5_um__step_1,oe19_in_vitro__mln8237_0_5_um_cisplatin_2_5_um,MLN8237,0.5,uM,0,24,h,1,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+oe19_in_vitro__mln8237_0_5_um_cisplatin_2_5_um__step_2,oe19_in_vitro__mln8237_0_5_um_cisplatin_2_5_um,Cisplatin,2.5,uM,0,24,h,2,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+oe33_in_vitro__cisplatin_2_5_um__step_1,oe33_in_vitro__cisplatin_2_5_um,Cisplatin,2.5,uM,0,24,h,1,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+oe33_in_vitro__mln8237_0_5_um__step_1,oe33_in_vitro__mln8237_0_5_um,MLN8237,0.5,uM,0,24,h,1,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+oe33_in_vitro__mln8237_0_5_um_cisplatin_2_5_um__step_1,oe33_in_vitro__mln8237_0_5_um_cisplatin_2_5_um,MLN8237,0.5,uM,0,24,h,1,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+oe33_in_vitro__mln8237_0_5_um_cisplatin_2_5_um__step_2,oe33_in_vitro__mln8237_0_5_um_cisplatin_2_5_um,Cisplatin,2.5,uM,0,24,h,2,Drug exposure for 24 h; Figure 3 samples then had 48 h drug-free recovery.
+oe33_in_vitro__vehicle__step_1,oe33_in_vitro__vehicle,Vehicle,0,,0,24,h,1,"Vehicle control; formulation, route, and schedule were not encoded in the supplied extraction."
+oe33_xenograft__cisplatin_2_mg_kg__step_1,oe33_xenograft__cisplatin_2_mg_kg,Cisplatin,2,mg/kg,0,21,d,1,"Intraperitoneal, twice weekly"
+oe33_xenograft__mln8237_30_mg_kg__step_1,oe33_xenograft__mln8237_30_mg_kg,MLN8237,30,mg/kg,0,21,d,1,"Oral, daily"
+oe33_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg__step_1,oe33_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg,MLN8237,30,mg/kg,0,21,d,1,"Oral, daily"
+oe33_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg__step_2,oe33_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg,Cisplatin,2,mg/kg,0,21,d,2,"Intraperitoneal, twice weekly"
+oe33_xenograft__vehicle__step_1,oe33_xenograft__vehicle,Vehicle,0,,0,21,d,1,"Vehicle control; formulation, route, and schedule were not encoded in the supplied extraction."

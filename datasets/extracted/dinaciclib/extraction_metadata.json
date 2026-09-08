@@ -1,0 +1,74 @@
+{
+  "caveats": [
+    "No human PK/PD or biopsy data exists in either paper -- both are preclinical mechanistic/xenograft studies only.",
+    "Tier 0 (cyclin E1 / CCNE1) is modeled as a baseline/predictive covariate via context_alterations (alteration_type OTHER for the endogenous CCNE1-high/low 6-line split -- the controlled vocabulary has no dedicated expression-level type, so OTHER + a descriptive alteration string is used, OVEREXPRESSION for the engineered CCNE1-plasmid subline), not as a dinaciclib-modulated observable -- Xu Fig3E confirms dinaciclib does not change CCNE1 expression.",
+    "DATA-QUALITY FLAG (a): Shao Fig5A prints the identical six-number densitometry row (1.78/1.89/1.71/1.38/0.65/1.45) under four different blots (CDK9, p-Rb, p-ATM, p-RNPII); imported as NOT_MODEL_READY, not used for target-weighting fits. The CDK9-dominance conclusion instead rests on the (text-derived, approximate) Fig5D-E colony-formation rescue data.",
+    "DATA-QUALITY FLAG (a, smaller instance): the same duplication pattern appears at smaller scale in Shao Fig3A ('Rb (total), PLC5' identical to 'p-RNPII (S2), PLC5'); the affected rows are imported as NOT_MODEL_READY.",
+    "DATA-QUALITY FLAG (b): Shao Fig4B (HuH7 tumor volume) shows 20 and 40 mg/kg as nearly superimposed (apparent plateau), while Shao Fig4D (TUNEL apoptosis in the same tumors) DOES separate the two doses cleanly (~2.3x vs ~3.9x control). Both are imported as independent observations rather than reconciled -- the tumor-volume endpoint appears to saturate before the underlying cell-killing rate does.",
+    "DATA-QUALITY FLAG (c): MTT IC50 (Shao Fig1A, 72h, acute cytostasis: HuH7 8.5 nM most sensitive) and colony-formation potency (Shao Fig1C-D, 10-14 day, clonogenic/reproductive death: PLC5 more sensitive at 5 nM) rank cell lines differently. These are imported under two distinct observables (viability_IC50 vs colony_formation_relative), never conflated or merged into one potency value.",
+    "Several Xu et al. figures are prose-only with an explicit approximate magnitude but no printed bar-chart/curve values in either supplied workbook (Fig2A-B growth rescue, Fig2D/F and Fig4E-F and Fig5G apoptosis rescues, Fig5E luciferase fold-change) -- these are imported as TEXT_DERIVED / SEMI_QUANTITATIVE observations with the approximate value preserved exactly as stated in the Figure Annotations sheet (e.g. '~1.7x', 'roughly halves', '~65%->~15%', '~4x'), and are flagged in their notes as not pixel-digitized.",
+    "Xu Fig1D-E and Fig2C dose-response curves (sorafenib/regorafenib vs cyclin E1 status) were reviewed but are not present as digitized points in the companion Digitized Data sheet and are not pixel-digitized here either -- the log[M] axis lacks fine enough gridline detail for confident calibration per the companion MD doc's Section 5; kept in not_quantifiable_figures.csv and flagged for manual digitization if exact curves are needed.",
+    "Shao Fig4E-F (PLC5 in vivo, 13 dense timepoints) is imported as PLOT_DIGITIZED/SEMI_QUANTITATIVE from a purely visual read (not pixel-calibrated), lower priority since Fig4B already anchors the monotherapy dose-response in a cleaner 3-arm chart -- see companion MD doc Section 5 and the not_quantifiable_figures.csv entry for this figure.",
+    "Most Xu et al. western blots (Fig2E, Fig3E, Fig4A-D, Fig5C-D, Fig5F, Fig6D) have no printed densitometry at all (representative images only) and are captured only in not_quantifiable_figures.csv.",
+    "Shao Fig2A-F (sub-G1 apoptosis, DNA fragmentation ELISA, Annexin V/PI flow) and Fig5B-C (colony-formation bar charts for the siRNA knockdown panel) are explicitly marked 'Skipped'/described only qualitatively in the supplied workbook's own Summary sheet and the companion Figure Annotations sheet respectively; no numeric values were available in either supplied workbook for these panels, so they are captured only in not_quantifiable_figures.csv.",
+    "The same cell line (Hep3B) appears independently in both papers' panels; each paper's Hep3B is kept as a distinct context (hep3b_shao_in_vitro vs hep3b_xu_in_vitro) rather than merged, since the two papers' assay conditions and provenance differ and the source materials never directly cross-reference the two datasets for this line."
+  ],
+  "corrections": [
+    "Xu et al.'s PMID (31349793) is not present anywhere in the two supplied workbooks or the companion MD doc; it was resolved via web search against PMC6660968 / DOI 10.1186/s12964-019-0398-3 rather than guessed, and used as a real paper_id (paper_PMID31349793) since it could be confidently confirmed -- unlike foretinib/luminespib, which use a workbook-derived paper_id because no PMID could be found there at all.",
+    "Shao Fig3A: the 'Rb (total), PLC5' densitometry row is numerically identical to the 'p-RNPII (S2), PLC5' row (both sheets agree on this); imported with quality_class NOT_MODEL_READY rather than dropped or trusted as independent.",
+    "Shao Fig5A: the CDK9/p-Rb/p-ATM/p-RNPII rows share one identical six-number densitometry row; imported with quality_class NOT_MODEL_READY. CDK1/CDK2/CDK5 rows in the same table are internally distinct and imported as QUANTITATIVE."
+  ],
+  "extraction_date": "2026-09-08",
+  "generated_counts": {
+    "assays": 16,
+    "condition_steps": 145,
+    "conditions": 142,
+    "context_alterations": 9,
+    "contexts": 19,
+    "not_quantifiable_figures": 25,
+    "observations": 438
+  },
+  "observation_counts_by_method": {
+    "DIRECT_SOURCE": 235,
+    "PLOT_DIGITIZED": 187,
+    "TEXT_DERIVED": 16
+  },
+  "observation_counts_by_paper": {
+    "paper_PMID31349793": 57,
+    "paper_PMID31561409": 381
+  },
+  "papers": [
+    {
+      "doi": null,
+      "note": "PMID/PMCID given directly on the supplied workbook's Summary sheet.",
+      "paper_id": "paper_PMID31561409",
+      "pmcid": "PMC6827105",
+      "pmid": "31561409"
+    },
+    {
+      "doi": "10.1186/s12964-019-0398-3",
+      "note": "No PMID was stated anywhere in the two supplied workbooks or the companion MD doc for this paper. It was independently confirmed (not guessed) via web search: PMC6660968 -> PMID 31349793, cross-checked against the DOI landing page (Springer/BioMed Central, s12964-019-0398-3) and PMC full text, both of which match the paper's title, author list (Xu, Huang, Yao et al.), journal, volume (17:85), and 2019 date exactly as given in the task brief.",
+      "paper_id": "paper_PMID31349793",
+      "pmcid": "PMC6660968",
+      "pmid": "31349793"
+    }
+  ],
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "path": "datasets/raw/workbooks/dinaciclib_HCC_extracted.xlsx",
+      "sha256": "7b86325a3677638c6e86db72ac3229be7577c2e7a89f6d19bb49246f78a87a4a",
+      "source_key": "workbook"
+    },
+    {
+      "path": "datasets/raw/workbooks/Dinaciclib_QSP_PD_Biomarker_Cascade_Annotations.xlsx",
+      "sha256": "acd7651a6ede8c45a981ae9050274e3c5c2115b158876bcb785cee82ae2c199e",
+      "source_key": "annotation_workbook"
+    },
+    {
+      "path": "datasets/extracted/dinaciclib/Dinaciclib_QSP_PD_Biomarker_Cascade.md",
+      "sha256": "690a7c03b082d1d1d03b0955b0c561c165e08a1805e5632a549b7d1eda163023",
+      "source_key": "moa_doc"
+    }
+  ]
+}

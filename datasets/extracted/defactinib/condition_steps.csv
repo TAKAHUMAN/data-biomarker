@@ -1,0 +1,31 @@
+condition_key,context_key,perturbation_name,dose_value,dose_unit,start_time,end_time,time_unit,sequence_index,notes
+vehicle,pc3_in_vitro,Vehicle,,,0,24,h,1,Vehicle control; formulation/route matched to active arms
+vehicle,pc3_rx_in_vitro,Vehicle,,,0,24,h,1,Vehicle control; formulation/route matched to active arms
+vehicle,du145_in_vitro,Vehicle,,,0,24,h,1,Vehicle control; formulation/route matched to active arms
+vehicle,du145_rx_in_vitro,Vehicle,,,0,24,h,1,Vehicle control; formulation/route matched to active arms
+vehicle,pc3_xenograft,Vehicle,,,0,21,d,1,Vehicle control; formulation/route matched to active arms
+vehicle,patient_explants_cspc,Vehicle,,,0,24,h,1,Vehicle control; formulation/route matched to active arms
+vs6063_alone,pc3_in_vitro,VS-6063 (defactinib),100,nM,0,24,h,1,"FAK inhibitor, in vitro exposure; xenograft dose not stated in this paper"
+vs6063_alone,pc3_rx_in_vitro,VS-6063 (defactinib),100,nM,0,24,h,1,"FAK inhibitor, in vitro exposure; xenograft dose not stated in this paper"
+vs6063_alone,du145_in_vitro,VS-6063 (defactinib),100,nM,0,24,h,1,"FAK inhibitor, in vitro exposure; xenograft dose not stated in this paper"
+vs6063_alone,du145_rx_in_vitro,VS-6063 (defactinib),100,nM,0,24,h,1,"FAK inhibitor, in vitro exposure; xenograft dose not stated in this paper"
+vs6063_alone,pc3_xenograft,VS-6063 (defactinib),,,0,21,d,1,FAK inhibitor; in vivo dose/route not stated in this paper
+vs6063_alone,patient_explants_cspc,VS-6063 (defactinib),200,nM,0,72,h,1,"FAK inhibitor, ex vivo culture"
+docetaxel_alone,pc3_in_vitro,Docetaxel,,ng/mL,0,24,h,1,Docetaxel dose-response (0-10000 ng/mL tested); IC50 value: 28.7 ng/mL (printed)
+docetaxel_alone,pc3_rx_in_vitro,Docetaxel,,ng/mL,0,24,h,1,"Docetaxel dose-response; IC50 value: 1167.6 ng/mL (printed, 41-fold higher than parental)"
+docetaxel_alone,du145_in_vitro,Docetaxel,,ng/mL,0,24,h,1,Docetaxel dose-response; IC50 value: 28.7 ng/mL (printed)
+docetaxel_alone,du145_rx_in_vitro,Docetaxel,,ng/mL,0,24,h,1,"Docetaxel dose-response; IC50 value: 2499.6 ng/mL (printed, 87-fold higher than parental)"
+docetaxel_alone,pc3_xenograft,Docetaxel,,,0,21,d,1,In vivo dose/route not fully specified in this extract
+docetaxel_alone,patient_explants_cspc,Docetaxel,250,nM,0,72,h,1,"Ex vivo culture, 72 h exposure"
+vs6063_docetaxel_combo,pc3_in_vitro,VS-6063 (defactinib),100,nM,0,24,h,1,Step 1: VS-6063
+vs6063_docetaxel_combo,pc3_in_vitro,Docetaxel,,ng/mL,0,24,h,2,Step 2: Docetaxel co-administered
+vs6063_docetaxel_combo,pc3_rx_in_vitro,VS-6063 (defactinib),100,nM,0,24,h,1,Step 1: VS-6063
+vs6063_docetaxel_combo,pc3_rx_in_vitro,Docetaxel,,ng/mL,0,24,h,2,Step 2: Docetaxel co-administered
+vs6063_docetaxel_combo,du145_in_vitro,VS-6063 (defactinib),100,nM,0,24,h,1,Step 1: VS-6063
+vs6063_docetaxel_combo,du145_in_vitro,Docetaxel,,ng/mL,0,24,h,2,Step 2: Docetaxel co-administered
+vs6063_docetaxel_combo,du145_rx_in_vitro,VS-6063 (defactinib),100,nM,0,24,h,1,Step 1: VS-6063
+vs6063_docetaxel_combo,du145_rx_in_vitro,Docetaxel,,ng/mL,0,24,h,2,Step 2: Docetaxel co-administered
+vs6063_docetaxel_combo,pc3_xenograft,VS-6063 (defactinib),,,0,21,d,1,Step 1: VS-6063 (dose/route not stated)
+vs6063_docetaxel_combo,pc3_xenograft,Docetaxel,,,0,21,d,2,Step 2: Docetaxel co-administered
+vs6063_docetaxel_combo,patient_explants_cspc,VS-6063 (defactinib),200,nM,0,72,h,1,Step 1: VS-6063
+vs6063_docetaxel_combo,patient_explants_cspc,Docetaxel,250,nM,0,72,h,2,Step 2: Docetaxel co-administered

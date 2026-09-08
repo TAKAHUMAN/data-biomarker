@@ -1,0 +1,15 @@
+domain,variable,value,unit,time_schedule,n,evidence,source_location,modelling_note
+Disease model,Cell line,MDA-MB-231,,Tumor-cell inoculation day 0,,Reported,Methods: Cell lines / Animal model,Human estrogen-independent breast cancer cells
+Animal,Species/strain,"Nude rat, RNU",,Age 6 weeks at study start,20 inoculated,Reported,Methods: Animal model,Xenograft host
+Metastasis,Anatomical sites,"Femur, tibia, fibula; right hind leg",,Observed after inoculation,,Reported,Methods: Animal model,Bone-metastatic lesions
+Treatment,Drug,Cilengitide (EMD 121974),,Days 30-55,,Reported,Methods: Study groups,Cyclic RGD peptide
+Treatment,Dose,25,mg/kg,5 times/week,8 assigned,Reported,Methods: Study groups,Intraperitoneal in isotonic saline
+Comparator,Control,Sham-treated,,Days 30-55,8 assigned,Reported,Methods: Study groups,No active drug
+PET,Tracer dose,1.80-5.67,MBq 18F-FDG,Dynamic 60-min acquisition,,Reported,Methods: PET,IV tracer; fasted at least 4 h
+PET,Frames,10x30 s; 5x60 s; 5x120 s; 8x300 s,,"Days 30, 35, 55",,Reported,Methods: PET,28 frames total
+PET,Day 30 sample size,,animals,Pretreatment,8 treated; 8 control,Reported,Methods: Study groups,Baseline imaging
+PET,Day 35 sample size,,animals,After ~5 treatment days,6 treated; 7 control,Reported,Methods: Study groups,"Three imaging deaths: 2 treated, 1 control"
+PET,Day 55 sample size,,animals,End of treatment,6 treated; 4 control,Reported,Methods: Study groups,Three controls killed at day 45 for ethical reasons
+Transcriptomics,Samples,,animals,Day 55,5 treated; 3 control,Reported,Gene expression: RNA extraction,HumanHT-12 v4; raw values log2 transformed
+Statistics,Gene selection,Top 500 genes with p<0.01,,Day 55,,Reported,Gene expression analysis,Table 1 is an incomplete biologically selected list
+Statistics,PET comparison,Two-sided Wilcoxon test,,Across times and groups,,Reported,Statistical analysis,p<=0.05 considered significant

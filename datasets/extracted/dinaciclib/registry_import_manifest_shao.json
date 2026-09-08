@@ -1,0 +1,44 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID31561409",
+  "parsed_observation_count": 381,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "dinaciclib_HCC_extracted.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID31561409",
+      "path": "datasets/raw/workbooks/dinaciclib_HCC_extracted.xlsx",
+      "sha256": "7b86325a3677638c6e86db72ac3229be7577c2e7a89f6d19bb49246f78a87a4a",
+      "source_artifact_id": "artifact_dinaciclib_workbook_PMID31561409",
+      "source_description": "Supplied curated per-figure digitization workbook (Shao et al. only), preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "Dinaciclib_QSP_PD_Biomarker_Cascade_Annotations.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID31561409",
+      "path": "datasets/raw/workbooks/Dinaciclib_QSP_PD_Biomarker_Cascade_Annotations.xlsx",
+      "sha256": "acd7651a6ede8c45a981ae9050274e3c5c2115b158876bcb785cee82ae2c199e",
+      "source_artifact_id": "artifact_dinaciclib_annotation_workbook_PMID31561409",
+      "source_description": "Supplied companion QSP/PD biomarker cascade annotation workbook covering BOTH papers (Cascade Map, Digitized Data, Figure Annotations, Modeling Notes), preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "EXTRACTION_ARTIFACT",
+      "figure": null,
+      "original_filename": "Dinaciclib_QSP_PD_Biomarker_Cascade.md",
+      "panel": null,
+      "paper_id": "paper_PMID31561409",
+      "path": "datasets/extracted/dinaciclib/Dinaciclib_QSP_PD_Biomarker_Cascade.md",
+      "sha256": "690a7c03b082d1d1d03b0955b0c561c165e08a1805e5632a549b7d1eda163023",
+      "source_artifact_id": "artifact_dinaciclib_moa_doc_PMID31561409",
+      "source_description": "Supplied human-written mechanism-of-action / PD biomarker cascade reference document spanning both papers.",
+      "supplement_identifier": null
+    }
+  ]
+}

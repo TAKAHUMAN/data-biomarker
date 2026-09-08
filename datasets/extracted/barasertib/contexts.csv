@@ -1,0 +1,28 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+dms114_in_vitro,Homo sapiens,DMS114,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,No MYC-family amplification reported in Table 1.
+dms53_in_vitro,Homo sapiens,DMS53,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,No MYC-family amplification reported in Table 1.
+h1092_in_vitro,Homo sapiens,H1092,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYCL.
+h146_in_vitro,Homo sapiens,H146,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,No MYC-family amplification reported in Table 1.
+h1694_in_vitro,Homo sapiens,H1694,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYCL.
+h187_in_vitro,Homo sapiens,H187,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,No MYC-family amplification reported in Table 1.
+h1963_in_vitro,Homo sapiens,H1963,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYCL.
+h2029_in_vitro,Homo sapiens,H2029,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYCL.
+h2081_in_vitro,Homo sapiens,H2081,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,No MYC-family amplification reported in Table 1.
+h211_in_vitro,Homo sapiens,H211,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYC.
+h2141_in_vitro,Homo sapiens,H2141,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYCL.
+h2171_in_vitro,Homo sapiens,H2171,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYC.
+h345_in_vitro,Homo sapiens,H345,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,No MYC-family amplification reported in Table 1.
+h378_in_vitro,Homo sapiens,H378,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYCL.
+h446_in_vitro,Homo sapiens,H446,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYC.
+h524_in_vitro,Homo sapiens,H524,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYC.
+h526_in_vitro,Homo sapiens,H526,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYCN.
+h69_in_vitro,Homo sapiens,H69,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYCN.
+h748_in_vitro,Homo sapiens,H748,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYCL.
+h774_in_vitro,Homo sapiens,H774,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,No MYC-family amplification reported in Table 1.
+h82_in_vitro,Homo sapiens,H82,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYC.
+h841_in_vitro,Homo sapiens,H841,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,No MYC-family amplification reported in Table 1.
+h841_xenograft,Mus musculus,H841,human SCLC xenograft,subcutaneous flank tumor,small-cell lung cancer,human-cell xenograft in athymic nude mouse,H841 cells implanted subcutaneously; 5-7 tumor-bearing mice per treatment group.
+intermediate_resistant_cohort_n_14_in_vitro,Homo sapiens,Intermediate resistant cohort n=14,small-cell lung cancer cell cohort,lung,small-cell lung cancer,in vitro aggregate cohort,Aggregate intermediate/resistant cohort.
+n417_in_vitro,Homo sapiens,N417,small-cell lung cancer cell,lung,small-cell lung cancer,in vitro cell culture,MYC-family amplification: MYC.
+sclc_panel_n_23_in_vitro,Homo sapiens,SCLC panel n=23,small-cell lung cancer cell cohort,lung,small-cell lung cancer,in vitro aggregate cohort,Aggregate analysis across 23 SCLC cell lines.
+sensitive_cohort_n_9_in_vitro,Homo sapiens,Sensitive cohort n=9,small-cell lung cancer cell cohort,lung,small-cell lung cancer,in vitro aggregate cohort,Aggregate source-defined sensitive cohort.

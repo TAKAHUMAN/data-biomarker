@@ -1,0 +1,6 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+kyse_150_in_vitro,Homo sapiens,KYSE-150,ESCC cell,esophagus,esophageal squamous cell carcinoma,in vitro 2D cell culture,MYC-high
+eca_109_in_vitro,Homo sapiens,Eca-109,ESCC cell,esophagus,esophageal squamous cell carcinoma,in vitro 2D cell culture,MYC-high
+te_1_in_vitro,Homo sapiens,TE-1,ESCC cell,esophagus,esophageal squamous cell carcinoma,in vitro 2D cell culture,MYC-low
+te_13_in_vitro,Homo sapiens,TE-13,ESCC cell,esophagus,esophageal squamous cell carcinoma,in vitro 2D cell culture,MYC-low
+heec_in_vitro,Homo sapiens,HEEC,Normal esophageal epithelial cell,esophagus,normal control,in vitro 2D cell culture,MYC-low/normal

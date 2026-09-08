@@ -1,0 +1,5 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+skov3_in_vitro,Homo sapiens,SKOV3,ovarian carcinoma cell,ovary,ovarian cancer,in vitro 2D cell culture,invasive carcinoma
+ovcar3_in_vitro,Homo sapiens,OVCAR3,ovarian carcinoma cell,ovary,ovarian cancer,in vitro 2D cell culture,ovarian carcinoma
+igrov_1_in_vitro,Homo sapiens,IGROV-1,ovarian carcinoma cell,ovary,ovarian cancer,in vitro 2D cell culture,germ cell carcinoma
+ovcar5_in_vitro,Homo sapiens,OVCAR5,ovarian carcinoma cell,ovary,ovarian cancer,in vitro 2D cell culture,clear cell carcinoma

@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f defactinib_dump.json)",
+      "Bash(mkdir -p datasets/extracted/defactinib)",
+      "Bash(cp \"/c/Users/binil/Downloads/Defactinib_QSP_PD_Biomarker_Cascade_Annotations.xlsx\" datasets/raw/workbooks/Defactinib_QSP_PD_Biomarker_Cascade_Annotations.xlsx)",
+      "Bash(cp \"/c/Users/binil/Downloads/Defactinib_QSP_PD_Biomarker_Cascade.md\" datasets/extracted/defactinib/Defactinib_QSP_PD_Biomarker_Cascade.md)",
+      "Bash(python3)",
+      "Bash(ls -la \"C:\\\\Users\\\\binil\\\\Downloads\" | grep -i asconc)",
+      "Read(//c/Users/binil/Downloads/**)",
+      "Bash(python prepare_dordaprivone_ovarian.py)",
+      "Bash(find \"C:\\\\Users\\\\binil\\\\Downloads\" -maxdepth 1 -type f \\\\\\( -name \"*motesanib*\" -o -name \"*niraparib*\" \\\\\\) | head -20)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\binil\\\\Downloads\" -File | Where-Object {$_.Extension -eq \".xlsx\" -or $_.Extension -eq \".md\"} | Select-Object Name)",
+      "Bash(python \"C:\\\\Users\\\\binil\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-binil-Downloads-data-biomarker\\\\1279e2d4-58ed-4830-b915-2139e238baaa\\\\scratchpad\\\\extract_motesanib_niraparib.py\")",
+      "Bash(cp \"C:\\\\Users\\\\binil\\\\Downloads\\\\Motesanib_QSP_PD_Biomarker_Cascade_Annotations.xlsx\" \"C:\\\\Users\\\\binil\\\\Downloads\\\\data biomarker\\\\datasets\\\\raw\\\\workbooks\\\\motesanib_gist_annotations.xlsx\")",
+      "Bash(cp \"C:\\\\Users\\\\binil\\\\Downloads\\\\Niraparib_CQ_HCC_QSP_PD_Digitized_Data.xlsx\" \"C:\\\\Users\\\\binil\\\\Downloads\\\\data biomarker\\\\datasets\\\\raw\\\\workbooks\\\\niraparib_hcc_digitized.xlsx\")",
+      "Bash(python prepare_motesanib_gist.py)",
+      "Bash(python prepare_niraparib_hcc.py)",
+      "Bash(find \"C:\\\\Users\\\\binil\\\\Downloads\" -maxdepth 2 -name \"*takahuman*\" -o -name \"*taka*\" -type d | head -20)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Initial commit: QSP/PD biomarker datasets for 5 drugs \\(dordaprivone, ganetespib, evofosfamide, motesanib, niraparib\\) *)"
+    ]
+  }
+}

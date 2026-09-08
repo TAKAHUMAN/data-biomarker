@@ -1,0 +1,6 @@
+assay_key,assay_type,assay_name,sample_type,measurement_platform,figure,panel,reported_time,reported_time_unit,replicate_count,notes
+fig1_viability_24h,Cell viability dose-response,"Fig1 Niraparib dose-response, 24h",Huh7 HCC cells,Cell viability assay,Figure 1,A,24,h,,Niraparib (PARP inhibitor) dose 0-30 umol/L.
+fig2_pakt,Phospho-Akt Western blot,Fig2 p-Akt (S473) pathway activation,Huh7 HCC cells,Western blot (p-Akt-S473/total Akt ratio),Figure 2,A,,,,Dose-response p-Akt marker with niraparib +/- CQ.
+fig3_cq_combo,Niraparib + Chloroquine combination,"Fig3 Niraparib + CQ (autophagy inhibitor) viability, 48h",Huh7 HCC cells,Cell viability assay,Figure 3,A,48,h,,Synergistic combination: niraparib (PARP) + CQ (autophagy inhibition).
+fig4_cellcycle,Cell cycle distribution,Fig4 Cell cycle (G1/S/G2M) with niraparib +/- CQ,Huh7 HCC cells,Flow cytometry (% cells in phase),Figure 4,A,,,,Cell cycle arrest patterns with single agent vs combination.
+fig5_dna_damage,DNA damage marker immunofluorescence,Fig5 gamma-H2AX and RAD51 foci (DNA damage/repair),Huh7 HCC cells,Immunofluorescence (foci counts),Figure 5,C,,,,PARP inhibition impairs homologous recombination repair (RAD51 reduction).

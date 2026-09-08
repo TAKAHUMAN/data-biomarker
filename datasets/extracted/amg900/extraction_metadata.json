@@ -1,0 +1,80 @@
+{
+  "caveats": [
+    "The full paper PDF is not present; public preview figures and authoritative abstract were used for verification.",
+    "Dose-response and bar-chart points are approximate plot readings, not raw replicate data.",
+    "The supplied narrative and importer are preserved for provenance but are not executed as authoritative code.",
+    "This paper contains AMG 900 plus AZD1152-HQPA and MK-5108 comparators; all three are retained."
+  ],
+  "corrections": [
+    "Paper metadata corrected from supplied PMID 28657245/year 2017/volume 53/pages 1-14 to PMID 29197031/year 2018/volume 54/pages 71-84.",
+    "AZD1152-HQPA EC50 in 93T449 corrected from 43.4 to 74.5 nM from the abstract and Figure 1E.",
+    "Figure 4 qRT-PCR comparisons were remapped to their actual panels and denominators.",
+    "Selected visibly discordant polyploidy annotations were re-read from preserved public Figures 2 and 3.",
+    "Supplied p53 labels were not imported because they are not supported by this extraction package and HCT-116 was mislabeled as mutant.",
+    "Qualitative Western-blot calls were reclassified from BLOT_DENSITOMETRY to IMAGE_DERIVED/QUALITATIVE_VALIDATION."
+  ],
+  "doi": "10.1007/s11626-017-0208-4",
+  "extraction_date": "2026-09-07",
+  "generated_counts": {
+    "assays": 6,
+    "condition_steps": 50,
+    "conditions": 50,
+    "contexts": 3,
+    "observations": 66
+  },
+  "observation_counts_by_method": {
+    "DIRECT_SOURCE": 9,
+    "IMAGE_DERIVED": 4,
+    "PLOT_DIGITIZED": 53
+  },
+  "paper_id": "paper_PMID29197031",
+  "pmid": "29197031",
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "path": "datasets/raw/workbooks/AURORA_INHIBITORS_OBSERVATIONS.xlsx",
+      "sha256": "4690eaad37cbb4ccc10e8f89fd6e6bfaa23c854b460c809374ea7eec04ff2fe2",
+      "source_key": "workbook"
+    },
+    {
+      "path": "datasets/extracted/amg900/REGISTRY_IMPORT_DATA_AURORA_INHIBITORS.json",
+      "sha256": "e40d51f82d854814d3dac45745ae5a74523d395e7fd94aa40eec32cd711d137a",
+      "source_key": "supplied_json"
+    },
+    {
+      "path": "datasets/extracted/amg900/AURORA_INHIBITORS_MOA.md",
+      "sha256": "a3ae2f4d40b6709e7e34af34b9e4edfb6d3766429162a397aba7aaba9ca18206",
+      "source_key": "supplied_moa"
+    },
+    {
+      "path": "datasets/extracted/amg900/supplied_aurora_inhibitors_importer.py",
+      "sha256": "7a86fe50d63d28501752755f52233391d7856f07fdcae0d0160fac04377eb79e",
+      "source_key": "supplied_importer"
+    },
+    {
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_1.webp",
+      "sha256": "e103aa1e45526580a4b8b135a551c4e0843a2be6e47460b09f21ac88ceea8bde",
+      "source_key": "figure_1"
+    },
+    {
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_2.webp",
+      "sha256": "a01e9e066e51b3d5359c18d160dbb9e12c000d8a470c657dab74010968d02269",
+      "source_key": "figure_2"
+    },
+    {
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_3.webp",
+      "sha256": "421a403abaac28b8998e758b5af437cfae33bb1a00a93f25df4863883961ef0e",
+      "source_key": "figure_3"
+    },
+    {
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_4.webp",
+      "sha256": "24169869ddde002bc1b4a2249153f1fb29c1a8c080773f29f43bf8580015f518",
+      "source_key": "figure_4"
+    },
+    {
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_5.webp",
+      "sha256": "c1df50e0937862dc6b0bd32832507baa5b9ff2a11cdb3f047db2ffc48b8de3cd",
+      "source_key": "figure_5"
+    }
+  ]
+}

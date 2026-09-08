@@ -1,0 +1,22 @@
+{
+  "drug": "Evofosfamide (TH-302)",
+  "drug_class": "Hypoxia-activated prodrug (HAP)",
+  "cancer_type": "Breast cancer",
+  "extraction_metadata": {
+    "extraction_date": "2026-09-08",
+    "total_observations": 51,
+    "figures_extracted": "1A-1C, 2, 4B, 5B-C",
+    "in_vitro_cell_lines": [
+      "MDA-MB-231-TXSA",
+      "MDA-MB-453",
+      "T47D",
+      "MCF-10A",
+      "MCF-12A",
+      "Fibroblast"
+    ],
+    "in_vivo_models": [
+      "Orthotopic mammary",
+      "Bone metastasis"
+    ]
+  }
+}

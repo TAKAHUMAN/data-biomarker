@@ -1,0 +1,44 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID32315352",
+  "parsed_observation_count": 72,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "PAPER",
+      "figure": null,
+      "original_filename": "PMID_32315352_printable.pdf",
+      "panel": null,
+      "paper_id": "paper_PMID32315352",
+      "path": "datasets/raw/papers/PMID_32315352_printable.pdf",
+      "sha256": "9190ae1b9974e5704315c29347dedbad7d08627d593c0b460e6e6e0f6280b364",
+      "source_artifact_id": "artifact_PMID32315352_paper",
+      "source_description": "Printable full paper.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "SUPPLEMENT",
+      "figure": null,
+      "original_filename": "PMID_32315352_s002_S1_Raw_Images.docx",
+      "panel": null,
+      "paper_id": "paper_PMID32315352",
+      "path": "datasets/raw/supplementary/PMID_32315352_s002_S1_Raw_Images.docx",
+      "sha256": "af0d80397700009fbb46db94e0afb96d89d8b468f21e58cc61fb80db62d29cf3",
+      "source_artifact_id": "artifact_PMID32315352_s1_raw_images",
+      "source_description": "Original raw-blot supplement.",
+      "supplement_identifier": "S1 Raw Images"
+    },
+    {
+      "artifact_type": "SUPPLEMENT",
+      "figure": null,
+      "original_filename": "PMID_32315352_s008_S3_Fig.docx",
+      "panel": null,
+      "paper_id": "paper_PMID32315352",
+      "path": "datasets/raw/supplementary/PMID_32315352_s008_S3_Fig.docx",
+      "sha256": "7ebb3d3a9d632115da084fee024cfba8c64bbdcc359a9c5a2a74b16bb07be629",
+      "source_artifact_id": "artifact_PMID32315352_s3_fig",
+      "source_description": "Original target-engagement supplement.",
+      "supplement_identifier": "S3 Fig"
+    }
+  ]
+}

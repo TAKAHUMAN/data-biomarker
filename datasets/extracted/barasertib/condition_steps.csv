@@ -1,0 +1,40 @@
+condition_step_key,condition_key,perturbation_name,dose_value,dose_unit,start_time,end_time,time_unit,sequence_index,notes
+dms114_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,dms114_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+dms53_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,dms53_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+dms53_in_vitro__barasertib_hqpa_50_nm_48_h__step_1,dms53_in_vitro__barasertib_hqpa_50_nm_48_h,Barasertib-HQPA,50.0,nM,0,48.0,h,1,Continuous in vitro exposure before ploidy measurement.
+h1092_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h1092_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h146_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h146_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h1694_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h1694_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h187_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h187_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h187_in_vitro__barasertib_hqpa_30_nm_48_h__step_1,h187_in_vitro__barasertib_hqpa_30_nm_48_h,Barasertib-HQPA,30.0,nM,0,48.0,h,1,Continuous in vitro exposure before ploidy measurement.
+h1963_in_vitro__barasertib_hqpa_0_100_nm_120_h__step_1,h1963_in_vitro__barasertib_hqpa_0_100_nm_120_h,Barasertib-HQPA,,nM,0,120,h,1,Five-day concentration-response experiment.
+h2029_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h2029_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h2081_in_vitro__barasertib_hqpa_0_100_nm_120_h__step_1,h2081_in_vitro__barasertib_hqpa_0_100_nm_120_h,Barasertib-HQPA,,nM,0,120,h,1,Five-day concentration-response experiment.
+h211_in_vitro__barasertib_hqpa_0_100_nm_120_h__step_1,h211_in_vitro__barasertib_hqpa_0_100_nm_120_h,Barasertib-HQPA,,nM,0,120,h,1,Five-day concentration-response experiment.
+h2141_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h2141_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h2171_in_vitro__barasertib_hqpa_0_100_nm_120_h__step_1,h2171_in_vitro__barasertib_hqpa_0_100_nm_120_h,Barasertib-HQPA,,nM,0,120,h,1,Five-day concentration-response experiment.
+h345_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h345_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h345_in_vitro__barasertib_hqpa_30_nm_48_h__step_1,h345_in_vitro__barasertib_hqpa_30_nm_48_h,Barasertib-HQPA,30.0,nM,0,48.0,h,1,Continuous in vitro exposure before ploidy measurement.
+h345_in_vitro__barasertib_hqpa_50_nm_paclitaxel_50_nm_24_h__step_1,h345_in_vitro__barasertib_hqpa_50_nm_paclitaxel_50_nm_24_h,Barasertib-HQPA,50.0,nM,0,24,h,1,Concurrent exposure.
+h345_in_vitro__barasertib_hqpa_50_nm_paclitaxel_50_nm_24_h__step_2,h345_in_vitro__barasertib_hqpa_50_nm_paclitaxel_50_nm_24_h,Paclitaxel,50.0,nM,0,24,h,2,Equal concentration used for mitotic enrichment.
+h378_in_vitro__barasertib_hqpa_0_100_nm_120_h__step_1,h378_in_vitro__barasertib_hqpa_0_100_nm_120_h,Barasertib-HQPA,,nM,0,120,h,1,Five-day concentration-response experiment.
+h446_in_vitro__barasertib_hqpa_0_100_nm_120_h__step_1,h446_in_vitro__barasertib_hqpa_0_100_nm_120_h,Barasertib-HQPA,,nM,0,120,h,1,Five-day concentration-response experiment.
+h446_in_vitro__barasertib_hqpa_25_nm_paclitaxel_25_nm_24_h__step_1,h446_in_vitro__barasertib_hqpa_25_nm_paclitaxel_25_nm_24_h,Barasertib-HQPA,25.0,nM,0,24,h,1,Concurrent exposure.
+h446_in_vitro__barasertib_hqpa_25_nm_paclitaxel_25_nm_24_h__step_2,h446_in_vitro__barasertib_hqpa_25_nm_paclitaxel_25_nm_24_h,Paclitaxel,25.0,nM,0,24,h,2,Equal concentration used for mitotic enrichment.
+h446_in_vitro__barasertib_hqpa_30_nm_24_h__step_1,h446_in_vitro__barasertib_hqpa_30_nm_24_h,Barasertib-HQPA,30.0,nM,0,24.0,h,1,Continuous in vitro exposure before ploidy measurement.
+h446_in_vitro__barasertib_hqpa_30_nm_48_h__step_1,h446_in_vitro__barasertib_hqpa_30_nm_48_h,Barasertib-HQPA,30.0,nM,0,48.0,h,1,Continuous in vitro exposure before ploidy measurement.
+h524_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h524_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h526_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h526_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h69_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h69_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h69_in_vitro__barasertib_hqpa_30_nm_48_h__step_1,h69_in_vitro__barasertib_hqpa_30_nm_48_h,Barasertib-HQPA,30.0,nM,0,48.0,h,1,Continuous in vitro exposure before ploidy measurement.
+h748_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h748_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h774_in_vitro__barasertib_hqpa_100_nm_120_h__step_1,h774_in_vitro__barasertib_hqpa_100_nm_120_h,Barasertib-HQPA,100,nM,0,120,h,1,Source classification dose and five-day exposure.
+h82_in_vitro__barasertib_hqpa_0_100_nm_120_h__step_1,h82_in_vitro__barasertib_hqpa_0_100_nm_120_h,Barasertib-HQPA,,nM,0,120,h,1,Five-day concentration-response experiment.
+h841_in_vitro__barasertib_hqpa_0_100_nm_120_h__step_1,h841_in_vitro__barasertib_hqpa_0_100_nm_120_h,Barasertib-HQPA,,nM,0,120,h,1,Five-day concentration-response experiment.
+h841_xenograft__barasertib_100_mg_kg_day_treatment_days_20_31__step_1,h841_xenograft__barasertib_100_mg_kg_day_treatment_days_20_31,Barasertib,100,mg/kg/day,20,31,d,1,"Five daily doses, weekend rest, then five daily doses; administration route not reported in supplied extraction."
+h841_xenograft__barasertib_50_mg_kg_day_treatment_days_20_31__step_1,h841_xenograft__barasertib_50_mg_kg_day_treatment_days_20_31,Barasertib,50.0,mg/kg/day,20,31,d,1,"Five daily doses, weekend rest, then five daily doses; administration route not reported in supplied extraction."
+h841_xenograft__vehicle_treatment_days_20_31__step_1,h841_xenograft__vehicle_treatment_days_20_31,Vehicle,0.0,,20,31,d,1,"Five daily doses, weekend rest, then five daily doses; administration route not reported in supplied extraction."
+intermediate_resistant_cohort_n_14_in_vitro__no_experimental_perturbation__step_1,intermediate_resistant_cohort_n_14_in_vitro__no_experimental_perturbation,No perturbation,0,,,,,1,Observational genomic/expression analysis.
+n417_in_vitro__barasertib_hqpa_0_100_nm_120_h__step_1,n417_in_vitro__barasertib_hqpa_0_100_nm_120_h,Barasertib-HQPA,,nM,0,120,h,1,Five-day concentration-response experiment.
+sclc_panel_n_23_in_vitro__no_experimental_perturbation__step_1,sclc_panel_n_23_in_vitro__no_experimental_perturbation,No perturbation,0,,,,,1,Observational genomic/expression analysis.
+sensitive_cohort_n_9_in_vitro__no_experimental_perturbation__step_1,sensitive_cohort_n_9_in_vitro__no_experimental_perturbation,No perturbation,0,,,,,1,Observational genomic/expression analysis.

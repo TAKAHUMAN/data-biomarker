@@ -1,0 +1,17 @@
+{
+  "source_paper": {
+    "pmid": 35372029,
+    "pmcid": "PMC8970020",
+    "title": "Anti-Tumor and Anti-Invasive Effects of ONC201 on Ovarian Cancer Cells and a Transgenic Mouse Model of Serous Ovarian Cancer",
+    "authors": "Fan Y, et al.",
+    "journal": "Frontiers in Oncology",
+    "year": 2022,
+    "volume": 12,
+    "pages": "789450"
+  },
+  "extraction_metadata": {
+    "extraction_date": "2026-09-08",
+    "total_observations": 222,
+    "figures_extracted": "1-8 (partial), 9 (qualitative only)"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "caveats": [
+    "PET means and SE values are approximate visual digitizations and remain SEMI_QUANTITATIVE.",
+    "The source does not provide drug concentrations, receptor occupancy, proximal signaling time courses, longitudinal lesion burden, individual-animal PET values, or gene-level uncertainty.",
+    "Day 30 is the pretreatment PET baseline and also the stated treatment-start day.",
+    "Table 1 is an incomplete biologically selected list from the top 500 differentially expressed genes (p<0.01).",
+    "This package is suitable as PD evidence, but a standalone QSP calibration still requires external PK/exposure, potency/occupancy, and disease-outcome data."
+  ],
+  "doi": "10.1007/s00432-012-1360-6",
+  "extraction_date": "2026-09-08",
+  "generated_counts": {
+    "assays": 2,
+    "condition_steps": 2,
+    "conditions": 2,
+    "contexts": 1,
+    "data_gaps": 11,
+    "gene_source_rows": 43,
+    "model_mapping_suggestions": 11,
+    "observations": 73,
+    "pet_panel_digitizations": 60,
+    "study_design": 14
+  },
+  "normalization_decisions": [
+    "All 60 panel-specific PET digitizations are preserved in pet_panel_digitization.csv.",
+    "The registry contains 30 biological PET endpoints: the median of the two repeated panel estimates for each group/day/parameter.",
+    "Only the 43 directly printed Table 1 log2 changes enter the registry; fold and percent changes are derived audit columns, not additional observations.",
+    "Workbook Model_Mapping and Data_Gaps sheets are exported as annotations and are not executed or promoted to authoritative model mappings."
+  ],
+  "observation_counts_by_method": {
+    "COMPUTED_FROM_SOURCE_VALUES": 30,
+    "DIRECT_SOURCE": 43
+  },
+  "paper_id": "paper_PMID23229276",
+  "pmcid": "PMC11824361",
+  "pmid": "23229276",
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "path": "datasets/raw/workbooks/cilengitide_pd_qsp_inputs.xlsx",
+      "sha256": "739f49e8661c2469099cf567d9dc3b062dc98497ee603986946281cb4b1623f4",
+      "source_key": "workbook"
+    },
+    {
+      "path": "datasets/raw/papers/PMID_23229276_PMC11824361.pdf",
+      "sha256": "932dd21746f9df8c92d5450f5f08aff448ab1f3c5add3c3f9a0a992c049192c0",
+      "source_key": "paper"
+    },
+    {
+      "path": "datasets/raw/papers/PMID_23229276_PMC11824361.html",
+      "sha256": "761044a1a70d3778a69704466a5df6dacc2e14a05ae6cab765482c4398736ff7",
+      "source_key": "paper_html"
+    },
+    {
+      "path": "datasets/raw/images/cilengitide/Bretschi_2013_Figure_2.jpg",
+      "sha256": "7ac8cceb22d162e5173ec0113fefa10dfdd0b0c3c0644b4590308926365a05ee",
+      "source_key": "figure_2"
+    }
+  ]
+}

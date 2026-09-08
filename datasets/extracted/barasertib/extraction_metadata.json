@@ -1,0 +1,77 @@
+{
+  "caveats": [
+    "The original supplied files remain unchanged and may contain unsupported or incorrect values.",
+    "The PMC full-text HTML is preserved as the paper artifact; the PDF endpoint did not provide a valid PDF download.",
+    "The article reports an internal discrepancy for the intermediate/resistant cMYC mean: 7.2 in Results versus 7.6 in the Figure 2 caption.",
+    "Administration route for xenograft dosing is not explicitly encoded because it was not verified from the supplied extraction."
+  ],
+  "corrections": [
+    "MTS exposure corrected from supplied 72 h to source-reported 120 h (5 days), using 0-100 nM.",
+    "Unsupported exact IC50 guesses were replaced by source-reported censoring/classification.",
+    "Source response classes corrected: H2171 and H1963 sensitive; H524 intermediate; H748 resistant.",
+    "DMS114, the omitted 23rd screened line, was restored as a source-defined intermediate response from Figure 1B.",
+    "H446 24 h ploidy corrected to 75% 4N and 10% ≥8N; DMS53 dose corrected to 50 nM.",
+    "Figure 3 target-engagement identity corrected from supplied H841 to H446; equal paclitaxel/barasertib-HQPA doses are 25 nM in H446 and 50 nM in H345.",
+    "Day-34 and day-61 numeric xenograft volumes from Results were encoded; qualitative text was not placed in numeric value fields."
+  ],
+  "doi": "10.1158/1535-7163.MCT-16-0298",
+  "extraction_date": "2026-09-08",
+  "generated_counts": {
+    "assays": 6,
+    "condition_steps": 39,
+    "conditions": 37,
+    "contexts": 27,
+    "observations": 45
+  },
+  "observation_counts_by_method": {
+    "DIRECT_SOURCE": 12,
+    "IMAGE_DERIVED": 2,
+    "TEXT_DERIVED": 31
+  },
+  "paper_id": "paper_PMID27496133",
+  "pmcid": "PMC5050114",
+  "pmid": "27496133",
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "path": "datasets/raw/workbooks/BARASERTIB_OBSERVATIONS.xlsx",
+      "sha256": "497103d73a8068110d79f01e4636a17a54e5f6ef590e54a6cfc792d9a1fbc792",
+      "source_key": "workbook"
+    },
+    {
+      "path": "datasets/extracted/barasertib/REGISTRY_IMPORT_DATA_BARASERTIB.json",
+      "sha256": "fa6d66d63fa1dfecb81e69f3ad6a23f06dc646a5bac429a782043ecb84c828e6",
+      "source_key": "supplied_json"
+    },
+    {
+      "path": "datasets/extracted/barasertib/supplied_barasertib_importer.py",
+      "sha256": "52c435b2e5174f136d6a331ca7546da1e32b72e3fc6325f454aee8d43502cfc8",
+      "source_key": "supplied_importer"
+    },
+    {
+      "path": "datasets/raw/papers/PMID_27496133_PMC5050114.html",
+      "sha256": "3fdb34e5f5e40c84387a2eee2b6927dc4e81efcafbfd4d3b00bc2c02e54f1393",
+      "source_key": "paper"
+    },
+    {
+      "path": "datasets/raw/images/barasertib/Helfrich_2016_Figure_1.jpg",
+      "sha256": "495f1bd8e2396118a7b3b40cac5866233f25f094e424c0c493a0a43f473716d3",
+      "source_key": "figure_1"
+    },
+    {
+      "path": "datasets/raw/images/barasertib/Helfrich_2016_Figure_2.jpg",
+      "sha256": "ee7d995181856cffc6cf4880f455b4c597c108280bf387711ad49ecb0aa52ceb",
+      "source_key": "figure_2"
+    },
+    {
+      "path": "datasets/raw/images/barasertib/Helfrich_2016_Figure_3.jpg",
+      "sha256": "9198ea5c6a704363e22c52c6177b8e3a7c8848e89b5c86778622c51fd45d6bb6",
+      "source_key": "figure_3"
+    },
+    {
+      "path": "datasets/raw/images/barasertib/Helfrich_2016_Figure_4.jpg",
+      "sha256": "14ffa956be504ef7c3f2c1c9abbe41765e4c50e09c61ea758f219014d0107647",
+      "source_key": "figure_4"
+    }
+  ]
+}

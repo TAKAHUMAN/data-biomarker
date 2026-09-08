@@ -1,0 +1,3 @@
+condition_step_key,condition_key,perturbation_name,dose_value,dose_unit,start_time,end_time,time_unit,sequence_index,notes
+cilengitide_regimen,mda_mb_231_bone_metastasis_rnu_rat__cilengitide_25_mg_kg_days_30_55,Cilengitide,25,mg/kg,30,55,d,1,"Intraperitoneal dosing in isotonic saline, five times per week; EMD 121974."
+sham_regimen,mda_mb_231_bone_metastasis_rnu_rat__sham_days_30_55,Sham treatment,,,30,55,d,1,Source describes this group as sham-treated; no active drug.

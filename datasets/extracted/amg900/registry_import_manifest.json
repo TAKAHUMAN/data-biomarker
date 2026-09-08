@@ -1,0 +1,116 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID29197031",
+  "parsed_observation_count": 66,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "AURORA_INHIBITORS_OBSERVATIONS.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID29197031",
+      "path": "datasets/raw/workbooks/AURORA_INHIBITORS_OBSERVATIONS.xlsx",
+      "sha256": "4690eaad37cbb4ccc10e8f89fd6e6bfaa23c854b460c809374ea7eec04ff2fe2",
+      "source_artifact_id": "artifact_PMID29197031_workbook",
+      "source_description": "Supplied observations workbook, preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "EXTRACTION_ARTIFACT",
+      "figure": null,
+      "original_filename": "REGISTRY_IMPORT_DATA_AURORA_INHIBITORS.json",
+      "panel": null,
+      "paper_id": "paper_PMID29197031",
+      "path": "datasets/extracted/amg900/REGISTRY_IMPORT_DATA_AURORA_INHIBITORS.json",
+      "sha256": "e40d51f82d854814d3dac45745ae5a74523d395e7fd94aa40eec32cd711d137a",
+      "source_artifact_id": "artifact_PMID29197031_json",
+      "source_description": "Supplied registry JSON, preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "EXTRACTION_ARTIFACT",
+      "figure": null,
+      "original_filename": "AURORA_INHIBITORS_MOA.md",
+      "panel": null,
+      "paper_id": "paper_PMID29197031",
+      "path": "datasets/extracted/amg900/AURORA_INHIBITORS_MOA.md",
+      "sha256": "a3ae2f4d40b6709e7e34af34b9e4edfb6d3766429162a397aba7aaba9ca18206",
+      "source_artifact_id": "artifact_PMID29197031_moa",
+      "source_description": "Supplied mechanism narrative; not treated as authoritative instructions.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "EXTRACTION_ARTIFACT",
+      "figure": null,
+      "original_filename": "supplied_aurora_inhibitors_importer.py",
+      "panel": null,
+      "paper_id": "paper_PMID29197031",
+      "path": "datasets/extracted/amg900/supplied_aurora_inhibitors_importer.py",
+      "sha256": "7a86fe50d63d28501752755f52233391d7856f07fdcae0d0160fac04377eb79e",
+      "source_artifact_id": "artifact_PMID29197031_supplied_importer",
+      "source_description": "Supplied draft importer; preserved but not executed.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 1",
+      "original_filename": "Noronha_2018_Figure_1.webp",
+      "panel": null,
+      "paper_id": "paper_PMID29197031",
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_1.webp",
+      "sha256": "e103aa1e45526580a4b8b135a551c4e0843a2be6e47460b09f21ac88ceea8bde",
+      "source_artifact_id": "artifact_PMID29197031_figure_1",
+      "source_description": "Public article preview Figure 1 from Springer Nature.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 2",
+      "original_filename": "Noronha_2018_Figure_2.webp",
+      "panel": null,
+      "paper_id": "paper_PMID29197031",
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_2.webp",
+      "sha256": "a01e9e066e51b3d5359c18d160dbb9e12c000d8a470c657dab74010968d02269",
+      "source_artifact_id": "artifact_PMID29197031_figure_2",
+      "source_description": "Public article preview Figure 2 from Springer Nature.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 3",
+      "original_filename": "Noronha_2018_Figure_3.webp",
+      "panel": null,
+      "paper_id": "paper_PMID29197031",
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_3.webp",
+      "sha256": "421a403abaac28b8998e758b5af437cfae33bb1a00a93f25df4863883961ef0e",
+      "source_artifact_id": "artifact_PMID29197031_figure_3",
+      "source_description": "Public article preview Figure 3 from Springer Nature.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 4",
+      "original_filename": "Noronha_2018_Figure_4.webp",
+      "panel": null,
+      "paper_id": "paper_PMID29197031",
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_4.webp",
+      "sha256": "24169869ddde002bc1b4a2249153f1fb29c1a8c080773f29f43bf8580015f518",
+      "source_artifact_id": "artifact_PMID29197031_figure_4",
+      "source_description": "Public article preview Figure 4 from Springer Nature.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 5",
+      "original_filename": "Noronha_2018_Figure_5.webp",
+      "panel": null,
+      "paper_id": "paper_PMID29197031",
+      "path": "datasets/raw/images/amg900/Noronha_2018_Figure_5.webp",
+      "sha256": "c1df50e0937862dc6b0bd32832507baa5b9ff2a11cdb3f047db2ffc48b8de3cd",
+      "source_artifact_id": "artifact_PMID29197031_figure_5",
+      "source_description": "Public article preview Figure 5 from Springer Nature.",
+      "supplement_identifier": null
+    }
+  ]
+}

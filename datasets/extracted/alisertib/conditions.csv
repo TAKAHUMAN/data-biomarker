@@ -1,0 +1,20 @@
+condition_key,context_key,condition_label,notes
+flo_1_in_vitro__cisplatin_2_5_um,flo_1_in_vitro,Cisplatin 2.5 uM,Treatment exposure ended at 24 h; observation time is stored separately.
+flo_1_in_vitro__mln8237_0_5_um,flo_1_in_vitro,MLN8237 0.5 uM,Treatment exposure ended at 24 h; observation time is stored separately.
+flo_1_in_vitro__mln8237_0_5_um_cisplatin_2_5_um,flo_1_in_vitro,MLN8237 0.5 uM + Cisplatin 2.5 uM,Treatment exposure ended at 24 h; observation time is stored separately.
+flo_1_in_vitro__vehicle,flo_1_in_vitro,Vehicle,Treatment exposure ended at 24 h; observation time is stored separately.
+flo_1_xenograft__cisplatin_2_mg_kg,flo_1_xenograft,Cisplatin 2 mg/kg,21-day xenograft regimen.
+flo_1_xenograft__mln8237_30_mg_kg,flo_1_xenograft,MLN8237 30 mg/kg,21-day xenograft regimen.
+flo_1_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg,flo_1_xenograft,MLN8237 30 mg/kg + Cisplatin 2 mg/kg,21-day xenograft regimen.
+flo_1_xenograft__vehicle,flo_1_xenograft,Vehicle,21-day xenograft regimen.
+oe19_in_vitro__cisplatin_2_5_um,oe19_in_vitro,Cisplatin 2.5 uM,Treatment exposure ended at 24 h; observation time is stored separately.
+oe19_in_vitro__mln8237_0_5_um,oe19_in_vitro,MLN8237 0.5 uM,Treatment exposure ended at 24 h; observation time is stored separately.
+oe19_in_vitro__mln8237_0_5_um_cisplatin_2_5_um,oe19_in_vitro,MLN8237 0.5 uM + Cisplatin 2.5 uM,Treatment exposure ended at 24 h; observation time is stored separately.
+oe33_in_vitro__cisplatin_2_5_um,oe33_in_vitro,Cisplatin 2.5 uM,Treatment exposure ended at 24 h; observation time is stored separately.
+oe33_in_vitro__mln8237_0_5_um,oe33_in_vitro,MLN8237 0.5 uM,Treatment exposure ended at 24 h; observation time is stored separately.
+oe33_in_vitro__mln8237_0_5_um_cisplatin_2_5_um,oe33_in_vitro,MLN8237 0.5 uM + Cisplatin 2.5 uM,Treatment exposure ended at 24 h; observation time is stored separately.
+oe33_in_vitro__vehicle,oe33_in_vitro,Vehicle,Treatment exposure ended at 24 h; observation time is stored separately.
+oe33_xenograft__cisplatin_2_mg_kg,oe33_xenograft,Cisplatin 2 mg/kg,21-day xenograft regimen.
+oe33_xenograft__mln8237_30_mg_kg,oe33_xenograft,MLN8237 30 mg/kg,21-day xenograft regimen.
+oe33_xenograft__mln8237_30_mg_kg_cisplatin_2_mg_kg,oe33_xenograft,MLN8237 30 mg/kg + Cisplatin 2 mg/kg,21-day xenograft regimen.
+oe33_xenograft__vehicle,oe33_xenograft,Vehicle,21-day xenograft regimen.

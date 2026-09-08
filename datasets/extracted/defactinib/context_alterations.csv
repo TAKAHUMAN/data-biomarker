@@ -1,0 +1,4 @@
+context_key,gene,alteration_type,alteration,source,notes
+primary_tumor_tma,FAK,OVEREXPRESSION,"H-score IHC, Gleason-dependent",Fig 6B (printed p-values),"FAK H-score higher in Gleason 6/7/9 vs Gleason 5 (p=0.05/0.03/0.02); Gleason 8 n.s. (n~4, underpowered)"
+pc3_rx_in_vitro,docetaxel_response,OTHER,docetaxel_resistant,"Fig 1A, paper text",Docetaxel IC50 1167.6 ng/mL (vs 28.7 ng/mL in parental PC3)
+du145_rx_in_vitro,docetaxel_response,OTHER,docetaxel_resistant,"Fig 1B, paper text",Docetaxel IC50 2499.6 ng/mL (vs 28.7 ng/mL in parental DU145)

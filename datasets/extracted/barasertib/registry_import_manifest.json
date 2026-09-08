@@ -1,0 +1,104 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID27496133",
+  "parsed_observation_count": 45,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "PAPER",
+      "figure": null,
+      "original_filename": "PMID_27496133_PMC5050114.html",
+      "panel": null,
+      "paper_id": "paper_PMID27496133",
+      "path": "datasets/raw/papers/PMID_27496133_PMC5050114.html",
+      "sha256": "3fdb34e5f5e40c84387a2eee2b6927dc4e81efcafbfd4d3b00bc2c02e54f1393",
+      "source_artifact_id": "artifact_PMID27496133_paper",
+      "source_description": "PMC full-text HTML.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "BARASERTIB_OBSERVATIONS.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID27496133",
+      "path": "datasets/raw/workbooks/BARASERTIB_OBSERVATIONS.xlsx",
+      "sha256": "497103d73a8068110d79f01e4636a17a54e5f6ef590e54a6cfc792d9a1fbc792",
+      "source_artifact_id": "artifact_PMID27496133_workbook",
+      "source_description": "Supplied workbook, preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "EXTRACTION_ARTIFACT",
+      "figure": null,
+      "original_filename": "REGISTRY_IMPORT_DATA_BARASERTIB.json",
+      "panel": null,
+      "paper_id": "paper_PMID27496133",
+      "path": "datasets/extracted/barasertib/REGISTRY_IMPORT_DATA_BARASERTIB.json",
+      "sha256": "fa6d66d63fa1dfecb81e69f3ad6a23f06dc646a5bac429a782043ecb84c828e6",
+      "source_artifact_id": "artifact_PMID27496133_json",
+      "source_description": "Supplied JSON, preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "EXTRACTION_ARTIFACT",
+      "figure": null,
+      "original_filename": "supplied_barasertib_importer.py",
+      "panel": null,
+      "paper_id": "paper_PMID27496133",
+      "path": "datasets/extracted/barasertib/supplied_barasertib_importer.py",
+      "sha256": "52c435b2e5174f136d6a331ca7546da1e32b72e3fc6325f454aee8d43502cfc8",
+      "source_artifact_id": "artifact_PMID27496133_supplied_importer",
+      "source_description": "Supplied draft importer; preserved but not executed.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 1",
+      "original_filename": "Helfrich_2016_Figure_1.jpg",
+      "panel": null,
+      "paper_id": "paper_PMID27496133",
+      "path": "datasets/raw/images/barasertib/Helfrich_2016_Figure_1.jpg",
+      "sha256": "495f1bd8e2396118a7b3b40cac5866233f25f094e424c0c493a0a43f473716d3",
+      "source_artifact_id": "artifact_PMID27496133_figure_1",
+      "source_description": "PMC Figure 1.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 2",
+      "original_filename": "Helfrich_2016_Figure_2.jpg",
+      "panel": null,
+      "paper_id": "paper_PMID27496133",
+      "path": "datasets/raw/images/barasertib/Helfrich_2016_Figure_2.jpg",
+      "sha256": "ee7d995181856cffc6cf4880f455b4c597c108280bf387711ad49ecb0aa52ceb",
+      "source_artifact_id": "artifact_PMID27496133_figure_2",
+      "source_description": "PMC Figure 2.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 3",
+      "original_filename": "Helfrich_2016_Figure_3.jpg",
+      "panel": null,
+      "paper_id": "paper_PMID27496133",
+      "path": "datasets/raw/images/barasertib/Helfrich_2016_Figure_3.jpg",
+      "sha256": "9198ea5c6a704363e22c52c6177b8e3a7c8848e89b5c86778622c51fd45d6bb6",
+      "source_artifact_id": "artifact_PMID27496133_figure_3",
+      "source_description": "PMC Figure 3.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "IMAGE",
+      "figure": "Figure 4",
+      "original_filename": "Helfrich_2016_Figure_4.jpg",
+      "panel": null,
+      "paper_id": "paper_PMID27496133",
+      "path": "datasets/raw/images/barasertib/Helfrich_2016_Figure_4.jpg",
+      "sha256": "14ffa956be504ef7c3f2c1c9abbe41765e4c50e09c61ea758f219014d0107647",
+      "source_artifact_id": "artifact_PMID27496133_figure_4",
+      "source_description": "PMC Figure 4.",
+      "supplement_identifier": null
+    }
+  ]
+}

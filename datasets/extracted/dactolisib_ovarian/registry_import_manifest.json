@@ -1,0 +1,32 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID32061787",
+  "parsed_observation_count": 153,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "dactolisib_ABCB1ovarian_extracted.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID32061787",
+      "path": "datasets/raw/workbooks/dactolisib_ABCB1ovarian_extracted.xlsx",
+      "sha256": "8bb5fe04b3412aaa3fb1f6669e01935338179e7e82ae63b5381b7a00b49b2716",
+      "source_artifact_id": "artifact_PMID32061787_workbook",
+      "source_description": "Supplied curated per-figure digitization workbook, preserved unchanged.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "bez235_dox_qsp_pd_digitization.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID32061787",
+      "path": "datasets/raw/workbooks/bez235_dox_qsp_pd_digitization.xlsx",
+      "sha256": "c5eb0ce65b0056b82e32b4780e1c8d170aa90dfd23305d39411ca80c29c35ca5",
+      "source_artifact_id": "artifact_PMID32061787_qsp_workbook",
+      "source_description": "Supplied companion QSP-recommendation workbook (Model map, per-figure digitized sheets, Read me), preserved unchanged. Read me sheet is authoritative for classifying each figure's data quality.",
+      "supplement_identifier": null
+    }
+  ]
+}

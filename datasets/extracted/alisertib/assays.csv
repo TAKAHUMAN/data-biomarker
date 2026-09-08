@@ -1,0 +1,13 @@
+assay_key,assay_type,assay_name,sample_type,measurement_platform,figure,panel,reported_time,reported_time_unit,replicate_count,notes
+clonogenic_figure_3_a_flo_1,Clonogenic survival,Figure 3A colony formation,cells,clonogenic survival assay,Figure 3,A,,,,24 h drug exposure followed by colony formation in drug-free medium.
+clonogenic_figure_3_b_oe33,Clonogenic survival,Figure 3B colony formation,cells,clonogenic survival assay,Figure 3,B,,,,24 h drug exposure followed by colony formation in drug-free medium.
+clonogenic_supplementary_figure_1_c_oe19,Clonogenic survival,Supplementary Figure 1C colony formation,cells,clonogenic survival assay,Supplementary Figure 1,C,,,,24 h drug exposure followed by colony formation in drug-free medium.
+flow_fig2_flo_1,Flow cytometry,Figure 2 cell-cycle distribution,cells,DNA-content flow cytometry,Figure 2,,,h,,Workbook contains visually extracted phase percentages.
+qrtpcr_figure_3_c_flo_1,qRT-PCR,Figure 3C PUMA/NOXA expression,cell RNA,qRT-PCR,Figure 3,C,72,h,,Normalized fold expression.
+qrtpcr_figure_3_d_oe33,qRT-PCR,Figure 3D PUMA/NOXA expression,cell RNA,qRT-PCR,Figure 3,D,72,h,,Normalized fold expression.
+qrtpcr_figure_6_b_oe33_xenograft,qRT-PCR,Figure 6B PUMA/NOXA expression,xenograft RNA,qRT-PCR,Figure 6,B,21,d,,Normalized fold expression.
+qrtpcr_figure_6_c_oe33_xenograft,qRT-PCR,Figure 6C PUMA/NOXA expression,xenograft RNA,qRT-PCR,Figure 6,C,21,d,,Normalized fold expression.
+tumor_volume_fig4_a_flo_1,caliper tumor volume,Figure 4A FLO-1 xenograft efficacy,xenograft tumor,caliper tumor volume,Figure 4,A,21,d,,every alternate day
+tumor_volume_fig4_b_oe33,caliper tumor volume,Figure 4B OE33 xenograft efficacy,xenograft tumor,caliper tumor volume,Figure 4,B,21,d,,every alternate day
+wb_fig3_c_flo_1,Western blot,Figure 3C apoptotic and AURKA markers,whole-cell lysate,published immunoblot; supplied visual annotation,Figure 3,C,72,h,,24 h drug exposure followed by 48 h drug-free recovery.
+wb_fig3_d_oe33,Western blot,Figure 3D apoptotic and AURKA markers,whole-cell lysate,published immunoblot; supplied visual annotation,Figure 3,D,72,h,,24 h drug exposure followed by 48 h drug-free recovery.

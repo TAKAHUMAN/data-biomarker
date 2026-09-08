@@ -1,0 +1,7 @@
+assay_key,assay_type,assay_name,sample_type,measurement_platform,figure,panel,reported_time,reported_time_unit,replicate_count,notes
+facs_polyploidy,Flow cytometry,Figures 2-3 polyploidy,cells,propidium iodide DNA-content flow cytometry,Figures 2-3,,72,h,3,Percentage of cells with >4N DNA content after 72 h.
+mtt_viability,MTT viability,Figure 1 total viable cell count,cells,MTT assay,Figure 1,,72,h,3,Dose-response and EC50 after 72 h.
+qrtpcr_aurka,qRT-PCR,Figure 4 AURKA expression,cell RNA,TaqMan comparative Ct qRT-PCR,Figure 4,"A,C",,,3,Baseline expression; comparison denominator varies by panel.
+qrtpcr_aurkb,qRT-PCR,Figure 4 AURKB expression,cell RNA,TaqMan comparative Ct qRT-PCR,Figure 4,"B,C",,,3,Baseline expression; comparison denominator varies by panel.
+western_aurka,Western blot,Figure 5 AURKA protein,whole-cell lysate,published immunoblot; visual annotation,Figure 5,"A,C",,,3,Qualitative band-presence annotation; no ROI densitometry.
+western_aurkb,Western blot,Figure 5 AURKB protein,whole-cell lysate,published immunoblot; visual annotation,Figure 5,"B,D",,,3,Qualitative band-presence annotation; no ROI densitometry.

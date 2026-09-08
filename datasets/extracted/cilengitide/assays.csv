@@ -1,0 +1,3 @@
+assay_key,assay_type,assay_name,sample_type,measurement_platform,figure,panel,reported_time,reported_time_unit,replicate_count,notes
+dynamic_fdg_pet,Dynamic PET kinetic modeling,Longitudinal dynamic 18F-FDG PET two-tissue compartment model,right hind-leg bone metastasis,ECAT EXACT HR+; 60-minute dynamic acquisition; SVM-assisted compartment fitting,Figure 2,a-f,,d,,Parameters VB and k1-k4; 28 frames after 1.80-5.67 MBq intravenous 18F-FDG.
+humanht12_gene_expression,Gene expression microarray,Day-55 differential gene expression,excised bone-metastasis tissue,Illumina HumanHT-12 v4 BeadChip,,,55,d,,Five treated and three control samples; raw intensities log2 transformed; Table 1 is an incomplete biologically selected subset of the top 500 p<0.01 genes.

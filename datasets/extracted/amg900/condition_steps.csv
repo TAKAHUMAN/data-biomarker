@@ -1,0 +1,51 @@
+condition_step_key,condition_key,perturbation_name,dose_value,dose_unit,start_time,end_time,time_unit,sequence_index,notes
+93t449_in_vitro__amg_900_1000_0_nm_72h__step_1,93t449_in_vitro__amg_900_1000_0_nm_72h,AMG 900,1000.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_100_0_nm_72h__step_1,93t449_in_vitro__amg_900_100_0_nm_72h,AMG 900,100.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_10_0_nm_72h__step_1,93t449_in_vitro__amg_900_10_0_nm_72h,AMG 900,10.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_1_0_nm_72h__step_1,93t449_in_vitro__amg_900_1_0_nm_72h,AMG 900,1.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_25_0_nm_72h__step_1,93t449_in_vitro__amg_900_25_0_nm_72h,AMG 900,25.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_500_0_nm_72h__step_1,93t449_in_vitro__amg_900_500_0_nm_72h,AMG 900,500.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_5_0_nm_72h__step_1,93t449_in_vitro__amg_900_5_0_nm_72h,AMG 900,5.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__amg_900_dose_response_0_1000_nm_72h__step_1,93t449_in_vitro__amg_900_dose_response_0_1000_nm_72h,AMG 900,,nM,0.0,72.0,h,1,Concentration-response condition used to estimate EC50; individual dose is not applicable.
+93t449_in_vitro__azd1152_hqpa_1000_0_nm_72h__step_1,93t449_in_vitro__azd1152_hqpa_1000_0_nm_72h,AZD1152-HQPA,1000.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__azd1152_hqpa_100_0_nm_72h__step_1,93t449_in_vitro__azd1152_hqpa_100_0_nm_72h,AZD1152-HQPA,100.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__azd1152_hqpa_500_0_nm_72h__step_1,93t449_in_vitro__azd1152_hqpa_500_0_nm_72h,AZD1152-HQPA,500.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__azd1152_hqpa_dose_response_0_1000_nm_72h__step_1,93t449_in_vitro__azd1152_hqpa_dose_response_0_1000_nm_72h,AZD1152-HQPA,,nM,0.0,72.0,h,1,Concentration-response condition used to estimate EC50; individual dose is not applicable.
+93t449_in_vitro__dmso__step_1,93t449_in_vitro__dmso,DMSO,0.0,,0.0,72.0,h,1,Baseline control.
+93t449_in_vitro__mk_5108_1000_0_nm_72h__step_1,93t449_in_vitro__mk_5108_1000_0_nm_72h,MK-5108,1000.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__mk_5108_500_0_nm_72h__step_1,93t449_in_vitro__mk_5108_500_0_nm_72h,MK-5108,500.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+93t449_in_vitro__mk_5108_dose_response_0_1000_nm_72h__step_1,93t449_in_vitro__mk_5108_dose_response_0_1000_nm_72h,MK-5108,,nM,0.0,72.0,h,1,Concentration-response condition used to estimate EC50; individual dose is not applicable.
+93t449_in_vitro__untreated__step_1,93t449_in_vitro__untreated,Untreated,0.0,,,,,1,Untreated baseline expression.
+hct_116_in_vitro__amg_900_0_5_nm_72h__step_1,hct_116_in_vitro__amg_900_0_5_nm_72h,AMG 900,0.5,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+hct_116_in_vitro__amg_900_2_0_nm_72h__step_1,hct_116_in_vitro__amg_900_2_0_nm_72h,AMG 900,2.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+hct_116_in_vitro__amg_900_5_0_nm_72h__step_1,hct_116_in_vitro__amg_900_5_0_nm_72h,AMG 900,5.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+hct_116_in_vitro__amg_900_dose_response_0_1000_nm_72h__step_1,hct_116_in_vitro__amg_900_dose_response_0_1000_nm_72h,AMG 900,,nM,0.0,72.0,h,1,Concentration-response condition used to estimate EC50; individual dose is not applicable.
+hct_116_in_vitro__azd1152_hqpa_50_0_nm_72h__step_1,hct_116_in_vitro__azd1152_hqpa_50_0_nm_72h,AZD1152-HQPA,50.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+hct_116_in_vitro__azd1152_hqpa_dose_response_0_1000_nm_72h__step_1,hct_116_in_vitro__azd1152_hqpa_dose_response_0_1000_nm_72h,AZD1152-HQPA,,nM,0.0,72.0,h,1,Concentration-response condition used to estimate EC50; individual dose is not applicable.
+hct_116_in_vitro__mk_5108_dose_response_0_1000_nm_72h__step_1,hct_116_in_vitro__mk_5108_dose_response_0_1000_nm_72h,MK-5108,,nM,0.0,72.0,h,1,Concentration-response condition used to estimate EC50; individual dose is not applicable.
+hct_116_in_vitro__untreated__step_1,hct_116_in_vitro__untreated,Untreated,0.0,,,,,1,Untreated baseline expression.
+sw_872_in_vitro__amg_900_1000_0_nm_72h__step_1,sw_872_in_vitro__amg_900_1000_0_nm_72h,AMG 900,1000.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_100_0_nm_72h__step_1,sw_872_in_vitro__amg_900_100_0_nm_72h,AMG 900,100.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_10_0_nm_72h__step_1,sw_872_in_vitro__amg_900_10_0_nm_72h,AMG 900,10.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_1_0_nm_72h__step_1,sw_872_in_vitro__amg_900_1_0_nm_72h,AMG 900,1.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_250_0_nm_72h__step_1,sw_872_in_vitro__amg_900_250_0_nm_72h,AMG 900,250.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_25_0_nm_72h__step_1,sw_872_in_vitro__amg_900_25_0_nm_72h,AMG 900,25.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_2_0_nm_72h__step_1,sw_872_in_vitro__amg_900_2_0_nm_72h,AMG 900,2.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_50_0_nm_72h__step_1,sw_872_in_vitro__amg_900_50_0_nm_72h,AMG 900,50.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_5_0_nm_72h__step_1,sw_872_in_vitro__amg_900_5_0_nm_72h,AMG 900,5.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__amg_900_dose_response_0_1000_nm_72h__step_1,sw_872_in_vitro__amg_900_dose_response_0_1000_nm_72h,AMG 900,,nM,0.0,72.0,h,1,Concentration-response condition used to estimate EC50; individual dose is not applicable.
+sw_872_in_vitro__azd1152_hqpa_1000_0_nm_72h__step_1,sw_872_in_vitro__azd1152_hqpa_1000_0_nm_72h,AZD1152-HQPA,1000.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_100_0_nm_72h__step_1,sw_872_in_vitro__azd1152_hqpa_100_0_nm_72h,AZD1152-HQPA,100.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_10_0_nm_72h__step_1,sw_872_in_vitro__azd1152_hqpa_10_0_nm_72h,AZD1152-HQPA,10.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_250_0_nm_72h__step_1,sw_872_in_vitro__azd1152_hqpa_250_0_nm_72h,AZD1152-HQPA,250.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_25_0_nm_72h__step_1,sw_872_in_vitro__azd1152_hqpa_25_0_nm_72h,AZD1152-HQPA,25.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_500_0_nm_72h__step_1,sw_872_in_vitro__azd1152_hqpa_500_0_nm_72h,AZD1152-HQPA,500.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_50_0_nm_72h__step_1,sw_872_in_vitro__azd1152_hqpa_50_0_nm_72h,AZD1152-HQPA,50.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__azd1152_hqpa_dose_response_0_1000_nm_72h__step_1,sw_872_in_vitro__azd1152_hqpa_dose_response_0_1000_nm_72h,AZD1152-HQPA,,nM,0.0,72.0,h,1,Concentration-response condition used to estimate EC50; individual dose is not applicable.
+sw_872_in_vitro__dmso__step_1,sw_872_in_vitro__dmso,DMSO,0.0,,0.0,72.0,h,1,Baseline control.
+sw_872_in_vitro__mk_5108_1000_0_nm_72h__step_1,sw_872_in_vitro__mk_5108_1000_0_nm_72h,MK-5108,1000.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__mk_5108_250_0_nm_72h__step_1,sw_872_in_vitro__mk_5108_250_0_nm_72h,MK-5108,250.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__mk_5108_500_0_nm_72h__step_1,sw_872_in_vitro__mk_5108_500_0_nm_72h,MK-5108,500.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__mk_5108_50_0_nm_72h__step_1,sw_872_in_vitro__mk_5108_50_0_nm_72h,MK-5108,50.0,nM,0.0,72.0,h,1,Single-agent in vitro exposure.
+sw_872_in_vitro__mk_5108_dose_response_0_1000_nm_72h__step_1,sw_872_in_vitro__mk_5108_dose_response_0_1000_nm_72h,MK-5108,,nM,0.0,72.0,h,1,Concentration-response condition used to estimate EC50; individual dose is not applicable.
+sw_872_in_vitro__untreated__step_1,sw_872_in_vitro__untreated,Untreated,0.0,,,,,1,Untreated baseline expression.

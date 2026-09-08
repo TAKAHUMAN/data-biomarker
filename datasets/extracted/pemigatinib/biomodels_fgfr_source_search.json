@@ -1,0 +1,113 @@
+{
+  "search_id": "local_biomodels_fgfr_pemigatinib_2026-09-03",
+  "scope": {
+    "corpus": "Biomodels/ (6,464 local XML/SBML/ODE/BNGL/Matlab files searched by content)",
+    "supplementary_inventory": "sources/",
+    "query_families": ["FGFR and FGFR1-4", "fibroblast growth factor receptor", "FGF/FGF1/FGF2/FGF7/FGF10", "pFGFR/active FGFR", "pemigatinib/INCB054828", "FGFR inhibition", "amplification/overexpression/mutation/fusion/rearrangement/translocation", "FGFR3-TACC3/TACC3"],
+    "exact_drug_hits": [],
+    "exact_alteration_hits": []
+  },
+  "real_mechanistic_hits": [
+    {
+      "accession": "BIOMD0000000883",
+      "title": "Giani2019 - Computational modeling to predict MAP3K8 effects as mediator of resistance to vemurafenib in thyroid cancer stem cells",
+      "classification": "A. DIRECT_QUANTITATIVE_FGFR_MODEL",
+      "fgfr_isoforms": "generic FGFR only; no FGFR1/2/3 identifier or UniProt annotation",
+      "altered_receptor": "WT/generic only; no FGFR alteration",
+      "explicit_receptor_states": ["proFGFR (initial 5)", "freeFGFR (initial 10)", "pFGFR (initial 0)"],
+      "ligand_binding_explicit": true,
+      "receptor_phosphorylation_explicit": true,
+      "downstream_ras_mapk": "explicit pFGFR -> Grb2Active -> Sos_Active -> Ras_Active -> Raf1 -> Mek -> Erk",
+      "downstream_pi3k_akt": "explicit but indirect: Ras_Active -> PI3K -> Akt",
+      "drug_or_fgfr_inhibitor": "none",
+      "kinetic_laws": true,
+      "useful_numerical_parameters": true,
+      "source_equations": [
+        {"reaction": "FGF_Binding_Unbinding__forward", "source_equation": "v = compartment_0 * k1 * FGF * freeFGFR", "parameters": {"k1": 0.1}},
+        {"reaction": "FGF_Binding_Unbinding__backward", "source_equation": "v = compartment_0 * k1 * pFGFR", "parameters": {"k1": 0.1}},
+        {"reaction": "FGFR_Production", "source_equation": "v = compartment_0 * k1 * proFGFR", "parameters": {"k1": 0.1}},
+        {"reaction": "FGFR_Degradation_Free", "source_equation": "v = compartment_0 * k1 * freeFGFR", "parameters": {"k1": 0.1}},
+        {"reaction": "FGFR_Degradation", "source_equation": "v = compartment_0 * k1 * pFGFR", "parameters": {"k1": 0.1}},
+        {"reaction": "Grb2_Activation_pFGFR", "source_equation": "v = compartment_0 * HMM_Modified(Kcat, km, pFGFR, Grb2Inactive); HMM_Modified = Kcat*pFGFR*Grb2Inactive/(km + Grb2Inactive)", "parameters": {"Kcat": 0.1, "km": 0.1}},
+        {"reaction": "Sos_Activation_Grb2", "source_equation": "v = compartment_0 * HMM_Modified(Kcat, km, Grb2Active, Sos_Inactive)", "parameters": {"Kcat": 0.1, "km": 0.1}},
+        {"reaction": "Ras_Activation", "source_equation": "v = compartment_0 * HMM_Modified(Kcat, km, Sos_Active, Ras_Inactive)", "parameters": {"Kcat": 0.1, "km": 0.1}},
+        {"reaction": "PI3K_Activation_Ras", "source_equation": "v = compartment_0 * HMM_Modified(Kcat, km, Ras_Active, PI3K_Inactive)", "parameters": {"Kcat": 0.1, "km": 0.1}},
+        {"reaction": "Akt_Activation_PI3K", "source_equation": "v = compartment_0 * HMM_Modified(Kcat, km, PI3K_Active, Akt_Inactive)", "parameters": {"Kcat": 0.1, "km": 0.1}}
+      ],
+      "possible_model_use": "Generic ligand-driven FGFR abundance/activation/degradation and RAS/PI3K coupling precedent only. Do not treat its values as FGFR1/2/3-specific or pemigatinib parameters."
+    },
+    {
+      "accession": "BIOMD0000000664",
+      "title": "Muller2008 - Simplified MAPK activation Dynamics (Model B)",
+      "classification": "B. PARTIAL_FGFR_SOURCE",
+      "fgfr_isoforms": "generic FGFR only",
+      "altered_receptor": "none",
+      "explicit_receptor_states": ["FGFR stimulus/activity state"],
+      "ligand_binding_explicit": false,
+      "receptor_phosphorylation_explicit": false,
+      "downstream_ras_mapk": "explicit FGFR-driven C-Raf and B-Raf activation; MAPK network explicit",
+      "downstream_pi3k_akt": false,
+      "drug_or_fgfr_inhibitor": "none",
+      "kinetic_laws": true,
+      "useful_numerical_parameters": true,
+      "source_equations": [
+        {"reaction": "FGFR_Activation", "source_equation": "v = Compartment * a1 * g1/(b1 + g1)", "parameters": {"a1": 10, "b1": 10, "g1": 0}},
+        {"reaction": "FGFR_Degradation", "source_equation": "v = Compartment * d1 * FGFR", "parameters": {"d1": 0.2}},
+        {"reaction": "C_Raf_Activation_1", "source_equation": "v = Compartment * f13 * (E - C_Raf - C_Raf_inactive) * FGFR", "parameters": {"f13": 0.6, "E": 10}},
+        {"reaction": "B_Raf_Activation_1", "source_equation": "v = Compartment * f14 * FGFR", "parameters": {"f14": 0.1}}
+      ],
+      "possible_model_use": "FGFR-to-RAF/MAPK equation-form precedent only; no receptor biophysics, isoform, alteration, or drug information."
+    },
+    {
+      "accession": "MODEL1203220000",
+      "title": "Mol2013 - Leishmania macrophage signaling network",
+      "classification": "B. PARTIAL_FGFR_SOURCE",
+      "fgfr_isoforms": "generic FGFR only",
+      "altered_receptor": "none",
+      "explicit_receptor_states": ["FGF_FGFR", "FGF_FGFR_FGF_FGFR"],
+      "ligand_binding_explicit": "partial; model does not expose free FGFR as a separate species",
+      "receptor_phosphorylation_explicit": false,
+      "downstream_ras_mapk": "dimer drives GRB-2; model contains Ras/Raf/MAPK network",
+      "downstream_pi3k_akt": "PI3K is present but no direct FGFR-to-PI3K reaction identified",
+      "drug_or_fgfr_inhibitor": "none",
+      "kinetic_laws": true,
+      "useful_numerical_parameters": true,
+      "source_equations": [
+        {"reaction": "FGF -> FGF_FGFR", "source_equation": "v = Kf45 * FGF", "parameters": {"Kf45": 0.78}},
+        {"reaction": "FGF_FGFR -> FGF_FGFR_FGF_FGFR", "source_equation": "v = Vm46*FGF_FGFR/(Km46 + FGF_FGFR)", "parameters": {"Vm46": 0.6, "Km46": 3.27}},
+        {"reaction": "FGF_FGFR_FGF_FGFR -> GRB-2", "source_equation": "v = Vm47*FGF_FGFR_FGF_FGFR/(Km47 + FGF_FGFR_FGF_FGFR)", "parameters": {"Vm47": 0.01, "Km47": 0.06}}
+      ],
+      "possible_model_use": "Only a generic ligand-complex/dimer/GRB2 topology and equation-form precedent; context is not suitable for direct parameter transfer."
+    }
+  ],
+  "topology_only_hits": [
+    {"accession": "MODEL2106070001", "title": "Montagud2022 - Prostate cancer Boolean model", "classification": "D. TOPOLOGY_ONLY", "isoforms": ["FGFR3"], "content": "Boolean FGFR3 node with FGF positive input and FRS2/PKC negative inputs; no kinetic law."},
+    {"accession": "MODEL2212220001", "title": "Aghakhani2022 - Human rheumatoid arthritis synovial fibroblast model", "classification": "D. TOPOLOGY_ONLY", "isoforms": ["FGFR1"], "content": "Qualitative FGF1/FGFR1 complex connected to SHP2/GRB2, RAC/NRAS, SHC2, and GAB2; no kinetic law."},
+    {"accession": "MODEL2302140001", "title": "Wu2010 - Rheumatoid arthritis map layout updated", "classification": "D. TOPOLOGY_ONLY", "isoforms": ["FGFR1"], "content": "CellDesigner FGF1/FGFR1 complex/map annotation; no quantitative FGFR reaction found."},
+    {"accession": "MODEL2408030001", "title": "Zerrouk2024 - Rheumatoid arthritis multi-cellular model", "classification": "D. TOPOLOGY_ONLY", "isoforms": ["FGFR4", "FGFR1 annotations"], "content": "Qualitative FGF1/FGFR4 complex linked to SHP2/GRB2 and GAB2; no kinetic law."}
+  ],
+  "name_or_annotation_only_hits": {
+    "classification": "E. NAME_OR_ANNOTATION_ONLY",
+    "models": ["MODEL1402200000", "MODEL1402200001", "MODEL1402200002", "MODEL1402200003", "MODEL1509220028", "MODEL1509220029", "MODEL1509220030", "MODEL1509220031", "MODEL1509220032", "MODEL2007210001", "MODEL4132046015"],
+    "finding": "FGFR1-4 occur as genome-scale gene products, metabolite/reaction annotations, or non-FGFR model annotations. No receptor states, FGFR signaling reactions, or usable FGFR kinetic laws were present."
+  },
+  "answers": {
+    "isoform_specific_representations": {
+      "FGFR1": "only qualitative/topology or annotation representations; no explicit quantitative receptor model",
+      "FGFR2": "annotation-only representation; no useful receptor/signaling model",
+      "FGFR3": "qualitative/topology-only representation; no explicit quantitative receptor model",
+      "conclusion": "No. The local corpus does not justify separate FGFR1, FGFR2, and FGFR3 kinetic representations from local BioModels alone. Generic FGFR kinetics must not be relabeled as isoform-specific."
+    },
+    "alteration_overlays": {
+      "FGFR_amplification_overexpression": "PARTIAL_SOURCE_AVAILABLE: BIOMD0000000883 has generic proFGFR -> freeFGFR production and free/pFGFR degradation, but no FGFR amplification/overexpression condition or calibrated overlay.",
+      "FGFR_activating_mutation": "NO_LOCAL_BIOMODELS_SOURCE_FOUND",
+      "FGFR_fusion_rearrangement": "NO_LOCAL_BIOMODELS_SOURCE_FOUND"
+    },
+    "pemigatinib": {
+      "pemigatinib_or_INCB054828": "NO_LOCAL_BIOMODELS_SOURCE_FOUND",
+      "other_explicit_FGFR_inhibitor": "NO_LOCAL_BIOMODELS_SOURCE_FOUND",
+      "generic_FGFR_drug_inhibition_equation": "NO_LOCAL_BIOMODELS_SOURCE_FOUND",
+      "pemigatinib_numerical_parameters": "NO_LOCAL_BIOMODELS_SOURCE_FOUND"
+    }
+  }
+}

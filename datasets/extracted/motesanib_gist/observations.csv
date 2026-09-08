@@ -1,0 +1,12 @@
+observation_key,assay_key,condition_key,value,unit,quality_class,uncertainty_type,uncertainty_value,notes
+obs_1,kit_autophosphorylation,kit_wt_motesanib,19,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Motesanib vs KIT WT
+obs_2,kit_autophosphorylation,kit_wt_imatinib,120,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Imatinib vs KIT WT
+obs_3,kit_autophosphorylation,kit_delta552_559_motesanib,8,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Motesanib vs KIT Delta552-559
+obs_4,kit_autophosphorylation,kit_delta552_559_imatinib,20,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Imatinib vs KIT Delta552-559
+obs_5,kit_autophosphorylation,kit_v560g_motesanib,5,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Motesanib vs KIT V560G
+obs_6,kit_autophosphorylation,kit_v560g_imatinib,11,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Imatinib vs KIT V560G
+obs_7,kit_autophosphorylation,kit_w557_k558del_motesanib,6,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Motesanib vs KIT W557_K558del
+obs_8,kit_autophosphorylation,kit_w557_k558del_imatinib,10,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Imatinib vs KIT W557_K558del
+obs_9,kit_autophosphorylation,kit_v654a_motesanib,380,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Motesanib vs KIT V654A
+obs_10,kit_autophosphorylation,kit_v654a_imatinib,1400,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Imatinib vs KIT V654A
+obs_11,kit_autophosphorylation,kit_y823d_motesanib,64,nM (IC50),QUANTITATIVE,,,Explicit from Table 2/3. Motesanib vs KIT Y823D

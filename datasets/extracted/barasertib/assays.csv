@@ -1,0 +1,7 @@
+assay_key,assay_type,assay_name,sample_type,measurement_platform,figure,panel,reported_time,reported_time_unit,replicate_count,notes
+ccle_myc_expression,Gene expression,CCLE cMYC expression association,cell-line expression cohort,CCLE expression data,Figure 2,A,,,,Source reports cohort means and association statistics.
+facs_ploidy,Flow cytometry,Table 2 DNA ploidy,cells,propidium iodide DNA-content flow cytometry,,,,h,,Direct Table 2 percentages at 24 or 48 h.
+mts_growth,MTS growth assay,Figure 1 barasertib-HQPA growth inhibition,cells,"CellTiter Aqueous One Solution MTS, absorbance 490 nm",Figure 1,A-C,120,h,,0-100 nM barasertib-HQPA for five days.
+myc_amplification_association,Genomic association,MYC amplification and sensitivity association,cell-line cohort,published amplification annotations and Fisher exact test,Figure 1,A-C,,,23,MYC-family amplification sources are cited in the paper.
+ph3_facs,Flow cytometry,Figure 3 phospho-histone H3 Ser10,cells,intracellular phospho-H3 Ser10 flow cytometry,Figure 3,A-C,24,h,,Paclitaxel and barasertib-HQPA were used at equal concentrations.
+xenograft_volume,Caliper tumor volume,Figure 4 H841 xenograft efficacy,xenograft tumor,digital caliper,Figure 4,A,,d,,Tumor volume measured three times weekly.

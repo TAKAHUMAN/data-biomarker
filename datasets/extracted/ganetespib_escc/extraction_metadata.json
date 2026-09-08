@@ -1,0 +1,22 @@
+{
+  "source_paper": {
+    "title": "Ganetespib (STA-9090) as HSP90 inhibitor in ESCC",
+    "dataset": "ESCC cell lines (KYSE-150, Eca-109, TE-1, TE-13) + CDX/PDX models"
+  },
+  "extraction_metadata": {
+    "extraction_date": "2026-09-08",
+    "total_observations": 54,
+    "figures_extracted": "2-6 (partial)",
+    "in_vitro_cell_lines": [
+      "KYSE-150",
+      "Eca-109",
+      "TE-1",
+      "TE-13",
+      "HEEC"
+    ],
+    "in_vivo_models": [
+      "CDX (KYSE-150)",
+      "PDX (patient-derived)"
+    ]
+  }
+}

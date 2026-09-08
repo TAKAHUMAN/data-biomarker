@@ -1,0 +1,223 @@
+observation_key,assay_key,condition_key,value,unit,quality_class,uncertainty_type,uncertainty_value,notes
+obs_1,fig1a_mtt,skov3_onc201_0_72h_fig1a,1.0,relative (1.0=control),QUANTITATIVE,,,
+obs_2,fig1a_mtt,skov3_onc201_0.01_72h_fig1a,1.0,relative (1.0=control),QUANTITATIVE,,,
+obs_3,fig1a_mtt,skov3_onc201_0.1_72h_fig1a,0.9,relative (1.0=control),QUANTITATIVE,,,
+obs_4,fig1a_mtt,skov3_onc201_1_72h_fig1a,0.8,relative (1.0=control),QUANTITATIVE,,,
+obs_5,fig1a_mtt,skov3_onc201_10_72h_fig1a,0.45,relative (1.0=control),QUANTITATIVE,,,
+obs_6,fig1a_mtt,skov3_onc201_100_72h_fig1a,0.18,relative (1.0=control),QUANTITATIVE,,,
+obs_7,fig1a_mtt,skov3_onc201_ic50_fig1a,5.2,uM,QUANTITATIVE,,,Explicit from figure.
+obs_8,fig1a_mtt,ovcar3_onc201_0_72h_fig1a,1.0,relative (1.0=control),QUANTITATIVE,,,
+obs_9,fig1a_mtt,ovcar3_onc201_0.01_72h_fig1a,1.0,relative (1.0=control),QUANTITATIVE,,,
+obs_10,fig1a_mtt,ovcar3_onc201_0.1_72h_fig1a,0.9,relative (1.0=control),QUANTITATIVE,,,
+obs_11,fig1a_mtt,ovcar3_onc201_1_72h_fig1a,0.85,relative (1.0=control),QUANTITATIVE,,,
+obs_12,fig1a_mtt,ovcar3_onc201_10_72h_fig1a,0.52,relative (1.0=control),QUANTITATIVE,,,
+obs_13,fig1a_mtt,ovcar3_onc201_100_72h_fig1a,0.32,relative (1.0=control),QUANTITATIVE,,,
+obs_14,fig1a_mtt,ovcar3_onc201_ic50_fig1a,4.8,uM,QUANTITATIVE,,,Explicit from figure.
+obs_15,fig1a_mtt,igrov_1_onc201_0_72h_fig1a,1.0,relative (1.0=control),QUANTITATIVE,,,
+obs_16,fig1a_mtt,igrov_1_onc201_0.01_72h_fig1a,1.05,relative (1.0=control),QUANTITATIVE,,,
+obs_17,fig1a_mtt,igrov_1_onc201_0.1_72h_fig1a,0.95,relative (1.0=control),QUANTITATIVE,,,
+obs_18,fig1a_mtt,igrov_1_onc201_1_72h_fig1a,0.88,relative (1.0=control),QUANTITATIVE,,,
+obs_19,fig1a_mtt,igrov_1_onc201_10_72h_fig1a,0.55,relative (1.0=control),QUANTITATIVE,,,
+obs_20,fig1a_mtt,igrov_1_onc201_100_72h_fig1a,0.3,relative (1.0=control),QUANTITATIVE,,,
+obs_21,fig1a_mtt,igrov_1_onc201_ic50_fig1a,5.1,uM,QUANTITATIVE,,,Explicit from figure.
+obs_22,fig1a_mtt,ovcar5_onc201_0_72h_fig1a,1.0,relative (1.0=control),QUANTITATIVE,,,
+obs_23,fig1a_mtt,ovcar5_onc201_0.01_72h_fig1a,1.0,relative (1.0=control),QUANTITATIVE,,,
+obs_24,fig1a_mtt,ovcar5_onc201_0.1_72h_fig1a,0.9,relative (1.0=control),QUANTITATIVE,,,
+obs_25,fig1a_mtt,ovcar5_onc201_1_72h_fig1a,0.85,relative (1.0=control),QUANTITATIVE,,,
+obs_26,fig1a_mtt,ovcar5_onc201_10_72h_fig1a,0.52,relative (1.0=control),QUANTITATIVE,,,
+obs_27,fig1a_mtt,ovcar5_onc201_100_72h_fig1a,0.3,relative (1.0=control),QUANTITATIVE,,,
+obs_28,fig1a_mtt,ovcar5_onc201_ic50_fig1a,4.9,uM,QUANTITATIVE,,,Explicit from figure.
+obs_29,fig1b_colony,ovcar5_onc201_0_fig1b,460,colony count,QUANTITATIVE,,,
+obs_30,fig1b_colony,ovcar5_onc201_1_fig1b,390,colony count,QUANTITATIVE,,,Visual est.
+obs_31,fig1b_colony,ovcar5_onc201_1_fig1b,4.8,% reduction,QUANTITATIVE,,,Explicit from text.
+obs_32,fig1b_colony,ovcar5_onc201_10_fig1b,170,colony count,QUANTITATIVE,,,Visual est.
+obs_33,fig1b_colony,ovcar5_onc201_10_fig1b,58.3,% reduction,QUANTITATIVE,,,Explicit from text.
+obs_34,fig1b_colony,ovcar5_onc201_100_fig1b,70,colony count,QUANTITATIVE,,,Visual est.
+obs_35,fig1b_colony,ovcar5_onc201_100_fig1b,79.75,% reduction,QUANTITATIVE,,,Explicit from text.
+obs_36,fig1b_colony,skov3_onc201_0_fig1b,420,colony count,QUANTITATIVE,,,
+obs_37,fig1b_colony,skov3_onc201_1_fig1b,330,colony count,QUANTITATIVE,,,Visual est.
+obs_38,fig1b_colony,skov3_onc201_1_fig1b,22.2,% reduction,QUANTITATIVE,,,Explicit from text.
+obs_39,fig1b_colony,skov3_onc201_10_fig1b,110,colony count,QUANTITATIVE,,,Visual est.
+obs_40,fig1b_colony,skov3_onc201_10_fig1b,57.5,% reduction,QUANTITATIVE,,,Explicit from text.
+obs_41,fig1b_colony,skov3_onc201_100_fig1b,50,colony count,QUANTITATIVE,,,Visual est.
+obs_42,fig1b_colony,skov3_onc201_100_fig1b,86.1,% reduction,QUANTITATIVE,,,Explicit from text.
+obs_43,fig2_cellcycle,skov3_onc201_0_36h_fig2,56.89,% G1 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_44,fig2_cellcycle,skov3_onc201_0_36h_fig2,21.2,% S phase,QUANTITATIVE,,,Explicit from histograms.
+obs_45,fig2_cellcycle,skov3_onc201_0_36h_fig2,21.91,% G2 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_46,fig2_cellcycle,skov3_onc201_1_36h_fig2,64.56,% G1 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_47,fig2_cellcycle,skov3_onc201_1_36h_fig2,26.41,% S phase,QUANTITATIVE,,,Explicit from histograms.
+obs_48,fig2_cellcycle,skov3_onc201_1_36h_fig2,17.85,% G2 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_49,fig2_cellcycle,skov3_onc201_10_36h_fig2,66.16,% G1 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_50,fig2_cellcycle,skov3_onc201_10_36h_fig2,15.55,% S phase,QUANTITATIVE,,,Explicit from histograms.
+obs_51,fig2_cellcycle,skov3_onc201_10_36h_fig2,18.29,% G2 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_52,fig2_cellcycle,skov3_onc201_100_36h_fig2,71.55,% G1 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_53,fig2_cellcycle,skov3_onc201_100_36h_fig2,13.93,% S phase,QUANTITATIVE,,,Explicit from histograms.
+obs_54,fig2_cellcycle,skov3_onc201_100_36h_fig2,14.52,% G2 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_55,fig2_cellcycle,ovcar5_onc201_0_36h_fig2,44.69,% G1 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_56,fig2_cellcycle,ovcar5_onc201_0_36h_fig2,25.41,% S phase,QUANTITATIVE,,,Explicit from histograms.
+obs_57,fig2_cellcycle,ovcar5_onc201_0_36h_fig2,26.41,% G2 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_58,fig2_cellcycle,ovcar5_onc201_1_36h_fig2,45.15,% G1 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_59,fig2_cellcycle,ovcar5_onc201_1_36h_fig2,22.56,% S phase,QUANTITATIVE,,,Explicit from histograms.
+obs_60,fig2_cellcycle,ovcar5_onc201_1_36h_fig2,32.21,% G2 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_61,fig2_cellcycle,ovcar5_onc201_10_36h_fig2,54.28,% G1 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_62,fig2_cellcycle,ovcar5_onc201_10_36h_fig2,16.92,% S phase,QUANTITATIVE,,,Explicit from histograms.
+obs_63,fig2_cellcycle,ovcar5_onc201_10_36h_fig2,28.79,% G2 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_64,fig2_cellcycle,ovcar5_onc201_100_36h_fig2,60.12,% G1 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_65,fig2_cellcycle,ovcar5_onc201_100_36h_fig2,15.61,% S phase,QUANTITATIVE,,,Explicit from histograms.
+obs_66,fig2_cellcycle,ovcar5_onc201_100_36h_fig2,24.26,% G2 phase,QUANTITATIVE,,,Explicit from histograms.
+obs_67,fig3a_annexin,ovcar5_onc201_0_30h_fig3a,6.61,% Annexin V+,QUANTITATIVE,,,Explicit from flow.
+obs_68,fig3a_annexin,skov3_onc201_0_30h_fig3a,6.68,% Annexin V+,QUANTITATIVE,,,Explicit from flow.
+obs_69,fig3a_annexin,ovcar5_onc201_1_30h_fig3a,5.81,% Annexin V+,QUANTITATIVE,,,Explicit from flow.
+obs_70,fig3a_annexin,skov3_onc201_1_30h_fig3a,6.75,% Annexin V+,QUANTITATIVE,,,Explicit from flow.
+obs_71,fig3a_annexin,ovcar5_onc201_10_30h_fig3a,12.22,% Annexin V+,QUANTITATIVE,,,Explicit from flow.
+obs_72,fig3a_annexin,skov3_onc201_10_30h_fig3a,8.67,% Annexin V+,QUANTITATIVE,,,Explicit from flow.
+obs_73,fig3a_annexin,ovcar5_onc201_100_30h_fig3a,19.15,% Annexin V+,QUANTITATIVE,,,Explicit from flow.
+obs_74,fig3a_annexin,skov3_onc201_100_30h_fig3a,16.12,% Annexin V+,QUANTITATIVE,,,Explicit from flow.
+obs_75,fig1c_protein_wb,ovcar5_onc201_0_24h_fig1c,1.0,relative protein (1.0=control),QUANTITATIVE,,,"DR5, visual est. from bar chart"
+obs_76,fig1c_protein_wb,ovcar5_onc201_1_24h_fig1c,1.3,relative protein (1.0=control),QUANTITATIVE,,,"DR5, visual est. from bar chart"
+obs_77,fig1c_protein_wb,ovcar5_onc201_10_24h_fig1c,1.7,relative protein (1.0=control),QUANTITATIVE,,,"DR5, visual est. from bar chart"
+obs_78,fig1c_protein_wb,ovcar5_onc201_100_24h_fig1c,2.35,relative protein (1.0=control),QUANTITATIVE,,,"DR5, visual est. from bar chart"
+obs_79,fig1c_protein_wb,ovcar5_onc201_0_24h_fig1c,1.0,relative protein (1.0=control),QUANTITATIVE,,,"DRD2, visual est. from bar chart"
+obs_80,fig1c_protein_wb,ovcar5_onc201_1_24h_fig1c,0.75,relative protein (1.0=control),QUANTITATIVE,,,"DRD2, visual est. from bar chart"
+obs_81,fig1c_protein_wb,ovcar5_onc201_10_24h_fig1c,0.4,relative protein (1.0=control),QUANTITATIVE,,,"DRD2, visual est. from bar chart"
+obs_82,fig1c_protein_wb,ovcar5_onc201_100_24h_fig1c,0.35,relative protein (1.0=control),QUANTITATIVE,,,"DRD2, visual est. from bar chart"
+obs_83,fig1c_protein_wb,ovcar5_onc201_0_24h_fig1c,1.0,relative protein (1.0=control),QUANTITATIVE,,,"DRD5, visual est. from bar chart"
+obs_84,fig1c_protein_wb,ovcar5_onc201_1_24h_fig1c,0.85,relative protein (1.0=control),QUANTITATIVE,,,"DRD5, visual est. from bar chart"
+obs_85,fig1c_protein_wb,ovcar5_onc201_10_24h_fig1c,0.75,relative protein (1.0=control),QUANTITATIVE,,,"DRD5, visual est. from bar chart"
+obs_86,fig1c_protein_wb,ovcar5_onc201_100_24h_fig1c,0.55,relative protein (1.0=control),QUANTITATIVE,,,"DRD5, visual est. from bar chart"
+obs_87,fig1c_protein_wb,skov3_onc201_0_24h_fig1c,1.0,relative protein (1.0=control),QUANTITATIVE,,,"DR5, visual est. from bar chart"
+obs_88,fig1c_protein_wb,skov3_onc201_1_24h_fig1c,1.5,relative protein (1.0=control),QUANTITATIVE,,,"DR5, visual est. from bar chart"
+obs_89,fig1c_protein_wb,skov3_onc201_10_24h_fig1c,1.7,relative protein (1.0=control),QUANTITATIVE,,,"DR5, visual est. from bar chart"
+obs_90,fig1c_protein_wb,skov3_onc201_100_24h_fig1c,1.9,relative protein (1.0=control),QUANTITATIVE,,,"DR5, visual est. from bar chart"
+obs_91,fig1c_protein_wb,skov3_onc201_0_24h_fig1c,1.0,relative protein (1.0=control),QUANTITATIVE,,,"DRD2, visual est. from bar chart"
+obs_92,fig1c_protein_wb,skov3_onc201_1_24h_fig1c,0.85,relative protein (1.0=control),QUANTITATIVE,,,"DRD2, visual est. from bar chart"
+obs_93,fig1c_protein_wb,skov3_onc201_10_24h_fig1c,0.6,relative protein (1.0=control),QUANTITATIVE,,,"DRD2, visual est. from bar chart"
+obs_94,fig1c_protein_wb,skov3_onc201_100_24h_fig1c,0.3,relative protein (1.0=control),QUANTITATIVE,,,"DRD2, visual est. from bar chart"
+obs_95,fig1c_protein_wb,skov3_onc201_0_24h_fig1c,1.0,relative protein (1.0=control),QUANTITATIVE,,,"DRD5, visual est. from bar chart"
+obs_96,fig1c_protein_wb,skov3_onc201_1_24h_fig1c,0.8,relative protein (1.0=control),QUANTITATIVE,,,"DRD5, visual est. from bar chart"
+obs_97,fig1c_protein_wb,skov3_onc201_10_24h_fig1c,0.65,relative protein (1.0=control),QUANTITATIVE,,,"DRD5, visual est. from bar chart"
+obs_98,fig1c_protein_wb,skov3_onc201_100_24h_fig1c,0.35,relative protein (1.0=control),QUANTITATIVE,,,"DRD5, visual est. from bar chart"
+obs_99,fig3c_caspase,ovcar5_onc201_0_fig3c,1.0,relative (1.0=control),QUANTITATIVE,,,"Caspase-3, visual est."
+obs_100,fig3c_caspase,ovcar5_onc201_1_fig3c,1.0,relative (1.0=control),QUANTITATIVE,,,"Caspase-3, visual est."
+obs_101,fig3c_caspase,ovcar5_onc201_10_fig3c,1.3,relative (1.0=control),QUANTITATIVE,,,"Caspase-3, visual est."
+obs_102,fig3c_caspase,ovcar5_onc201_100_fig3c,2.6,relative (1.0=control),QUANTITATIVE,,,"Caspase-3, visual est."
+obs_103,fig3c_caspase,ovcar5_onc201_0_fig3c,1.0,relative (1.0=control),QUANTITATIVE,,,"Caspase-8, visual est."
+obs_104,fig3c_caspase,ovcar5_onc201_1_fig3c,1.05,relative (1.0=control),QUANTITATIVE,,,"Caspase-8, visual est."
+obs_105,fig3c_caspase,ovcar5_onc201_10_fig3c,1.15,relative (1.0=control),QUANTITATIVE,,,"Caspase-8, visual est."
+obs_106,fig3c_caspase,ovcar5_onc201_100_fig3c,1.25,relative (1.0=control),QUANTITATIVE,,,"Caspase-8, visual est."
+obs_107,fig3c_caspase,ovcar5_onc201_0_fig3c,1.0,relative (1.0=control),QUANTITATIVE,,,"Caspase-9, visual est."
+obs_108,fig3c_caspase,ovcar5_onc201_1_fig3c,1.1,relative (1.0=control),QUANTITATIVE,,,"Caspase-9, visual est."
+obs_109,fig3c_caspase,ovcar5_onc201_10_fig3c,1.15,relative (1.0=control),QUANTITATIVE,,,"Caspase-9, visual est."
+obs_110,fig3c_caspase,ovcar5_onc201_100_fig3c,1.6,relative (1.0=control),QUANTITATIVE,,,"Caspase-9, visual est."
+obs_111,fig3c_caspase,skov3_onc201_0_fig3c,1.0,relative (1.0=control),QUANTITATIVE,,,"Caspase-3, visual est."
+obs_112,fig3c_caspase,skov3_onc201_1_fig3c,1.05,relative (1.0=control),QUANTITATIVE,,,"Caspase-3, visual est."
+obs_113,fig3c_caspase,skov3_onc201_10_fig3c,2.0,relative (1.0=control),QUANTITATIVE,,,"Caspase-3, visual est."
+obs_114,fig3c_caspase,skov3_onc201_100_fig3c,2.5,relative (1.0=control),QUANTITATIVE,,,"Caspase-3, visual est."
+obs_115,fig3c_caspase,skov3_onc201_0_fig3c,1.0,relative (1.0=control),QUANTITATIVE,,,"Caspase-8, visual est."
+obs_116,fig3c_caspase,skov3_onc201_1_fig3c,1.3,relative (1.0=control),QUANTITATIVE,,,"Caspase-8, visual est."
+obs_117,fig3c_caspase,skov3_onc201_10_fig3c,1.25,relative (1.0=control),QUANTITATIVE,,,"Caspase-8, visual est."
+obs_118,fig3c_caspase,skov3_onc201_100_fig3c,1.5,relative (1.0=control),QUANTITATIVE,,,"Caspase-8, visual est."
+obs_119,fig3c_caspase,skov3_onc201_0_fig3c,1.0,relative (1.0=control),QUANTITATIVE,,,"Caspase-9, visual est."
+obs_120,fig3c_caspase,skov3_onc201_1_fig3c,1.0,relative (1.0=control),QUANTITATIVE,,,"Caspase-9, visual est."
+obs_121,fig3c_caspase,skov3_onc201_10_fig3c,1.4,relative (1.0=control),QUANTITATIVE,,,"Caspase-9, visual est."
+obs_122,fig3c_caspase,skov3_onc201_100_fig3c,1.5,relative (1.0=control),QUANTITATIVE,,,"Caspase-9, visual est."
+obs_123,fig5a_ros,ovcar5_onc201_0_fig5abc,1.0,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_124,fig5a_ros,ovcar5_onc201_1_fig5abc,1.05,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_125,fig5a_ros,ovcar5_onc201_10_fig5abc,1.35,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_126,fig5a_ros,ovcar5_onc201_100_fig5abc,1.49,relative (1.0=control),QUANTITATIVE,,,Explicit from text.
+obs_127,fig5b_jc1,ovcar5_onc201_0_fig5abc,1.0,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_128,fig5b_jc1,ovcar5_onc201_1_fig5abc,0.95,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_129,fig5b_jc1,ovcar5_onc201_10_fig5abc,0.792,relative (1.0=control),QUANTITATIVE,,,% reduction explicit.
+obs_130,fig5b_jc1,ovcar5_onc201_100_fig5abc,0.65,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_131,fig5c_tmre,ovcar5_onc201_0_fig5abc,1.0,relative (1.0=control),QUANTITATIVE,,,All visual est.
+obs_132,fig5c_tmre,ovcar5_onc201_1_fig5abc,0.95,relative (1.0=control),QUANTITATIVE,,,All visual est.
+obs_133,fig5c_tmre,ovcar5_onc201_10_fig5abc,0.85,relative (1.0=control),QUANTITATIVE,,,All visual est.
+obs_134,fig5c_tmre,ovcar5_onc201_100_fig5abc,0.78,relative (1.0=control),QUANTITATIVE,,,All visual est.
+obs_135,fig5a_ros,skov3_onc201_0_fig5abc,1.0,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_136,fig5a_ros,skov3_onc201_1_fig5abc,1.1,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_137,fig5a_ros,skov3_onc201_10_fig5abc,1.25,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_138,fig5a_ros,skov3_onc201_100_fig5abc,1.3,relative (1.0=control),QUANTITATIVE,,,Explicit from text.
+obs_139,fig5b_jc1,skov3_onc201_0_fig5abc,1.0,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_140,fig5b_jc1,skov3_onc201_1_fig5abc,0.95,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_141,fig5b_jc1,skov3_onc201_10_fig5abc,0.765,relative (1.0=control),QUANTITATIVE,,,% reduction explicit.
+obs_142,fig5b_jc1,skov3_onc201_100_fig5abc,0.62,relative (1.0=control),QUANTITATIVE,,,Visual est.
+obs_143,fig5c_tmre,skov3_onc201_0_fig5abc,1.0,relative (1.0=control),QUANTITATIVE,,,All visual est.
+obs_144,fig5c_tmre,skov3_onc201_1_fig5abc,0.95,relative (1.0=control),QUANTITATIVE,,,All visual est.
+obs_145,fig5c_tmre,skov3_onc201_10_fig5abc,0.9,relative (1.0=control),QUANTITATIVE,,,All visual est.
+obs_146,fig5c_tmre,skov3_onc201_100_fig5abc,0.85,relative (1.0=control),QUANTITATIVE,,,All visual est.
+obs_147,fig5g_clpp_sirna,ovcar5_onc201_0_Scramble_fig5g,1.0,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_148,fig5g_clpp_sirna,ovcar5_onc201_0.1_Scramble_fig5g,0.95,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_149,fig5g_clpp_sirna,ovcar5_onc201_1_Scramble_fig5g,0.85,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_150,fig5g_clpp_sirna,ovcar5_onc201_10_Scramble_fig5g,0.55,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_151,fig5g_clpp_sirna,ovcar5_onc201_100_Scramble_fig5g,0.35,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_152,fig5g_clpp_sirna,ovcar5_onc201_0_ClpP_siRNA_fig5g,1.0,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_153,fig5g_clpp_sirna,ovcar5_onc201_0.1_ClpP_siRNA_fig5g,1.0,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_154,fig5g_clpp_sirna,ovcar5_onc201_1_ClpP_siRNA_fig5g,0.95,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_155,fig5g_clpp_sirna,ovcar5_onc201_10_ClpP_siRNA_fig5g,0.8,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_156,fig5g_clpp_sirna,ovcar5_onc201_100_ClpP_siRNA_fig5g,0.62,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_157,fig5g_clpp_sirna,skov3_onc201_0_Scramble_fig5g,1.0,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_158,fig5g_clpp_sirna,skov3_onc201_0.1_Scramble_fig5g,0.95,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_159,fig5g_clpp_sirna,skov3_onc201_1_Scramble_fig5g,0.85,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_160,fig5g_clpp_sirna,skov3_onc201_10_Scramble_fig5g,0.55,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_161,fig5g_clpp_sirna,skov3_onc201_100_Scramble_fig5g,0.3,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_162,fig5g_clpp_sirna,skov3_onc201_0_ClpP_siRNA_fig5g,1.0,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_163,fig5g_clpp_sirna,skov3_onc201_0.1_ClpP_siRNA_fig5g,1.0,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_164,fig5g_clpp_sirna,skov3_onc201_1_ClpP_siRNA_fig5g,0.95,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_165,fig5g_clpp_sirna,skov3_onc201_10_ClpP_siRNA_fig5g,0.75,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_166,fig5g_clpp_sirna,skov3_onc201_100_ClpP_siRNA_fig5g,0.55,relative viability (1.0=control),QUANTITATIVE,,,Visual est. from line graph.
+obs_167,fig6a_adhesion,ovcar5_onc201_0_fig6ab,1.0,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_168,fig6a_adhesion,ovcar5_onc201_1_fig6ab,0.95,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_169,fig6a_adhesion,ovcar5_onc201_10_fig6ab,0.68,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_170,fig6a_adhesion,ovcar5_onc201_100_fig6ab,0.37,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_171,fig6a_adhesion,skov3_onc201_0_fig6ab,1.0,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_172,fig6a_adhesion,skov3_onc201_1_fig6ab,1.02,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_173,fig6a_adhesion,skov3_onc201_10_fig6ab,0.75,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_174,fig6a_adhesion,skov3_onc201_100_fig6ab,0.4,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_175,fig6b_invasion,ovcar5_onc201_0_fig6ab,1.0,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_176,fig6b_invasion,ovcar5_onc201_1_fig6ab,1.0,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_177,fig6b_invasion,ovcar5_onc201_10_fig6ab,0.85,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_178,fig6b_invasion,ovcar5_onc201_100_fig6ab,0.77,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_179,fig6b_invasion,skov3_onc201_0_fig6ab,1.0,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_180,fig6b_invasion,skov3_onc201_1_fig6ab,0.95,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_181,fig6b_invasion,skov3_onc201_10_fig6ab,0.82,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_182,fig6b_invasion,skov3_onc201_100_fig6ab,0.63,relative (1.0=control),QUANTITATIVE,,,Visual est. from bars.
+obs_183,fig6c_wound,ovcar5_onc201_0_48h_fig6c,1.0,relative wound width (higher=less migration),QUANTITATIVE,,,Visual est. from bars.
+obs_184,fig6c_wound,ovcar5_onc201_1_48h_fig6c,1.3,relative wound width (higher=less migration),QUANTITATIVE,,,Visual est. from bars.
+obs_185,fig6c_wound,ovcar5_onc201_10_48h_fig6c,2.2,relative wound width (higher=less migration),QUANTITATIVE,,,Visual est. from bars.
+obs_186,fig6c_wound,ovcar5_onc201_100_48h_fig6c,2.9,relative wound width (higher=less migration),QUANTITATIVE,,,Visual est. from bars.
+obs_187,fig6c_wound,skov3_onc201_0_48h_fig6c,1.0,relative wound width (higher=less migration),QUANTITATIVE,,,Visual est. from bars.
+obs_188,fig6c_wound,skov3_onc201_1_48h_fig6c,1.1,relative wound width (higher=less migration),QUANTITATIVE,,,Visual est. from bars.
+obs_189,fig6c_wound,skov3_onc201_10_48h_fig6c,1.5,relative wound width (higher=less migration),QUANTITATIVE,,,Visual est. from bars.
+obs_190,fig6c_wound,skov3_onc201_100_48h_fig6c,2.0,relative wound width (higher=less migration),QUANTITATIVE,,,Visual est. from bars.
+obs_191,fig8a_pathway_wb,ovcar5_onc201_0_24h_fig8a,1.0,relative (1.0=control),QUANTITATIVE,,,"p-AKT, visual est."
+obs_192,fig8a_pathway_wb,ovcar5_onc201_1_24h_fig8a,0.75,relative (1.0=control),QUANTITATIVE,,,"p-AKT, visual est."
+obs_193,fig8a_pathway_wb,ovcar5_onc201_10_24h_fig8a,0.55,relative (1.0=control),QUANTITATIVE,,,"p-AKT, visual est."
+obs_194,fig8a_pathway_wb,ovcar5_onc201_100_24h_fig8a,0.35,relative (1.0=control),QUANTITATIVE,,,"p-AKT, visual est."
+obs_195,fig8a_pathway_wb,ovcar5_onc201_0_24h_fig8a,1.0,relative (1.0=control),QUANTITATIVE,,,"p-AMPK, visual est."
+obs_196,fig8a_pathway_wb,ovcar5_onc201_1_24h_fig8a,1.3,relative (1.0=control),QUANTITATIVE,,,"p-AMPK, visual est."
+obs_197,fig8a_pathway_wb,ovcar5_onc201_10_24h_fig8a,1.6,relative (1.0=control),QUANTITATIVE,,,"p-AMPK, visual est."
+obs_198,fig8a_pathway_wb,ovcar5_onc201_100_24h_fig8a,1.85,relative (1.0=control),QUANTITATIVE,,,"p-AMPK, visual est."
+obs_199,fig8a_pathway_wb,ovcar5_onc201_0_24h_fig8a,1.0,relative (1.0=control),QUANTITATIVE,,,"p-S6, visual est."
+obs_200,fig8a_pathway_wb,ovcar5_onc201_1_24h_fig8a,0.7,relative (1.0=control),QUANTITATIVE,,,"p-S6, visual est."
+obs_201,fig8a_pathway_wb,ovcar5_onc201_10_24h_fig8a,0.5,relative (1.0=control),QUANTITATIVE,,,"p-S6, visual est."
+obs_202,fig8a_pathway_wb,ovcar5_onc201_100_24h_fig8a,0.35,relative (1.0=control),QUANTITATIVE,,,"p-S6, visual est."
+obs_203,fig8a_pathway_wb,ovcar5_onc201_0_24h_fig8a,1.0,relative (1.0=control),QUANTITATIVE,,,"p-p42/44, visual est."
+obs_204,fig8a_pathway_wb,ovcar5_onc201_1_24h_fig8a,0.75,relative (1.0=control),QUANTITATIVE,,,"p-p42/44, visual est."
+obs_205,fig8a_pathway_wb,ovcar5_onc201_10_24h_fig8a,0.55,relative (1.0=control),QUANTITATIVE,,,"p-p42/44, visual est."
+obs_206,fig8a_pathway_wb,ovcar5_onc201_100_24h_fig8a,0.35,relative (1.0=control),QUANTITATIVE,,,"p-p42/44, visual est."
+obs_207,fig8a_pathway_wb,skov3_onc201_0_24h_fig8a,1.0,relative (1.0=control),QUANTITATIVE,,,"p-AKT, visual est."
+obs_208,fig8a_pathway_wb,skov3_onc201_1_24h_fig8a,0.8,relative (1.0=control),QUANTITATIVE,,,"p-AKT, visual est."
+obs_209,fig8a_pathway_wb,skov3_onc201_10_24h_fig8a,0.55,relative (1.0=control),QUANTITATIVE,,,"p-AKT, visual est."
+obs_210,fig8a_pathway_wb,skov3_onc201_100_24h_fig8a,0.4,relative (1.0=control),QUANTITATIVE,,,"p-AKT, visual est."
+obs_211,fig8a_pathway_wb,skov3_onc201_0_24h_fig8a,1.0,relative (1.0=control),QUANTITATIVE,,,"p-AMPK, visual est."
+obs_212,fig8a_pathway_wb,skov3_onc201_1_24h_fig8a,1.2,relative (1.0=control),QUANTITATIVE,,,"p-AMPK, visual est."
+obs_213,fig8a_pathway_wb,skov3_onc201_10_24h_fig8a,1.4,relative (1.0=control),QUANTITATIVE,,,"p-AMPK, visual est."
+obs_214,fig8a_pathway_wb,skov3_onc201_100_24h_fig8a,1.5,relative (1.0=control),QUANTITATIVE,,,"p-AMPK, visual est."
+obs_215,fig8a_pathway_wb,skov3_onc201_0_24h_fig8a,1.0,relative (1.0=control),QUANTITATIVE,,,"p-S6, visual est."
+obs_216,fig8a_pathway_wb,skov3_onc201_1_24h_fig8a,0.75,relative (1.0=control),QUANTITATIVE,,,"p-S6, visual est."
+obs_217,fig8a_pathway_wb,skov3_onc201_10_24h_fig8a,0.5,relative (1.0=control),QUANTITATIVE,,,"p-S6, visual est."
+obs_218,fig8a_pathway_wb,skov3_onc201_100_24h_fig8a,0.35,relative (1.0=control),QUANTITATIVE,,,"p-S6, visual est."
+obs_219,fig8a_pathway_wb,skov3_onc201_0_24h_fig8a,1.0,relative (1.0=control),QUANTITATIVE,,,"p-p42/44, visual est."
+obs_220,fig8a_pathway_wb,skov3_onc201_1_24h_fig8a,0.8,relative (1.0=control),QUANTITATIVE,,,"p-p42/44, visual est."
+obs_221,fig8a_pathway_wb,skov3_onc201_10_24h_fig8a,0.55,relative (1.0=control),QUANTITATIVE,,,"p-p42/44, visual est."
+obs_222,fig8a_pathway_wb,skov3_onc201_100_24h_fig8a,0.35,relative (1.0=control),QUANTITATIVE,,,"p-p42/44, visual est."

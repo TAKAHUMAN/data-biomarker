@@ -1,0 +1,7 @@
+Layer,Mechanism or endpoint,Measured variable,Figure,Use,Limitation
+MOA-1,BEZ235 inhibits PI3K/mTOR,p-S6/S6 after 50 nM BEZ235 for 24 h,4C,Target/pathway engagement,Single dose and time; image-derived
+MOA-2,BEZ235 inhibits ABCB1-mediated efflux,Intracellular DOX fluorescence after accumulation/efflux,2 and 3,Transporter functional PD,Histogram images; no reported MFI table
+Mediator,Intracellular doxorubicin exposure rises,DOX autofluorescence distribution,2 and 3,Link efflux to cytotoxic exposure,Use relative fluorescence only
+Cellular response,Apoptosis,Cleaved PARP/actin after 48 h,6,Downstream biomarker,Semi-quantitative blot estimate
+Efficacy,Loss of viable cells,Percent viable after 48 h,1 and 5,Fit cytotoxic/combination effect,In-vitro only
+Tumour response,Not measured,No xenograft/tumour volume/survival,,Cannot build from this paper,Requires another in-vivo PD paper

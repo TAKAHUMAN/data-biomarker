@@ -1,0 +1,32 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_PMID22302096",
+  "parsed_observation_count": 93,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "Alisertib_MLN8237_Registry_Ready.xlsx",
+      "panel": null,
+      "paper_id": "paper_PMID22302096",
+      "path": "datasets/raw/workbooks/Alisertib_MLN8237_Registry_Ready.xlsx",
+      "sha256": "b7252df56faeb30a841968f25c04a6e8343b07e3295528e119eb89bf1765ba28",
+      "source_artifact_id": "artifact_PMID22302096_workbook",
+      "source_description": "Supplied curator workbook containing long-format annotations and extraction estimates.",
+      "supplement_identifier": null
+    },
+    {
+      "artifact_type": "EXTRACTION_ARTIFACT",
+      "figure": null,
+      "original_filename": "REGISTRY_IMPORT_DATA.json",
+      "panel": null,
+      "paper_id": "paper_PMID22302096",
+      "path": "datasets/extracted/alisertib/REGISTRY_IMPORT_DATA.json",
+      "sha256": "cbb9474e090bda449a456d67c43b65acba3fb21cd5b3943f8893a420662009c5",
+      "source_artifact_id": "artifact_PMID22302096_import_json",
+      "source_description": "Supplied structured Figure 4 Day-21 endpoint extraction.",
+      "supplement_identifier": null
+    }
+  ]
+}

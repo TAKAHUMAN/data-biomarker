@@ -1,0 +1,45 @@
+{
+  "caveats": [
+    "THERE IS NO ANIMAL/TUMOUR MODEL IN THIS PAPER. All data in this package are in vitro (2D cell culture) or cell-free (isolated ABCB1 membrane ATPase assay). Nothing in this package should be read as implying in vivo/tumour efficacy data exists for this study.",
+    "Fig1D-F (ABCB1 protein by western blot and confocal microscopy), Fig2 (DOX accumulation flow cytometry overlay histograms), and Fig3 (DOX efflux flow cytometry overlay histograms) are explicitly NOT quantifiable per both the raw curated workbook and the companion QSP workbook's Read me sheet: no densitometry values, fluorescence-intensity scale bars, MFI values, or % positive gates are printed. These are captured only in not_quantifiable_figures.csv as qualitative calls, never forced into observations.csv.",
+    "Fig4C (p-S6/S6, mTORC1 target engagement) and Fig6 (cleaved PARP) are image-derived relative/ordinal estimates, not software densitometry ratios; both carry wide observation uncertainty flags (quality_class SEMI_QUANTITATIVE) per the companion QSP workbook's Read me sheet guidance.",
+    "The companion QSP workbook's Read me sheet designates Figure 5 viability and Figure 1 DOX-resistance curves as the primary fitting data for the recommended joint transporter/pathway/combination PD model (ABCB1 efflux -> intracellular DOX -> cleaved PARP -> viability, with p-S6 as a parallel target-engagement readout); Fig2/Fig3 fluorescence histograms should be used only qualitatively unless raw FCS/MFI data are obtained from the authors.",
+    "Fig6 relative band-intensity values are read on an arbitrary 0-4 scale defined per-blot (0=no band, 4=strongest band seen on THAT blot), not a normalized densitometry ratio comparable across blots or across the companion QSP workbook's separately-scaled Fig6 sheet (which uses a 0-1.15 range for the same concept); the two are not on the same numeric scale and were not reconciled.",
+    "This package is workbook-only: PMID 32061787 has a PMCID (PMC10845210) but no local PMC HTML/paper file is available, so there is no PAPER-type source_artifacts row, mirroring the dactolisib_mm and pemigatinib.py pattern."
+  ],
+  "corrections": [
+    "Fig4A-B ATPase 'vanadate' RLU value differs slightly between the raw curated workbook (-300 for Fig4A, -200/-300 for Fig4B verapamil+vanadate) and the companion QSP workbook (-100 for Fig4A, -100/-200 for Fig4B); the raw curated workbook's values are used as authoritative (primary per-figure source), difference noted as visual-digitization variance between two independent bar-height re-reads.",
+    "Fig4C p-S6/S6 relative values are NOT present as numbers in the raw curated workbook (recorded there as a qualitative band-intensity call only); the companion QSP digitization workbook's numeric relative-to-control estimates are promoted to observations.csv instead, per the task brief's guidance that Fig4C is an image-derived relative/ordinal estimate warranting wide observation error (a fixed uncertainty_value of 0.3 relative-units is applied to every Fig4C observation as a conservative wide-error placeholder, not a measured SD/SEM)."
+  ],
+  "doi": "10.1016/j.bbagen.2020.129556",
+  "extraction_date": "2026-09-08",
+  "generated_counts": {
+    "assays": 5,
+    "condition_steps": 188,
+    "conditions": 153,
+    "contexts": 6,
+    "not_quantifiable_figures": 15,
+    "observations": 153
+  },
+  "observation_counts_by_method": {
+    "BLOT_DENSITOMETRY": 50,
+    "DIRECT_SOURCE": 5,
+    "PLOT_DIGITIZED": 98
+  },
+  "paper_id": "paper_PMID32061787",
+  "pmcid": "PMC10845210",
+  "pmid": "32061787",
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "path": "datasets/raw/workbooks/dactolisib_ABCB1ovarian_extracted.xlsx",
+      "sha256": "8bb5fe04b3412aaa3fb1f6669e01935338179e7e82ae63b5381b7a00b49b2716",
+      "source_key": "workbook"
+    },
+    {
+      "path": "datasets/raw/workbooks/bez235_dox_qsp_pd_digitization.xlsx",
+      "sha256": "c5eb0ce65b0056b82e32b4780e1c8d170aa90dfd23305d39411ca80c29c35ca5",
+      "source_key": "qsp_workbook"
+    }
+  ]
+}

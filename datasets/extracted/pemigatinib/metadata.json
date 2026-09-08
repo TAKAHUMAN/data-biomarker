@@ -1,0 +1,63 @@
+{
+  "dataset_id": "pemigatinib_fgfr_aberrant_pmid_32315352_v0_1",
+  "paper": {
+    "pmid": "32315352",
+    "pmcid": "PMC7313537",
+    "doi": "10.1371/journal.pone.0231877",
+    "title": "INCB054828 (pemigatinib), a potent and selective inhibitor of fibroblast growth factor receptors 1, 2, and 3, displays activity against genetically defined tumor models.",
+    "local_pdf": "datasets/raw/papers/PMID_32315352_printable.pdf"
+  },
+  "scope": {
+    "included": [
+      "direct biochemical and cellular FGFR target-engagement IC50 endpoints",
+      "Table 1 72-hour CellTiter-Glo GI50 endpoints for FGFR-altered cell lines",
+      "one in-vivo KATO III pFGFR2 exposure-response IC50, explicitly marked as requiring PK coupling"
+    ],
+    "excluded": [
+      "Fig. 2 2-hour Western blots: lane concentrations are available but no densitometry, numerical uncertainty, or replicate count is reported; no band-intensity values were invented",
+      "Fig. 2C proximity-ligation images: qualitative images without a numerical readout",
+      "xenograft growth curves and serum phosphate: outside the current intracellular signaling-calibration scope"
+    ]
+  },
+  "protocols": {
+    "cellular_target_engagement": "Genetically FGFR-activated cell context -> no exogenous ligand stated -> pemigatinib concentration series -> 2 h exposure for Fig. 2 immunoblots; S3 assay durations not reported -> pFGFR/pERK/pSTAT5/pFRS2 or pFGFR ELISA/assay measurement.",
+    "viability": "FGFR-altered cell line -> 0.1% DMSO control or pemigatinib serial dilution -> 72 h incubation -> CellTiter-Glo ATP readout, expressed relative to control and summarized as GI50.",
+    "in_vivo_target_engagement": "KATO III FGFR2-amplified xenograft -> single oral pemigatinib administration -> plasma and tumor harvested at unspecified sample times -> tumor-homogenate pFGFR2 ELISA versus plasma exposure."
+  },
+  "supplement_provenance": {
+    "retrieved_only_for_missing_target_specific_numeric_figure": "S3 Fig (PLOS supplementary file s008; official PLOS URL queried 2026-09-03)",
+    "used_information": "S3 Fig legend confirms n=10 KATO III assays, n=11 KATO III-in-blood experiments, and n=3 each for Ba/F3 FGFR1-TEL and FGFR3-TEL. Main-text IC50 values were retained without digitizing the curves."
+  },
+  "model_coverage": {
+    "existing_direct_states": [
+      "FGFR_free",
+      "FGFR_ligand_bound",
+      "FGFR_HSPG_precomplex",
+      "FGFR_active_triad",
+      "FGFR_active_fraction",
+      "ERK_double_phosphorylated",
+      "AKT_active_fraction",
+      "STAT5_cyt_phosphorylated"
+    ],
+    "missing_or_partial": [
+      "No pemigatinib drug/exposure-to-FGFR inhibition input",
+      "Generic ligand-driven FGFR is not isoform-specific FGFR1/2/3 and has no amplification, fusion, or activating-mutation overlay",
+      "No FRS2 state or pFRS2 observation",
+      "No FGFR-to-STAT5 interface",
+      "No CellTiter-Glo GI50/viability observation model"
+    ],
+    "context_requirements_before_any_fit": [
+      "Set PDGF, EGF, VEGF, IGF1, HGF, FLT3 ligand, cytokine inputs, and endothelial-only default stimulation to zero unless the selected cell context documents them.",
+      "Do not add exogenous FGF2 for these fusion/amplification contexts unless the chosen experimental condition specifies it.",
+      "Represent the selected FGFR alteration as a context overlay before comparing baseline or drug-treated signaling."
+    ]
+  },
+  "observation_mapping": [
+    {"experimental": "pFGFR/pFGFR2/pFGFR3", "model": "FGFR_active_fraction (derived from FGFR_active_triad)", "mapping": "proportional normalized phosphosignal; control normalization model(C)/model(control)", "confidence": "approximate; generic ligand-driven receptor versus isoform-specific altered FGFR"},
+    {"experimental": "pERK1/2 (T202/Y204)", "model": "ERK_double_phosphorylated", "mapping": "proportional normalized phosphosignal; model(C)/model(control)", "confidence": "direct"},
+    {"experimental": "pSTAT5 (Y694)", "model": "STAT5_cyt_phosphorylated", "mapping": "proportional normalized phosphosignal; model(C)/model(control)", "confidence": "approximate; state exists but no FGFR-to-STAT5 coupling"},
+    {"experimental": "pFRS2 (Y436)", "model": null, "mapping": "unresolved", "confidence": "unresolved"},
+    {"experimental": "CellTiter-Glo GI50", "model": null, "mapping": "no direct calibrated viability observable", "confidence": "unresolved"}
+  ],
+  "minimum_addition_before_fitting": "A reusable FGFR1/2/3 receptor/context layer with alteration overlays (amplification, fusion, activating mutation) and an FGFR activity drug-inhibition interface for pemigatinib. Include FGFR-to-STAT5 only if the KG1a pSTAT5 blot is selected as a fit target. A phenotype mapping is separately required before using GI50 values."
+}

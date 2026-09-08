@@ -1,0 +1,310 @@
+{
+  "paper": {
+    "stable_id_stub": "paper_PMID22302096",
+    "pmid": 22302096,
+    "pmcid": "PMC3297687",
+    "doi": "10.1158/1535-7163.MCT-11-0623",
+    "title": "The Aurora kinase A inhibitor MLN8237 Enhances Cisplatin-induced Cell Death in Esophageal Adenocarcinoma Cells",
+    "year": 2012,
+    "authors": "Sehdev et al.",
+    "journal": "Mol Cancer Ther"
+  },
+  "contexts": [
+    {
+      "stable_id_stub": "context_FLO1_xenograft",
+      "organism": "mouse",
+      "model_type": "xenograft",
+      "cell_line": "FLO-1",
+      "tumor_site": "flank",
+      "cell_implant_volume": "0.2 mL of 4M cells in 50% DMEM + 50% matrigel"
+    },
+    {
+      "stable_id_stub": "context_OE33_xenograft",
+      "organism": "mouse",
+      "model_type": "xenograft",
+      "cell_line": "OE33",
+      "tumor_site": "flank",
+      "cell_implant_volume": "0.2 mL of 4M cells in 50% DMEM + 50% matrigel"
+    }
+  ],
+  "assays": [
+    {
+      "stable_id_stub": "assay_tumor_volume_FLO1",
+      "figure": "Figure 4A",
+      "assay_type": "caliper tumor volume",
+      "cell_line": "FLO-1",
+      "model": "xenograft",
+      "measurement_unit": "mm\u00b3",
+      "measurement_interval": "every alternate day",
+      "endpoint": "Day 21"
+    },
+    {
+      "stable_id_stub": "assay_tumor_volume_OE33",
+      "figure": "Figure 4B",
+      "assay_type": "caliper tumor volume",
+      "cell_line": "OE33",
+      "model": "xenograft",
+      "measurement_unit": "mm\u00b3",
+      "measurement_interval": "every alternate day",
+      "endpoint": "Day 21"
+    }
+  ],
+  "conditions": [
+    {
+      "stable_id_stub": "condition_FLO1_Vehicle",
+      "context": "context_FLO1_xenograft",
+      "treatment_group": "Vehicle",
+      "steps": []
+    },
+    {
+      "stable_id_stub": "condition_FLO1_MLN8237_30mg_kg",
+      "context": "context_FLO1_xenograft",
+      "treatment_group": "MLN8237 30 mg/kg",
+      "steps": [
+        {
+          "drug": "MLN8237",
+          "dose": "30 mg/kg",
+          "route": "oral",
+          "schedule": "daily",
+          "duration": "21 days"
+        }
+      ]
+    },
+    {
+      "stable_id_stub": "condition_FLO1_CDDP_2mg_kg",
+      "context": "context_FLO1_xenograft",
+      "treatment_group": "CDDP 2 mg/kg",
+      "steps": [
+        {
+          "drug": "Cisplatin",
+          "dose": "2 mg/kg",
+          "route": "intraperitoneal",
+          "schedule": "twice weekly",
+          "duration": "21 days"
+        }
+      ]
+    },
+    {
+      "stable_id_stub": "condition_FLO1_MLN8237_CDDP_combo",
+      "context": "context_FLO1_xenograft",
+      "treatment_group": "MLN8237 + CDDP combination",
+      "steps": [
+        {
+          "drug": "MLN8237",
+          "dose": "30 mg/kg",
+          "route": "oral",
+          "schedule": "daily",
+          "duration": "21 days"
+        },
+        {
+          "drug": "Cisplatin",
+          "dose": "2 mg/kg",
+          "route": "intraperitoneal",
+          "schedule": "twice weekly",
+          "duration": "21 days"
+        }
+      ]
+    },
+    {
+      "stable_id_stub": "condition_OE33_Vehicle",
+      "context": "context_OE33_xenograft",
+      "treatment_group": "Vehicle",
+      "steps": []
+    },
+    {
+      "stable_id_stub": "condition_OE33_MLN8237_30mg_kg",
+      "context": "context_OE33_xenograft",
+      "treatment_group": "MLN8237 30 mg/kg",
+      "steps": [
+        {
+          "drug": "MLN8237",
+          "dose": "30 mg/kg",
+          "route": "oral",
+          "schedule": "daily",
+          "duration": "21 days"
+        }
+      ]
+    },
+    {
+      "stable_id_stub": "condition_OE33_CDDP_2mg_kg",
+      "context": "context_OE33_xenograft",
+      "treatment_group": "CDDP 2 mg/kg",
+      "steps": [
+        {
+          "drug": "Cisplatin",
+          "dose": "2 mg/kg",
+          "route": "intraperitoneal",
+          "schedule": "twice weekly",
+          "duration": "21 days"
+        }
+      ]
+    },
+    {
+      "stable_id_stub": "condition_OE33_MLN8237_CDDP_combo",
+      "context": "context_OE33_xenograft",
+      "treatment_group": "MLN8237 + CDDP combination",
+      "steps": [
+        {
+          "drug": "MLN8237",
+          "dose": "30 mg/kg",
+          "route": "oral",
+          "schedule": "daily",
+          "duration": "21 days"
+        },
+        {
+          "drug": "Cisplatin",
+          "dose": "2 mg/kg",
+          "route": "intraperitoneal",
+          "schedule": "twice weekly",
+          "duration": "21 days"
+        }
+      ]
+    }
+  ],
+  "observations_tumor_growth": [
+    {
+      "paper": "paper_PMID22302096",
+      "figure": "4",
+      "panel": "A",
+      "assay_id_stub": "assay_tumor_volume_FLO1",
+      "cell_line": "FLO-1",
+      "condition_id_stub": "condition_FLO1_Vehicle",
+      "timepoint_day": 21,
+      "measurement_name": "tumor_volume",
+      "value": 400,
+      "value_unit": "mm\u00b3",
+      "extraction_method": "PLOT_DIGITIZED",
+      "quality_class": "SEMI_QUANTITATIVE",
+      "uncertainty": null,
+      "uncertainty_type": null,
+      "pvalue": null,
+      "notes": "Estimated from plotted growth curve; control vehicle arm endpoint"
+    },
+    {
+      "paper": "paper_PMID22302096",
+      "figure": "4",
+      "panel": "A",
+      "assay_id_stub": "assay_tumor_volume_FLO1",
+      "cell_line": "FLO-1",
+      "condition_id_stub": "condition_FLO1_MLN8237_30mg_kg",
+      "timepoint_day": 21,
+      "measurement_name": "tumor_volume",
+      "value": 76.66,
+      "value_unit": "mm\u00b3",
+      "extraction_method": "DIRECT_SOURCE",
+      "quality_class": "QUANTITATIVE",
+      "uncertainty": 6.24,
+      "uncertainty_type": "SEM",
+      "pvalue": "p<0.05",
+      "notes": "Day 21 endpoint from Results text: 'FLO-1 (76.66\u00b16.24, p<0.05)'"
+    },
+    {
+      "paper": "paper_PMID22302096",
+      "figure": "4",
+      "panel": "A",
+      "assay_id_stub": "assay_tumor_volume_FLO1",
+      "cell_line": "FLO-1",
+      "condition_id_stub": "condition_FLO1_CDDP_2mg_kg",
+      "timepoint_day": 21,
+      "measurement_name": "tumor_volume",
+      "value": 264.53,
+      "value_unit": "mm\u00b3",
+      "extraction_method": "DIRECT_SOURCE",
+      "quality_class": "QUANTITATIVE",
+      "uncertainty": 14.81,
+      "uncertainty_type": "SEM",
+      "pvalue": "p<0.05",
+      "notes": "Day 21 endpoint from Results text: 'FLO-1 (264.53\u00b114.81, p<0.05)'"
+    },
+    {
+      "paper": "paper_PMID22302096",
+      "figure": "4",
+      "panel": "A",
+      "assay_id_stub": "assay_tumor_volume_FLO1",
+      "cell_line": "FLO-1",
+      "condition_id_stub": "condition_FLO1_MLN8237_CDDP_combo",
+      "timepoint_day": 21,
+      "measurement_name": "tumor_volume",
+      "value": 10.07,
+      "value_unit": "mm\u00b3",
+      "extraction_method": "DIRECT_SOURCE",
+      "quality_class": "QUANTITATIVE",
+      "uncertainty": 2.2,
+      "uncertainty_type": "SEM",
+      "pvalue": "p<0.01",
+      "notes": "Day 21 endpoint from Results text: 'FLO-1 (10.07\u00b12.2, p<0.01)' vs single agents. TGI ~80%."
+    },
+    {
+      "paper": "paper_PMID22302096",
+      "figure": "4",
+      "panel": "B",
+      "assay_id_stub": "assay_tumor_volume_OE33",
+      "cell_line": "OE33",
+      "condition_id_stub": "condition_OE33_Vehicle",
+      "timepoint_day": 21,
+      "measurement_name": "tumor_volume",
+      "value": 300,
+      "value_unit": "mm\u00b3",
+      "extraction_method": "PLOT_DIGITIZED",
+      "quality_class": "SEMI_QUANTITATIVE",
+      "uncertainty": null,
+      "uncertainty_type": null,
+      "pvalue": null,
+      "notes": "Estimated from plotted growth curve; control vehicle arm endpoint"
+    },
+    {
+      "paper": "paper_PMID22302096",
+      "figure": "4",
+      "panel": "B",
+      "assay_id_stub": "assay_tumor_volume_OE33",
+      "cell_line": "OE33",
+      "condition_id_stub": "condition_OE33_MLN8237_30mg_kg",
+      "timepoint_day": 21,
+      "measurement_name": "tumor_volume",
+      "value": 90.99,
+      "value_unit": "mm\u00b3",
+      "extraction_method": "DIRECT_SOURCE",
+      "quality_class": "QUANTITATIVE",
+      "uncertainty": 8.92,
+      "uncertainty_type": "SEM",
+      "pvalue": "p<0.05",
+      "notes": "Day 21 endpoint from Results text: 'OE33 (90.99\u00b18.92, p<0.05)'"
+    },
+    {
+      "paper": "paper_PMID22302096",
+      "figure": "4",
+      "panel": "B",
+      "assay_id_stub": "assay_tumor_volume_OE33",
+      "cell_line": "OE33",
+      "condition_id_stub": "condition_OE33_CDDP_2mg_kg",
+      "timepoint_day": 21,
+      "measurement_name": "tumor_volume",
+      "value": 178.84,
+      "value_unit": "mm\u00b3",
+      "extraction_method": "DIRECT_SOURCE",
+      "quality_class": "QUANTITATIVE",
+      "uncertainty": 16.87,
+      "uncertainty_type": "SEM",
+      "pvalue": "p<0.05",
+      "notes": "Day 21 endpoint from Results text: 'OE33 (178.84\u00b116.87, p<0.05)'"
+    },
+    {
+      "paper": "paper_PMID22302096",
+      "figure": "4",
+      "panel": "B",
+      "assay_id_stub": "assay_tumor_volume_OE33",
+      "cell_line": "OE33",
+      "condition_id_stub": "condition_OE33_MLN8237_CDDP_combo",
+      "timepoint_day": 21,
+      "measurement_name": "tumor_volume",
+      "value": 51.47,
+      "value_unit": "mm\u00b3",
+      "extraction_method": "DIRECT_SOURCE",
+      "quality_class": "QUANTITATIVE",
+      "uncertainty": 9.6,
+      "uncertainty_type": "SEM",
+      "pvalue": "p<0.01",
+      "notes": "Day 21 endpoint from Results text: 'OE33 (51.47\u00b19.6, p<0.01)' vs single agents. TGI ~60%."
+    }
+  ]
+}

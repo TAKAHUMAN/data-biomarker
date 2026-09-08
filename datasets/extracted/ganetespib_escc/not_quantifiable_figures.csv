@@ -1,0 +1,4 @@
+figure,panel,cell_line_or_group,target_or_observable,qualitative_result,reason_not_quantifiable
+Fig 1B,B,ESCC TMA (n=107),MYC IHC categories,"Negative 20%, Weak 26%, Strong/Intermediate 54%",TMA categorical data (% of samples); not cell line dose-response.
+Fig 3F,F,KYSE-150/Eca-109,BAX/BCL2 Western blot,BAX/BCL2 ratio changes with STA-9090,Blot image only; no numeric densitometry scale.
+Fig 4B,B,KYSE-150/Eca-109,MYC siRNA knockdown validation WB,MYC successfully knocked down,Blot image validation; qualitative only.

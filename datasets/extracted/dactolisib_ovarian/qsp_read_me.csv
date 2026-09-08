@@ -1,0 +1,7 @@
+Topic,Detail
+Recommended model,"Joint in-vitro transporter/pathway/combination PD model: ABCB1 efflux -> intracellular DOX -> cleaved PARP -> viability, with p-S6 as parallel PI3K/mTOR target engagement."
+Primary fitting data,Figure 5 viability; Figure 1 DOX resistance curves.
+Mechanistic calibration,Figure 4C p-S6 and Figure 6 cleaved PARP are image-derived relative estimates; Figure 2/3 fluorescence histograms should be used qualitatively unless raw FCS/MFI data are obtained.
+No tumour model,The paper contains no animal tumour response. Do not infer tumour-growth inhibition from cell viability.
+Uncertainty,All plotted values are approximate visual digitizations. Western-blot estimates are ordinal/semi-quantitative and should receive wide observation error.
+Source,Durrant et al. BBA Gen Subjects 2020; DOI 10.1016/j.bbagen.2020.129556; nihms-1561688.pdf

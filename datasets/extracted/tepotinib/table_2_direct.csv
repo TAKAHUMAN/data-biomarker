@@ -1,0 +1,7 @@
+compound,compartment,quantity,day_1_value,day_9_value,unit,value_provenance,classification
+MSC2571109A,plasma,AUCtau,6699.40,8832.50,ng*h/mL,DIRECT_SOURCE,SOURCE_MODEL_RESULT
+MSC2571109A,tumor,AUCtau,2737.00,3608.90,ng*h/g,DIRECT_SOURCE,SOURCE_MODEL_RESULT
+MSC2571109A,plasma/tumor,P/T ratio,2.45,2.45,ratio,DIRECT_SOURCE,SOURCE_MODEL_RESULT
+Tepotinib,plasma,AUCtau,5338.20,5903.30,ng*h/mL,DIRECT_SOURCE,SOURCE_MODEL_RESULT
+Tepotinib,tumor,AUCtau,50461.00,58335.00,ng*h/g,DIRECT_SOURCE,SOURCE_MODEL_RESULT
+Tepotinib,plasma/tumor,P/T ratio,0.11,0.10,ratio,DIRECT_SOURCE,SOURCE_MODEL_RESULT

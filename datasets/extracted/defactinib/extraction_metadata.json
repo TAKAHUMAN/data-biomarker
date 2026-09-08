@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "paper_id": "paper_PMID29314097",
+  "extraction_date": "2026-09-08",
+  "source_artifacts": [
+    {
+      "artifact_id": "artifact_defactinib_annotation_workbook",
+      "path": "datasets/raw/workbooks/Defactinib_QSP_PD_Biomarker_Cascade_Annotations.xlsx",
+      "type": "WORKBOOK",
+      "description": "Supplied QSP/PD biomarker cascade annotation workbook (Cascade Map, Digitized Data 140 rows, Figure Annotations 23 rows, Modeling Notes), preserved unchanged."
+    },
+    {
+      "artifact_id": "artifact_defactinib_moa_doc",
+      "path": "datasets/extracted/defactinib/Defactinib_QSP_PD_Biomarker_Cascade.md",
+      "type": "EXTRACTION_ARTIFACT",
+      "description": "Human-written mechanism-of-action / PD biomarker cascade reference document."
+    }
+  ],
+  "extraction_summary": {
+    "contexts_count": 7,
+    "context_alterations_count": 3,
+    "conditions_count": 4,
+    "condition_steps_count": 30,
+    "assays_count": 10,
+    "observations_count": 0,
+    "notes": "Initial extraction phase: contexts, conditions, assays registered. Observations (digitized data) not yet implemented."
+  },
+  "data_quality_flags": {
+    "resistance_selectivity": {
+      "description": "Tier-4 IC50 shift ONLY occurs in docetaxel-resistant sublines (PC3-Rx, DU145-Rx), NOT in parental lines (PC3, DU145). This is a crucial effect modifier and should not be treated as a population constant.",
+      "pc3_rx_ic50_shift_fold": 75,
+      "du145_rx_ic50_shift_fold": 43,
+      "pc3_parental_shift": "not_significant",
+      "du145_parental_shift": "not_significant"
+    },
+    "fak_akt_model_system_dependence": {
+      "description": "Tier-2 FAK-AKT coupling is model-system-dependent: clean in PC3 (in vitro) and PC3 xenograft, completely absent in patient explants (p=0.71/0.27/0.22 for DTX/VS6/combo vs control). Model structure, not just parameters, may need to differ by data source.",
+      "pc3_in_vitro": "present (Fig 2D)",
+      "pc3_xenograft": "present (Fig 5D)",
+      "patient_explants": "absent (Fig 6G, p>>0.05)"
+    },
+    "tumor_volume_biphasic_response": {
+      "description": "Tier-4 in vivo tumor volume (Fig 4A) shows biphasic response in combination arm: transient regression to ~85% by day 19-21, then slow regrowth. Simple monotonic Emax TGI model insufficient; requires regrowth/relapse or effective-exposure-decay term.",
+      "combination_arm_pattern": "regression_then_regrowth",
+      "model_implication": "Simeoni-type TGI with resistance-emergence component"
+    },
+    "normalization_differences": {
+      "description": "PC3 panels (Figs 2B-C) normalize P-FAK to T-FAK; DU145 panels (Figs 3B-C) normalize to β-actin (DU145-Rx batch had elevated total FAK). Do NOT compare absolute ratios across these figures.",
+      "pc3_normalization": "T-FAK",
+      "du145_normalization": "beta-actin"
+    },
+    "four_term_equation_validation": {
+      "description": "This single paper validates all four terms of eq:pd_target_suppression_chemo_sensitization_tte in PC3/PC3-Rx system",
+      "target_suppression": {
+        "value": 0.91,
+        "unit": "log10_reduction",
+        "source": "Fig 2B-C (P-FAK Y397/Y576, PC3-Rx, DTX+VS6 vs vehicle)"
+      },
+      "sensitization_fold": {
+        "value": 75,
+        "unit": "fold",
+        "source": "Fig 1A (IC50 ratio, PC3-Rx: 1167.6 -> 15.6 ng/mL, p<0.0005)"
+      },
+      "ic50_shift": {
+        "value": -1152,
+        "unit": "ng/mL",
+        "source": "Fig 1A (printed)"
+      },
+      "time_to_endpoint_extension": {
+        "value": 1.6,
+        "unit": "fold",
+        "source": "Fig 4B (KM median: 29.5 -> 47.5 days to 500mm³, p=0.003)"
+      }
+    }
+  },
+  "pmid_resolution": {
+    "method": "DOI resolution via web search",
+    "doi": "10.1002/pros.23476",
+    "pmid_found": "29314097",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/29314097/"
+  },
+  "pending": [
+    "observations.csv: digitized data from Figs 1-6 (Tier 0 FAK H-score, Tier 1 P-FAK, Tier 2 AKT/LC3B, Tier 3 caspase-3, Tier 4 IC50/TGI/KM/BW)",
+    "extraction_runs: associated with observations",
+    "validation tests for resistance-selectivity flag preservation",
+    "validation tests for FAK-AKT model-system-dependence flag"
+  ]
+}

@@ -1,0 +1,4 @@
+cell_line,cell_line_description,MET_pathway_activation,tumor_static_concentration_ng_per_ml,CV_percent,lowest_tepotinib_dose_for_tumor_control,best_response,value_provenance,classification
+Hs746T,human gastric cancer cells,High level MET amplification + MET exon 14 skipping,8,2.7,10 mg/kg every 3 days,Complete regression,DIRECT_SOURCE,SOURCE_MODEL_RESULT
+NIH3T3/TPR,mouse fibroblasts with oncogenic transformation,TPR-MET fusion,65,5.1,12.5 mg/kg daily,Complete regression,DIRECT_SOURCE,SOURCE_MODEL_RESULT
+KP-4,human pancreatic tumor cells,HGF/MET autocrine,80,27.4,50 mg/kg daily,Tumor shrinkage,DIRECT_SOURCE,SOURCE_MODEL_RESULT

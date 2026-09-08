@@ -1,0 +1,10 @@
+figure_panel,cell_line,fgfr_isoform,alteration,drug,dose,dose_units,treatment_duration,assay_type,measured_observable,corresponding_total,quantitative_value,value_provenance,quality_classification,notes
+Fig.2B,RT-4,FGFR3,FGFR3-TACC3 fusion,INCB054828,500,nM,2 h,Western blot,pFRS2_Y436,FRS2,,direct lane label; no source numeric value,qualitative_validation_only,Raw blot has seven labelled lanes.
+Fig.2B,RT-4,FGFR3,FGFR3-TACC3 fusion,INCB054828,100,nM,2 h,Western blot,pFRS2_Y436,FRS2,,direct lane label; no source numeric value,qualitative_validation_only,
+Fig.2B,RT-4,FGFR3,FGFR3-TACC3 fusion,INCB054828,25,nM,2 h,Western blot,pFRS2_Y436,FRS2,,direct lane label; no source numeric value,qualitative_validation_only,
+Fig.2B,RT-4,FGFR3,FGFR3-TACC3 fusion,INCB054828,5,nM,2 h,Western blot,pFRS2_Y436,FRS2,,direct lane label; no source numeric value,qualitative_validation_only,
+Fig.2B,RT-4,FGFR3,FGFR3-TACC3 fusion,INCB054828,1.25,nM,2 h,Western blot,pFRS2_Y436,FRS2,,direct lane label; no source numeric value,qualitative_validation_only,
+Fig.2B,RT-4,FGFR3,FGFR3-TACC3 fusion,INCB054828,0.25,nM,2 h,Western blot,pFRS2_Y436,FRS2,,direct lane label; no source numeric value,qualitative_validation_only,
+Fig.2B,RT-4,FGFR3,FGFR3-TACC3 fusion,INCB054828,0,nM,2 h,Western blot,pFRS2_Y436,FRS2,,direct lane label; no source numeric value,qualitative_validation_only,
+Fig.2B,RT-4,FGFR3,FGFR3-TACC3 fusion,INCB054828,"500,100,25,5,1.25,0.25,0",nM,2 h,Western blot,pERK1_2_T202_Y204,ERK1_2,,raw-image review; no defensible numeric densitometry,qualitative_validation_only,High-dose bands are near background and total ERK is a doublet; do not use as numeric fit data.
+Fig.2C,RT-112,FGFR3,FGFR3-TACC3 fusion,INCB054828,"0,10,100",nM,not stated,proximity ligation assay,pFGFR3,total FGFR3,,qualitative images only,qualitative_validation_only,No numerical signal summary or replicate count.

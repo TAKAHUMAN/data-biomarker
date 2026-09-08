@@ -1,0 +1,8 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+pc3_in_vitro,human,PC3,prostate cancer cells,prostate,prostate adenocarcinoma,in vitro cell culture,Docetaxel-sensitive parental line
+pc3_rx_in_vitro,human,PC3-Rx,prostate cancer cells,prostate,prostate adenocarcinoma,in vitro cell culture,Docetaxel-resistant derivative of PC3
+du145_in_vitro,human,DU145,prostate cancer cells,prostate,prostate adenocarcinoma,in vitro cell culture,Docetaxel-sensitive parental line
+du145_rx_in_vitro,human,DU145-Rx,prostate cancer cells,prostate,prostate adenocarcinoma,in vitro cell culture,Docetaxel-resistant derivative of DU145
+pc3_xenograft,mouse,PC3,human prostate cancer xenograft,subcutaneous tumor,prostate adenocarcinoma,human-cell xenograft in athymic nude mouse,"BALB/c nude mice, n=14-15 per arm"
+patient_explants_cspc,human,,castration-sensitive prostate cancer cells and stroma,prostate,prostate adenocarcinoma,ex vivo tumor explant culture,"n=11 enrolled, 6 evaluable for all assays"
+primary_tumor_tma,human,,primary prostate cancer,prostate,prostate adenocarcinoma,tissue microarray,"n=63 treatment-naive primary tumors, stratified by Gleason score"

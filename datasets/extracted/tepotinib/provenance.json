@@ -1,0 +1,55 @@
+{
+  "paper_id": "paper_PMID33818908",
+  "pmid": "33818908",
+  "pmcid": "PMC8129711",
+  "doi": "10.1002/psp4.12602",
+  "source_artifacts": {
+    "paper_pdf": "datasets/raw/papers/PMID_33818908_PMC8129711.pdf",
+    "figure_2_image": "datasets/raw/images/PMID_33818908_fig2.jpg",
+    "supplement_source_url": "https://ascpt.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002/psp4.12602&file=psp412602-sup-0001-SupInfo.pdf"
+  },
+  "extraction": {
+    "figure_2_b_c": {
+      "method": "PLOT_DIGITIZED",
+      "software_or_process": "manual coordinate reading from the paper's vector PDF and the PMC Figure 2 source image",
+      "values": "mean tumor-volume markers only",
+      "uncertainty": "visible error bars were not digitized; uncertainty fields are null",
+      "quality_class": "SEMI_QUANTITATIVE",
+      "scope": "Hs746T and NIH3T3/TPR only; KP-4 panel was not extracted because two experiments and overlapping series make one unambiguous series unavailable from this figure alone."
+    },
+    "figure_2_a": {
+      "method": "PLOT_DIGITIZED",
+      "software_or_process": "manual coordinate reading from the vector PDF",
+      "values": "observed mean tumor-volume markers; Exp1 and Exp2 remain separate",
+      "uncertainty": "error bars overlap at several dose/time combinations and were not defensibly separable",
+      "quality_class": "SEMI_QUANTITATIVE"
+    },
+    "figure_2_d": {
+      "method": "PLOT_DIGITIZED",
+      "software_or_process": "manual coordinate reading from the vector PDF",
+      "values": "observed mean tumor-volume markers",
+      "uncertainty": "visible SEM bars digitized approximately; these are not source-tabulated errors",
+      "quality_class": "SEMI_QUANTITATIVE"
+    },
+    "figure_4": {
+      "method": "PLOT_DIGITIZED",
+      "software_or_process": "manual coordinate reading from the vector PDF",
+      "values": "13 plotted clinical biopsy markers; tumour type and dose labels are retained where visible",
+      "uncertainty": "not reported per marker; on-treatment biopsy time is not specified in this paper",
+      "quality_class": "SEMI_QUANTITATIVE"
+    },
+    "source_quantitative_summaries": {
+      "method": "DIRECT_SOURCE",
+      "scope": "Supplement Table S1/S2 and main Table 1/2 values retained separately because they are published model estimates/results, not experimental observations."
+    }
+  },
+  "normalization": {
+    "tumor_volume": "reported/digitized absolute tumor volume in mm3; no rescaling was applied",
+    "pMET": "the supplement defines pMET as Y1234-1235 signal normalized to total MET, total protein, and paired baseline; no individual Figure 4 values were registered because the on-treatment biopsy time and patient-level biological contexts are not reported in this paper."
+  },
+  "limitations": [
+    "No raw individual-animal values or machine-readable source tables were provided.",
+    "The linked supplement exposes parameter estimates and methods, but not individual PK/PD records.",
+    "Figure 2 digitization is suitable for semi-quantitative in-vivo validation, not direct signaling-parameter fitting."
+  ]
+}

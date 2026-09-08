@@ -1,0 +1,22 @@
+assay_key,assay_type,assay_name,sample_type,measurement_platform,figure,panel,reported_time,reported_time_unit,replicate_count,notes
+fig1a_mtt,Cell viability dose-response,Fig1A MTT IC50 (72h),ovarian cancer cell line,MTT assay,Figure 1,A,72,h,,IC50 explicit; dose-response visual est.
+fig1b_colony,Colony formation,Fig1B Colony formation (48h+12d),ovarian cancer cell line,Clonogenic assay,Figure 1,B,,,,% reduction explicit; counts visual est.
+fig2_cellcycle,Cell cycle flow cytometry,Fig2A/B Cell cycle (36h),ovarian cancer cell line,Flow cytometry,Figure 2,A-B,36,h,,Explicit % from flow histograms.
+fig3a_annexin,Apoptosis (Annexin V),Fig3A Annexin V+ apoptosis (30h),ovarian cancer cell line,Flow cytometry,Figure 3,A,30,h,,Explicit % from flow quadrants.
+fig3c_caspase,Caspase activity ELISA,Fig3C Caspase 3/8/9 (8-12h),ovarian cancer cell line,Caspase ELISA,Figure 3,C,,,,Visual est. from bars (rel. to control=1.0).
+fig4a_tumor_vol,Tumor growth in vivo,Fig4A KpB tumor volume over time,KpB mouse tumors,Caliper (mm³),Figure 4,A,,,15,Visual est. from line graph. N=15/group.
+fig4b_tumor_wt,Tumor weight,Fig4B Tumor weight at sacrifice (4wk),KpB mouse tumors,Weight (g),Figure 4,B,,,,Control explicit; treated derived from % reduction.
+fig4c_ki67,Ki-67 IHC in vivo,Fig4C Ki-67 proliferation (4wk),KpB mouse tumors,Immunohistochemistry (%),Figure 4,C,,,,% reduction explicit; absolute % visual est.
+fig5a_ros,ROS assay,"Fig5A ROS (DCFH-DA, 12h)",ovarian cancer cell line,Flow cytometry,Figure 5,A,12,h,,100uM explicit; others visual est.
+fig5b_jc1,Mitochondrial potential (JC-1),Fig5B JC-1 (8h),ovarian cancer cell line,Flow cytometry,Figure 5,B,8,h,,10uM % reduction explicit; others visual est.
+fig5c_tmre,Mitochondrial potential (TMRE),Fig5C TMRE (8h),ovarian cancer cell line,Flow cytometry,Figure 5,C,8,h,,All visual est.; text states 'similar' to JC-1.
+fig5g_clpp_sirna,Gene knockdown functional,Fig5G ClpP siRNA dose-response,ovarian cancer cell line,Viability assay,Figure 5,G,,,,Visual est. from line graph. Shows partial rescue with ClpP knockdown.
+fig6a_adhesion,Cell adhesion,Fig6A Adhesion to laminin (2h),ovarian cancer cell line,Adhesion assay,Figure 6,A,2,h,,Visual est. from bars (rel. to control=1.0).
+fig6b_invasion,Transwell invasion,"Fig6B Invasion (transwell, 4h)",ovarian cancer cell line,Transwell assay,Figure 6,B,4,h,,Visual est. from bars. % reduction explicit from text.
+fig6c_wound,Wound healing,Fig6C Wound healing (48h),ovarian cancer cell line,Scratch assay,Figure 6,C,48,h,,Visual est. from bars (rel. wound width; higher=less migration).
+fig6d_organotypic,3D organotypic invasion,"Fig6D Organotypic 3D invasion (10uM, 24h)",ovarian cancer cell line,Invasion index,Figure 6,D,24,h,,% reduction (39.3%) explicit; absolute values visual est.
+fig6f_vegf_ihc,VEGF IHC in vivo,Fig6F Tumoral VEGF by IHC (4wk),KpB mouse tumors,Immunohistochemistry (%),Figure 6,F,,,,% reduction explicit; absolute % visual est.
+fig6g_vegf_serum,Serum VEGF ELISA,Fig6G Serum VEGF (4wk),KpB mouse serum,VEGF ELISA,Figure 6,G,,,,% reduction explicit; relative levels visual est.
+fig7d_nac,NAC rescue assay,Fig7D NAC rescue of invasion (6h NAC pre-treatment),ovarian cancer cell line,Wound healing + NAC,Figure 7,D,6,h,,Explicit % of ONC201 effect blocked by NAC (1mM).
+fig8a_pathway_wb,Pathway protein WB,Fig8A p-AKT/p-AMPK/p-S6/p42/44 (24h),ovarian cancer cell line,Western blot,Figure 8,A,24,h,,Visual est. from bars (rel. to control=1.0). No text values.
+fig8b_pathway_ihc,Pathway protein IHC in vivo,Fig8B p42/44 and p-S6 by IHC (4wk),KpB mouse tumors,Immunohistochemistry (%),Figure 8,B,,,,% reduction explicit; absolute % visual est.

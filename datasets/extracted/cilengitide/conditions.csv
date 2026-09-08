@@ -1,0 +1,3 @@
+condition_key,context_key,condition_label,notes
+mda_mb_231_bone_metastasis_rnu_rat__cilengitide_25_mg_kg_days_30_55,mda_mb_231_bone_metastasis_rnu_rat,"Cilengitide 25 mg/kg IP, 5 times/week, days 30-55",Eight animals assigned at day 30; attrition is captured per observation.
+mda_mb_231_bone_metastasis_rnu_rat__sham_days_30_55,mda_mb_231_bone_metastasis_rnu_rat,"Sham-treated control, days 30-55",Eight animals assigned at day 30; attrition is captured per observation.

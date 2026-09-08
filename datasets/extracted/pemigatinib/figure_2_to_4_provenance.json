@@ -1,0 +1,8 @@
+{
+  "source": {"pmid": "32315352", "paper_file": "datasets/raw/papers/PMID_32315352_printable.pdf", "raw_blot_file": "datasets/raw/supplementary/PMID_32315352_s002_S1_Raw_Images.docx"},
+  "figure_2a": {"file": "kg1a_2h_blot_densitometry.csv", "method": "single-blot background-corrected densitometry", "quality": "semi_quantitative"},
+  "figure_2b": {"file": "figure_2b.csv", "method": "direct lane-label extraction and raw-blot review", "quality": "qualitative only; no defensible numerical densitometry retained"},
+  "figure_3": {"file": "figure_3.csv", "method": "direct text endpoints plus coarse digitization of the log-scale PK time course", "quality": "PK/PD or in-vivo validation only; not intracellular fit data"},
+  "figure_4": {"file": "figure_4.csv", "method": "direct caption extraction", "quality": "in-vivo validation only; full plotted time courses were not numerically tabulated and are not treated as precision data"},
+  "limitation": "No source spreadsheet, numerical figure data, or replicate-level numerical blot data was provided with this paper."
+}

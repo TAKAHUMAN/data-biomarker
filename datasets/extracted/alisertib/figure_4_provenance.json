@@ -1,0 +1,14 @@
+{
+  "digitization_method": "Supplied manual curve reading for vehicle endpoints; treatment endpoints transcribed from Results text.",
+  "notes": "Only Day-21 observations supplied. Intermediate curve points require separate calibrated plot digitization.",
+  "panels": {
+    "A": "FLO-1 xenograft",
+    "B": "OE33 xenograft"
+  },
+  "paper_id": "paper_PMID22302096",
+  "source_location": "Figure 4 and Results text",
+  "x_axis": "time",
+  "x_unit": "day",
+  "y_axis": "tumor volume",
+  "y_unit": "mm3"
+}

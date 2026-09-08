@@ -1,0 +1,20 @@
+{
+  "note": "Deterministic parsing manifest generated from preserved raw and extracted source artifacts.",
+  "paper_id": "paper_luminespib_hsp90_workbook",
+  "parsed_observation_count": 62,
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "artifact_type": "WORKBOOK",
+      "figure": null,
+      "original_filename": "luminespib_pd_drug_only.xlsx",
+      "panel": null,
+      "paper_id": "paper_luminespib_hsp90_workbook",
+      "path": "datasets/raw/workbooks/luminespib_pd_drug_only.xlsx",
+      "sha256": "fd7063b2864418b432e934112b192a9266056d1ca7a29044100a1ba96f1f0638",
+      "source_artifact_id": "artifact_luminespib_hsp90_workbook",
+      "source_description": "Immutable Luminespib experiment workbook.",
+      "supplement_identifier": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+93t449_in_vitro,Homo sapiens,93T449,,adipose tissue,well-differentiated liposarcoma,in vitro cell culture,Well-differentiated human liposarcoma cell line.
+hct_116_in_vitro,Homo sapiens,HCT-116,,colon,colorectal carcinoma,in vitro positive-control cell culture,Positive-control human colorectal cancer cell line.
+sw_872_in_vitro,Homo sapiens,SW-872,,adipose tissue,undifferentiated liposarcoma,in vitro cell culture,Undifferentiated human liposarcoma cell line.

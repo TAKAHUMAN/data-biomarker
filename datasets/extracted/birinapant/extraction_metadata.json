@@ -1,0 +1,98 @@
+{
+  "caveats": [
+    "IC50 values, sub-G1/Annexin V percentages, cIAP1 densitometry, and most Figure 3/4/5/6 curve points are PLOT_DIGITIZED (bar-chart or curve digitization); treat as SEMI_QUANTITATIVE/QUANTITATIVE approximations rather than author-reported exact values, per the workbook's own Quality Class column.",
+    "Figure 3A cIAP1/XIAP kinetics rows are recorded as qualitative blot calls (near-complete degradation at all tested doses/timepoints); image-derived band intensities are preserved separately in raw_densitometry_digitization.csv but not promoted to numeric observations because the source method notes flag lane saturation and compressed-image reconstruction as unreliable for precise EC50 fitting.",
+    "The Figure 6D cisplatin-combination cell line is ambiguous in the source workbook ('451Lu (or panel line)'); it is mapped to the 451Lu in vitro context as the best-supported reading, not a confirmed identity.",
+    "Figure 3D RIPK1 mRNA values are pooled group means across unspecified panel subsets (Supplementary Table S1), not per-cell-line observations; they cannot be joined back to individual cell-line contexts.",
+    "No plasma pharmacokinetic/exposure data, receptor occupancy assay, or dose-to-plasma-concentration mapping is reported in this source; the 30 mg/kg IP xenograft dose and the 0.1-1000 nM/uM in vitro concentrations are not linked to a PK model without external data.",
+    "This package is rich PD/target-engagement/apoptosis-mechanism evidence, but is not a standalone QSP calibration dataset: exposure-response linkage still requires external PK data."
+  ],
+  "corrections": [
+    "The supplied draft importer (supplied_birinapant_importer.py) carried an incorrect paper title ('Birinapant... kills melanoma cells independently of nitric oxide...'); the correct PMC title 'The novel SMAC mimetic birinapant exhibits potent activity against human melanoma cells' (matching the workbook Metadata sheet) is used instead.",
+    "Spot-checked against PMID 23403634/PMCID PMC3618495 full text: confirmed 'seventeen melanoma cell lines' and 'effective as a single agent in vitro only in one of the seventeen cell lines tested', matching the workbook's 1 (single-agent sensitive, WM9) + 9 (combination sensitive) + 7 (resistant) = 17 tiering used in BIRINAPANT_SMAC_MIMETIC_MOA.md; no numeric corrections to the Observations workbook were required by this spot check.",
+    "Two Figure 5B t=0 vehicle baselines (100% +/- approximate SEM for each of 451Lu and 1205Lu xenografts), present only in birinapant_qsp_biomarker_digitization.xlsx's Recommended input sheet and absent from BIRINAPANT_OBSERVATIONS.xlsx, were added to observations.csv to complete the Figure 5B kinetic curve (record_id prefix qsp_).",
+    "Approximate SEM values from the QSP workbook's Recommended input sheet were joined onto the eight Figure 5B cIAP1-remaining observations (matched by model and timepoint) since the base workbook does not carry an Uncertainty value for those rows."
+  ],
+  "doi": "10.1158/1078-0432.CCR-12-2518",
+  "extraction_date": "2026-09-08",
+  "generated_counts": {
+    "assays": 13,
+    "condition_steps": 202,
+    "conditions": 128,
+    "contexts": 26,
+    "method_and_caveats": 8,
+    "observations": 173,
+    "raw_densitometry_digitization": 60,
+    "recommended_qsp_inputs": 10
+  },
+  "observation_counts_by_method": {
+    "BLOT_DENSITOMETRY": 6,
+    "PLOT_DIGITIZED": 167
+  },
+  "paper_id": "paper_PMID23403634",
+  "pmcid": "PMC3618495",
+  "pmid": "23403634",
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "path": "datasets/raw/workbooks/BIRINAPANT_OBSERVATIONS.xlsx",
+      "sha256": "899ea1dcdd8695f44d472db77f7afc60587617a096d4442331ce2a496e5a57e8",
+      "source_key": "workbook"
+    },
+    {
+      "path": "datasets/raw/workbooks/birinapant_qsp_biomarker_digitization.xlsx",
+      "sha256": "e22d0a7c69bd48c540b4ce6b050cdd07a1e8863ba6e7f7868fb56cbe52c4a9de",
+      "source_key": "qsp_workbook"
+    },
+    {
+      "path": "datasets/raw/papers/PMID_23403634_PMC3618495.html",
+      "sha256": "8ae57b30a2c334f44ba6c0a40266d9d362b3ab19f95732690dac4d312cc1cd43",
+      "source_key": "paper"
+    },
+    {
+      "path": "datasets/raw/supplementary/birinapant/NIHMS446445-supplement-1.docx",
+      "sha256": "24fc564511f2b34258f7dd0bde50b0791e2064f062c0c693d4ba90206c0b4af8",
+      "source_key": "supplement"
+    },
+    {
+      "path": "datasets/extracted/birinapant/REGISTRY_IMPORT_DATA_BIRINAPANT.json",
+      "sha256": "acb9e093d41055c0373b6f285a5a370c7e67287086d2936dcb75614d6e10b177",
+      "source_key": "supplied_json"
+    },
+    {
+      "path": "datasets/extracted/birinapant/supplied_birinapant_importer.py",
+      "sha256": "f36fd56b86bbd7e13aee760db582367a3a61b8497ab469d7f0b949ad180735a8",
+      "source_key": "supplied_importer"
+    },
+    {
+      "path": "datasets/raw/images/birinapant/Krepler_2013_Figure_1.jpg",
+      "sha256": "c152839573ad2376a10d618bd0486cf60a8b9e3159d8bc1ae9f94da9b049ebd5",
+      "source_key": "figure_1"
+    },
+    {
+      "path": "datasets/raw/images/birinapant/Krepler_2013_Figure_2.jpg",
+      "sha256": "a9d520d74b3aa11b4d98c55f3c35abc07acb630df7649e6f28d8737f0fb67bdc",
+      "source_key": "figure_2"
+    },
+    {
+      "path": "datasets/raw/images/birinapant/Krepler_2013_Figure_3.jpg",
+      "sha256": "dc6adc1226e681b14975bf622ca0fe2cd9e0afe318ef1c5914e3e124200fd4f7",
+      "source_key": "figure_3"
+    },
+    {
+      "path": "datasets/raw/images/birinapant/Krepler_2013_Figure_4.jpg",
+      "sha256": "85e068aac78a278f679f1016cf1c251a60db186610043055ebdca32cbf47e6a4",
+      "source_key": "figure_4"
+    },
+    {
+      "path": "datasets/raw/images/birinapant/Krepler_2013_Figure_5.jpg",
+      "sha256": "00c19442adda5d37648da47e9eb37c6614464b52cd7b42ca6933bb19541e44b9",
+      "source_key": "figure_5"
+    },
+    {
+      "path": "datasets/raw/images/birinapant/Krepler_2013_Figure_6.jpg",
+      "sha256": "842564dfa8e9a114ae284191b6095e7880f46b0f91704068acf1715dc0e4f7e0",
+      "source_key": "figure_6"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+cho_cells_kit_wt,Cricetulus griseus,CHO (KIT WT),Ovary fibroblast,ovary,in vitro model,2D culture,Wild-type KIT baseline
+baf3_kit_wt,Mus musculus,Ba/F3 (KIT WT),Pro-B lymphoid,bone marrow,in vitro model,"2D culture, IL-3 dependent",Functional viability
+baf3_kit_mutant,Mus musculus,Ba/F3 (KIT mutants),Pro-B lymphoid,bone marrow,in vitro model,"2D culture, IL-3 independent","Functional viability, genotype-dependent"

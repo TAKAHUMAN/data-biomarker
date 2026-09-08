@@ -1,0 +1,9 @@
+birinapant_western_blot_digitization,
+Recommended modelling dataset,"Figure 5B author-bar digitization: cIAP1 percent of vehicle versus time, separately for 451Lu and 1205Lu xenografts."
+Independent check,Raw densitometry sheet contains image-derived band intensities normalized to lane GAPDH and then to vehicle/control.
+Source,"Krepler et al., Clinical Cancer Research 2013;19(7):1784-1794. DOI: 10.1158/1078-0432.CCR-12-2518. Source file: nihms446445.pdf."
+Method,PDF rendered at 300 dpi; fixed band ROIs; local background from adjacent strips; mean background-subtracted darkness; target/GAPDH normalization.
+Caveat,"Semi-quantitative reconstruction from a compressed publication image, not original raw densitometry. Values near zero mean below image quantification capability, not proven absence."
+Figure 3A use,"Supports rapid, sustained cIAP1 degradation. Do not estimate a precise EC50 because nearly all treated cIAP1 bands are close to background."
+Figure 5B use,Use the author-bar series for fitting target-engagement turnover. Treat approximate SEM and digitization uncertainty explicitly.
+Figure 2B,"Not quantified for kinetic fitting because lane saturation, panel splicing, and dense multi-protein layout make numerical estimates unreliable; use as qualitative pathway evidence."

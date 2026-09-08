@@ -1,0 +1,26 @@
+observation_key,assay_key,condition_key,value,unit,quality_class,uncertainty_type,uncertainty_value,notes
+obs_1,fig1_viability_24h,huh7_niraparib_0um_24h_fig1,100,% viability (control=100),QUANTITATIVE,,,Visual est. from dose-response curve
+obs_2,fig1_viability_24h,huh7_niraparib_5um_24h_fig1,85,% viability (control=100),QUANTITATIVE,,,Visual est. from dose-response curve
+obs_3,fig1_viability_24h,huh7_niraparib_10um_24h_fig1,72,% viability (control=100),QUANTITATIVE,,,Visual est. from dose-response curve
+obs_4,fig1_viability_24h,huh7_niraparib_20um_24h_fig1,55,% viability (control=100),QUANTITATIVE,,,Visual est. from dose-response curve
+obs_5,fig1_viability_24h,huh7_niraparib_30um_24h_fig1,40,% viability (control=100),QUANTITATIVE,,,Visual est. from dose-response curve
+obs_6,fig3_cq_combo,huh7_ctrl_cqctrl_48h_fig3,100,% viability (control=100),QUANTITATIVE,,,Synergistic combination. Visual est.
+obs_7,fig3_cq_combo,huh7_ctrl_cqcq_48h_fig3,70,% viability (control=100),QUANTITATIVE,,,Synergistic combination. Visual est.
+obs_8,fig3_cq_combo,huh7_niraparib_5um_cqctrl_48h_fig3,80,% viability (control=100),QUANTITATIVE,,,Synergistic combination. Visual est.
+obs_9,fig3_cq_combo,huh7_niraparib_5um_cqcq_48h_fig3,50,% viability (control=100),QUANTITATIVE,,,Synergistic combination. Visual est.
+obs_10,fig3_cq_combo,huh7_niraparib_10um_cqctrl_48h_fig3,65,% viability (control=100),QUANTITATIVE,,,Synergistic combination. Visual est.
+obs_11,fig3_cq_combo,huh7_niraparib_10um_cqcq_48h_fig3,35,% viability (control=100),QUANTITATIVE,,,Synergistic combination. Visual est.
+obs_12,fig3_cq_combo,huh7_niraparib_20um_cqctrl_48h_fig3,45,% viability (control=100),QUANTITATIVE,,,Synergistic combination. Visual est.
+obs_13,fig3_cq_combo,huh7_niraparib_20um_cqcq_48h_fig3,20,% viability (control=100),QUANTITATIVE,,,Synergistic combination. Visual est.
+obs_14,fig4_cellcycle,huh7_ctrl_cellcycle_fig4,40,% cells in G1,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_15,fig4_cellcycle,huh7_ctrl_cellcycle_fig4,40,% cells in S,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_16,fig4_cellcycle,huh7_ctrl_cellcycle_fig4,20,% cells in G2M,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_17,fig4_cellcycle,huh7_cq_cellcycle_fig4,60,% cells in G1,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_18,fig4_cellcycle,huh7_cq_cellcycle_fig4,20,% cells in S,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_19,fig4_cellcycle,huh7_cq_cellcycle_fig4,20,% cells in G2M,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_20,fig4_cellcycle,huh7_niraparib_10um_cellcycle_fig4,60,% cells in G1,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_21,fig4_cellcycle,huh7_niraparib_10um_cellcycle_fig4,20,% cells in S,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_22,fig4_cellcycle,huh7_niraparib_10um_cellcycle_fig4,20,% cells in G2M,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_23,fig4_cellcycle,huh7_combo_cellcycle_fig4,60,% cells in G1,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_24,fig4_cellcycle,huh7_combo_cellcycle_fig4,20,% cells in S,QUANTITATIVE,,,Visual est. from flow cytometry
+obs_25,fig4_cellcycle,huh7_combo_cellcycle_fig4,20,% cells in G2M,QUANTITATIVE,,,Visual est. from flow cytometry

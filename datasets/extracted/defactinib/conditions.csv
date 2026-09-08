@@ -1,0 +1,5 @@
+condition_key,description
+vehicle,Vehicle control (DMSO or formulation vehicle)
+vs6063_alone,VS-6063 (defactinib) monotherapy
+docetaxel_alone,Docetaxel (DTX) monotherapy
+vs6063_docetaxel_combo,VS-6063 + Docetaxel combination

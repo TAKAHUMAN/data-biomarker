@@ -1,0 +1,11 @@
+assay_key,assay_type,target,measurement_type,unit,description
+fak_h_score_ihc,IHC,FAK,protein_expression,H-score,FAK immunohistochemistry H-score (% positive × intensity)
+p_fak_y397_densitometry,Western blot densitometry,FAK pY397,phosphoprotein_level,relative_density,"Phospho-FAK Y397 autophosphorylation (FERM domain), normalized to T-FAK or β-actin"
+p_fak_y576_densitometry,Western blot densitometry,FAK pY576,phosphoprotein_level,relative_density,"Phospho-FAK Y576 kinase-domain activation-loop phosphorylation, normalized to T-FAK or β-actin"
+p_akt_s473_densitometry,Western blot densitometry,AKT pS473,phosphoprotein_level,relative_density,"Phospho-AKT S473 (downstream of FAK via PI3K/p85), normalized to T-AKT; model-system-dependent (present PC3/xeno, absent explants)"
+lc3b_ii_accumulation,Western blot densitometry,LC3B,protein_level,relative_fold,LC3B-II accumulation (autophagy marker); xenograft only
+cleaved_caspase3_ihc,IHC,Cleaved caspase-3,apoptosis_marker,percent_positive_cells,"Cleaved caspase-3 immunohistochemistry, % positive cancer cells (explants only)"
+docetaxel_ic50,MTT viability,Docetaxel,drug_sensitivity,ng/mL,Docetaxel IC50 (50% growth inhibition); resistance-selective (Rx arms only)
+tumor_volume,Caliper measurement,Tumor volume,tumor_growth_inhibition,percent_of_initial,Subcutaneous xenograft tumor volume over time; biphasic response (regression then regrowth) in combo arm
+time_to_progression,Kaplan-Meier,Time-to-500mm³,survival_endpoint,days,Time-to-tumor-progression (500 mm³ endpoint); median DTX 29.5 d vs DTX+VS6 47.5 d (p=0.003)
+body_weight,Scale measurement,Body weight,tolerability,percent_of_initial,"Mouse body weight as tolerability marker; mean trough ~87% initial, one animal -26% (recovered post-regimen)"

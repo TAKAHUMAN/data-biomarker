@@ -1,0 +1,49 @@
+{
+  "search_id": "pemigatinib_fgfr_targeted_external_architecture_2026-09-03",
+  "scope": "Targeted source search restricted to alterations and target-engagement systems in PMID 32315352. No model design or implementation performed.",
+  "calibration_systems": [
+    {"cell_line": "H1581", "alteration": "FGFR1 amplification", "measurement": "72 h CellTiter-Glo GI50 14 +/- 9 nM"},
+    {"cell_line": "DMS-114", "alteration": "FGFR1 amplification", "measurement": "72 h CellTiter-Glo GI50 27 nM"},
+    {"cell_line": "KG1a", "alteration": "FGFR1OP2-FGFR1 fusion", "measurements": ["2 h pFGFR/pERK/pSTAT5 Western-blot concentration series", "72 h GI50 3 +/- 1 nM"]},
+    {"cell_line": "KATO III", "alteration": "FGFR2 amplification/high WT FGFR2 expression", "measurements": ["cellular pFGFR2 ELISA IC50 3 nM", "blood-spiked pFGFR2 IC50 10.9 nM", "72 h GI50 3 +/- 1 nM"]},
+    {"cell_line": "AN3CA", "alteration": "FGFR2 N310R/N549K", "measurements": ["72 h GI50 48 +/- 28 nM"]},
+    {"cell_line": "RT-112", "alteration": "FGFR3-TACC3 fusion", "measurements": ["pFGFR3 proximity-ligation images at 0, 10, 100 nM; no numeric summary", "72 h GI50 7 +/- 3 nM"]},
+    {"cell_line": "RT-4", "alteration": "FGFR3-TACC3 fusion", "measurements": ["2 h pFRS2/pERK Western-blot concentration series", "72 h GI50 12 nM"]},
+    {"cell_line": "KMS-11", "alteration": "IgH-FGFR3 translocation", "measurement": "72 h GI50 362 +/- 282 nM"},
+    {"cell_line": "OPM-2", "alteration": "IgH-FGFR3 translocation", "measurement": "72 h GI50 18 +/- 9 nM"},
+    {"cell_line": "Ba/F3-FGFR1-ZFN298", "alteration": "FGFR1 fusion", "measurement": "72 h GI50 0.9 +/- 0.4 nM"},
+    {"cell_line": "Ba/F3-FGFR2-CCDC6", "alteration": "FGFR2-CCDC6 fusion", "measurement": "72 h GI50 1.2 +/- 0.2 nM"},
+    {"cell_line": "Ba/F3-FGFR2-AHCYL", "alteration": "FGFR2-AHCYL fusion", "measurement": "72 h GI50 1.1 +/- 0.3 nM"}
+  ],
+  "pemigatinib_target_engagement": {
+    "source": {"pmid": "32315352", "doi": "10.1371/journal.pone.0231877"},
+    "biochemical": {"assay": "recombinant human FGFR kinase assay at each enzyme's Km ATP", "fgfr1_ic50_nM": 0.4, "fgfr2_ic50_nM": 0.5, "fgfr3_ic50_nM": 1.0, "fgfr4_ic50_nM": 30, "replicates": {"FGFR1_2_3": 8, "FGFR4": 6}, "competitive_evidence": "FGFR1 IC50 shifted from 0.6 nM at 50 uM ATP to 6 nM at 5000 uM ATP; the paper identifies ATP-competitive binding."},
+    "cellular": {"KATO_III_pFGFR2_ELISA_ic50_nM": 3, "KATO_III_human_blood_spiked_pFGFR2_ELISA_ic50_nM": 10.9, "BaF3_FGFR1_TEL_pFGFR_ic50_nM": 3, "BaF3_FGFR3_TEL_pFGFR_ic50_nM": 4, "Fig2_exposure_hours": 2, "mutation_specific_pemigatinib_pFGFR_ic50": "not reported"},
+    "interpretation": "Biochemical IC50, cellular pFGFR IC50, and 72 h GI50 are distinct quantities. GI50 is not a kinase-inhibition parameter."
+  },
+  "targeted_sources": [
+    {"pmid": "18381441", "doi": "10.1158/0008-5472.CAN-07-5229", "finding": "KatoIII is an FGFR2-amplified gastric line with overexpressed and tyrosine-phosphorylated FGFR2; FGFR2 inhibition selectively blocks growth. The source does not establish a ligand-independent structural activation mechanism.", "architecture_support": "ABUNDANCE_OVERLAY with a context-specific basal FGFR activation drive; do not assert constitutive dimerization from amplification alone."},
+    {"pmid": "23908597", "doi": "10.1593/neo.121106", "finding": "FGFR2 N550K/H elevates intrinsic FGFR2 kinase activity in biochemical and Ba/F3 studies. It is a close kinase-domain analogue to the dataset's reported N549K, but transcript/protein numbering equivalence was not verified here. This source does not resolve the contribution of co-occurring N310R in AN3CA.", "architecture_support": "MUTATION_OVERLAY that changes receptor activation kinetics/basal active fraction; no mutation-specific pemigatinib potency supplied."},
+    {"pmid": "21745565", "doi": "10.1016/j.cellsig.2011.06.010", "finding": "KG1a FGFR1OP2-FGFR1/FOP2-FGFR1 is soluble and constitutively tyrosine-kinase active; HSP90-CDC37 stabilizes it. This is the exact KG1a fusion context.", "architecture_support": "FUSION_OVERLAY with ligand-independent activation. HSP90 dependence is not required for the pemigatinib interface."},
+    {"pmid": "18412956", "doi": "10.1186/1476-4598-7-30", "finding": "FOP-FGFR1 is constitutively kinase-active and can recruit PI3K through p85 interaction at Y475; it also recruits PLCgamma1.", "architecture_support": "Supports a PI3K branch for FGFR1OP2/FOP-FGFR1; it does not justify copying the centrosomal localization mechanism to other fusions."},
+    {"pmid": "36227665", "doi": "10.14715/cmb/2022.68.6.21", "finding": "FGFR2-CCDC6 expression increased FGFR2 protein and activated AKT and ERK signaling in Hucct-1 cells.", "architecture_support": "FUSION_OVERLAY that feeds existing RAS/ERK and PI3K/AKT ports; no kinetic constants or oligomerization rate supplied."},
+    {"pmid": "36780330", "doi": "10.18632/oncotarget.28359", "finding": "FGFR3-TACC3 activation requires the TACC3 coiled-coil region; fusion breakpoint affects biological activity and MAPK activation.", "architecture_support": "FUSION_OVERLAY with partner/breakpoint metadata and ligand-independent activation. A distinct FGFR3 kinetic base is not supported by this sparse calibration dataset."},
+    {"pmid": "9787135", "doi": "10.1182/blood.V92.9.3025", "finding": "The myeloma t(4;14) event dysregulates FGFR3 and MMSET; it is not evidence of an IgH-FGFR3 chimeric receptor protein.", "architecture_support": "ABUNDANCE_OVERLAY for KMS-11 and OPM-2 IgH-FGFR3 translocation contexts, not FUSION_OVERLAY."}
+  ],
+  "architecture_decision": {
+    "minimum_reusable_base": "GENERIC_FGFR_BASE_PLUS_CONTEXT. Retain generic receptor activation/deactivation and abundance logic; add isoform identity as context metadata, not separate FGFR1/2/3 kinetic equations.",
+    "required_overlays": [
+      {"type": "ABUNDANCE_OVERLAY", "applies_to": ["FGFR1-amplified H1581", "FGFR1-amplified DMS-114", "FGFR2-amplified KATO III", "KMS-11/OPM-2 IgH-FGFR3 translocation"], "mechanism": "increased receptor-production/abundance parameter plus context-specific basal activation; amplification alone is not evidence for a universal ligand-independent dimerization mechanism. The IgH-FGFR3 translocation is transcriptional dysregulation rather than a receptor fusion."},
+      {"type": "MUTATION_OVERLAY", "applies_to": ["AN3CA FGFR2 N310R/N549K"], "mechanism": "altered activation kinetics/basal active fraction. External support is specific for the N549K/N550K kinase-domain alteration; N310R remains mechanistically unresolved."},
+      {"type": "FUSION_OVERLAY", "applies_to": ["KG1a FGFR1OP2-FGFR1", "Ba/F3 FGFR1-ZFN298", "Ba/F3 FGFR2-CCDC6", "Ba/F3 FGFR2-AHCYL", "RT-4/RT-112 FGFR3-TACC3"], "mechanism": "ligand-independent constitutive activation where directly supported for FGFR1OP2-FGFR1 and FGFR3-TACC3. Keep partner/breakpoint as context metadata or a context activation-scale parameter unless future quantitative data establish partner-specific oligomerization/localization states."}
+    ],
+    "branching": "RAS/ERK is the common required branch because the paper directly measures pERK in FGFR1OP2-FGFR1 and FGFR3-TACC3 contexts. PI3K/AKT is supported for FOP-FGFR1 and FGFR2-CCDC6; retain an optional context-specific PI3K coupling. pSTAT5 is measured only as a non-quantified KG1a blot, so an FGFR-to-STAT5 branch is not required for the current numeric fit set.",
+    "biomodels_relation": "BIOMD0000000883 can serve only as equation-form precedent for generic ligand activation/deactivation and receptor production/degradation. Its generic pFGFR-to-RAS-to-PI3K sequence is compatible with the shared pathway ports. It supplies neither fusion constitutive activation nor pemigatinib inhibition, and none of its numerical values may be renamed as isoform-specific values."
+  },
+  "pemigatinib_interface_support": {
+    "supported_equation_form": "A reversible steady-state fractional inhibition interface on the active receptor/kinase flux, for example remaining_activity(C) = 1/(1 + C/IC50_context), is supported as a minimal competitive-potency observation interface.",
+    "not_supported": ["kon/koff binding kinetics", "drug residence time", "isoform-specific cellular Hill coefficients", "mutation-specific pemigatinib IC50", "using GI50 as IC50"],
+    "sourceable_numerical_parameters": ["biochemical IC50: FGFR1 0.4 nM, FGFR2 0.5 nM, FGFR3 1.0 nM at Km ATP", "KATO III pFGFR2 cellular IC50 3 nM and blood-spiked IC50 10.9 nM", "Ba/F3 FGFR1-TEL and FGFR3-TEL pFGFR IC50s 3 and 4 nM"],
+    "provisional_or_fit_parameters": ["alteration-specific basal/constitutive activation strength", "amplification abundance multiplier", "fusion activation scale and partner/breakpoint effect", "FGFR-to-RAS and FGFR-to-PI3K context gains", "cellular potency translation for AN3CA and each disease-specific fusion", "observation/phenotype parameters"]
+  }
+}

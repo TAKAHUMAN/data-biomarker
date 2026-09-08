@@ -1,0 +1,61 @@
+panel,group,comparison,study_day,parameter,mean_estimate,se_estimate,unit,significance_mark_in_panel,evidence,source,qc_interpretation
+2a,Treated,Day 30 vs 35,30,VB,0.1,0.025,mL blood/mL tissue,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2a,Treated,Day 30 vs 35,35,VB,0.085,0.015,mL blood/mL tissue,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2a,Treated,Day 30 vs 35,30,k1,0.305,0.015,mL/mL tissue/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2a,Treated,Day 30 vs 35,35,k1,0.37,0.03,mL/mL tissue/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2a,Treated,Day 30 vs 35,30,k2,0.52,0.035,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2a,Treated,Day 30 vs 35,35,k2,0.575,0.04,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2a,Treated,Day 30 vs 35,30,k3,0.115,0.006,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2a,Treated,Day 30 vs 35,35,k3,0.125,0.006,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2a,Treated,Day 30 vs 35,30,k4,0.01,0.003,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2a,Treated,Day 30 vs 35,35,k4,0.008,0.003,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,30,VB,0.105,0.03,mL blood/mL tissue,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,55,VB,0.05,0.008,mL blood/mL tissue,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,30,k1,0.31,0.015,mL/mL tissue/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,55,k1,0.25,0.025,mL/mL tissue/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,30,k2,0.52,0.035,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,55,k2,0.525,0.035,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,30,k3,0.125,0.008,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,55,k3,0.18,0.055,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,30,k4,0.01,0.003,1/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2b,Treated,Day 30 vs 55,55,k4,0.02,0.005,1/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,35,VB,0.085,0.015,mL blood/mL tissue,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,55,VB,0.05,0.008,mL blood/mL tissue,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,35,k1,0.37,0.035,mL/mL tissue/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,55,k1,0.25,0.02,mL/mL tissue/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,35,k2,0.58,0.035,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,55,k2,0.52,0.035,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,35,k3,0.125,0.01,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,55,k3,0.18,0.035,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,35,k4,0.015,0.004,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2c,Treated,Day 35 vs 55,55,k4,0.025,0.007,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,30,VB,0.11,0.03,mL blood/mL tissue,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,35,VB,0.07,0.01,mL blood/mL tissue,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,30,k1,0.31,0.015,mL/mL tissue/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,35,k1,0.305,0.035,mL/mL tissue/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,30,k2,0.525,0.035,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,35,k2,0.565,0.045,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,30,k3,0.12,0.01,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,35,k3,0.16,0.006,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,30,k4,0.01,0.003,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2d,Control,Day 30 vs 35,35,k4,0.015,0.004,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,30,VB,0.105,0.025,mL blood/mL tissue,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,55,VB,0.09,0.01,mL blood/mL tissue,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,30,k1,0.31,0.02,mL/mL tissue/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,55,k1,0.295,0.04,mL/mL tissue/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,30,k2,0.515,0.035,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,55,k2,0.62,0.045,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,30,k3,0.12,0.01,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,55,k3,0.105,0.01,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,30,k4,0.01,0.003,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2e,Control,Day 30 vs 55,55,k4,0.005,0.003,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,35,VB,0.065,0.015,mL blood/mL tissue,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,55,VB,0.09,0.012,mL blood/mL tissue,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,35,k1,0.3,0.015,mL/mL tissue/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,55,k1,0.305,0.035,mL/mL tissue/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,35,k2,0.56,0.035,1/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,55,k2,0.62,0.045,1/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,35,k3,0.15,0.01,1/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,55,k3,0.105,0.01,1/min,*,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,35,k4,0.015,0.004,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization
+2f,Control,Day 35 vs 55,55,k4,0.01,0.003,1/min,,Digitized - approximate,Figure 2,Bar and error-bar estimate; use source image for final high-precision redigitization

@@ -1,0 +1,44 @@
+gene,description,function,log2_change,fold_change_derived,percent_change_derived,direction_derived,time_day,comparison,evidence,source
+ADAM10,ADAM metallopeptidase domain 10,ECM remodeling,-0.14,0.9075191553171609,-0.09248084468283913,Down,55,Cilengitide treated vs control,Reported,Table 1
+ADAM29,ADAM metallopeptidase domain 29,ECM remodeling,-0.54,0.6877709090698718,-0.3122290909301282,Down,55,Cilengitide treated vs control,Reported,Table 1
+ADAM3A,ADAM metallopeptidase domain 3A,ECM remodeling,-0.41,0.7526233737055337,-0.24737662629446633,Down,55,Cilengitide treated vs control,Reported,Table 1
+ADAM5,ADAM metallopeptidase domain 5,ECM remodeling,-0.83,0.5625292423444047,-0.4374707576555953,Down,55,Cilengitide treated vs control,Reported,Table 1
+ANGPT2,Angiopoietin 2,Angiogenesis,-0.45,0.7320428479728127,-0.2679571520271873,Down,55,Cilengitide treated vs control,Reported,Table 1
+BMP2,Bone morphogenetic protein 2,Osteoblastic activity,0.28,1.214194884395047,0.21419488439504697,Up,55,Cilengitide treated vs control,Reported,Table 1
+CD44,CD44 molecule,Cell adhesion,-0.25,0.8408964152537145,-0.1591035847462855,Down,55,Cilengitide treated vs control,Reported,Table 1
+CDH11,Cadherin 11,Endothelial adherens junctions,-0.4,0.757858283255199,-0.242141716744801,Down,55,Cilengitide treated vs control,Reported,Table 1
+CLDN18,Claudin 18,Endothelial tight junctions,-0.64,0.6417129487814521,-0.35828705121854787,Down,55,Cilengitide treated vs control,Reported,Table 1
+CLDN22,Claudin 22,Endothelial tight junctions,-0.45,0.7320428479728127,-0.2679571520271873,Down,55,Cilengitide treated vs control,Reported,Table 1
+COL4,"Collagen, type IV",ECM remodeling,-0.11,0.9265880618903709,-0.0734119381096291,Down,55,Cilengitide treated vs control,Reported,Table 1
+COL6,"Collagen, type VI",ECM remodeling,-0.42,0.7474246243174693,-0.25257537568253075,Down,55,Cilengitide treated vs control,Reported,Table 1
+CSF1,Colony-stimulating factor 1,Osteolysis,-0.39,0.7631296044802796,-0.23687039551972044,Down,55,Cilengitide treated vs control,Reported,Table 1
+CSF2,Colony-stimulating factor 2,Osteolysis,-0.51,0.7022224378689986,-0.29777756213100137,Down,55,Cilengitide treated vs control,Reported,Table 1
+CXCR4,Chemokine (C-X-C motif) receptor 4,Osteolysis; metastatic breast-cancer progression,-0.64,0.6417129487814521,-0.35828705121854787,Down,55,Cilengitide treated vs control,Reported,Table 1
+EGF,Epidermal growth factor,Osteolysis / osteoblastic activity,-0.33,0.7955364837549187,-0.2044635162450813,Down,55,Cilengitide treated vs control,Reported,Table 1
+EGFR,Epidermal growth factor receptor,Metastatic breast-cancer progression,0.14,1.1019051158766107,0.10190511587661066,Up,55,Cilengitide treated vs control,Reported,Table 1
+FGF5,Fibroblast growth factor 5,Osteolysis,-0.42,0.7474246243174693,-0.25257537568253075,Down,55,Cilengitide treated vs control,Reported,Table 1
+GLUT1,Glucose transporter 1,Glucose transport,-0.34,0.7900413118633771,-0.20995868813662288,Down,55,Cilengitide treated vs control,Reported,Table 1
+HIF1AN,Hypoxia inducible factor 1 alpha inhibitor,Angiogenesis,0.38,1.3013418554419336,0.3013418554419336,Up,55,Cilengitide treated vs control,Reported,Table 1
+HK1,Hexokinase 1,Glucose transport,-0.14,0.9075191553171609,-0.09248084468283913,Down,55,Cilengitide treated vs control,Reported,Table 1
+HK3,Hexokinase 3,Glucose transport,-0.34,0.7900413118633771,-0.20995868813662288,Down,55,Cilengitide treated vs control,Reported,Table 1
+IGF,Insulin-like growth factor,Osteolysis / osteoblastic activity,-0.59,0.6643429070482558,-0.3356570929517442,Down,55,Cilengitide treated vs control,Reported,Table 1
+IGF1,Insulin growth factor 1,Osteolysis / osteoblastic activity,-0.37,0.7737824967711949,-0.22621750322880507,Down,55,Cilengitide treated vs control,Reported,Table 1
+IL1,Interleukin 1,Osteolysis / osteoblastic activity,-0.4,0.757858283255199,-0.242141716744801,Down,55,Cilengitide treated vs control,Reported,Table 1
+IL2,Interleukin 2,Metastatic breast-cancer progression,-0.63,0.6461764153187461,-0.35382358468125386,Down,55,Cilengitide treated vs control,Reported,Table 1
+IL6,Interleukin 6,Osteolysis,-0.52,0.6973718331752027,-0.3026281668247973,Down,55,Cilengitide treated vs control,Reported,Table 1
+IL10,Interleukin 10,Metastatic breast-cancer progression,-0.51,0.7022224378689986,-0.29777756213100137,Down,55,Cilengitide treated vs control,Reported,Table 1
+ITGA5,Integrin alpha 5,Angiogenesis,-0.35,0.7845840978967508,-0.21541590210324923,Down,55,Cilengitide treated vs control,Reported,Table 1
+ITGAV,Integrin alpha v,Cell adhesion; angiogenesis,-0.55,0.6830201283771977,-0.3169798716228023,Down,55,Cilengitide treated vs control,Reported,Table 1
+ITGB3,Integrin beta 3,Cell adhesion; angiogenesis; osteolysis,-0.64,0.6417129487814521,-0.35828705121854787,Down,55,Cilengitide treated vs control,Reported,Table 1
+ITGB5,Integrin beta 5,Cell adhesion; angiogenesis,-0.4,0.757858283255199,-0.242141716744801,Down,55,Cilengitide treated vs control,Reported,Table 1
+MMP11,Matrix metalloproteinase 11,ECM remodeling,0.41,1.3286858140965117,0.32868581409651165,Up,55,Cilengitide treated vs control,Reported,Table 1
+MMP14,Matrix metalloproteinase 14,ECM remodeling,0.25,1.189207115002721,0.18920711500272103,Up,55,Cilengitide treated vs control,Reported,Table 1
+MMP26,Matrix metalloproteinase 26,ECM remodeling,-0.45,0.7320428479728127,-0.2679571520271873,Down,55,Cilengitide treated vs control,Reported,Table 1
+PDGFB,Platelet-derived growth factor beta,Angiogenesis,-0.33,0.7955364837549187,-0.2044635162450813,Down,55,Cilengitide treated vs control,Reported,Table 1
+PTHrP,Parathyroid hormone-related peptide,Osteolysis / osteoblastic metastasis,-0.73,0.6029039138453802,-0.3970960861546198,Down,55,Cilengitide treated vs control,Reported,Table 1
+RANKL,Receptor activator of NF-kB ligand,Osteolysis,-1.28,0.41179550863378656,-0.5882044913662134,Down,55,Cilengitide treated vs control,Reported,Table 1
+ROBO2,Roundabout homolog 2,Angiogenesis,-0.41,0.7526233737055337,-0.24737662629446633,Down,55,Cilengitide treated vs control,Reported,Table 1
+TGFB3,Transforming growth factor beta 3,Osteolysis / osteoblastic activity,0.41,1.3286858140965117,0.32868581409651165,Up,55,Cilengitide treated vs control,Reported,Table 1
+TNFA,Tumor necrosis factor alpha,Osteolysis / osteoblastic activity,0.54,1.4539725173203106,0.45397251732031063,Up,55,Cilengitide treated vs control,Reported,Table 1
+TP53I11,Tumor protein p53 inducible protein 11,Angiogenic signaling,-0.66,0.63287829698514,-0.36712170301486,Down,55,Cilengitide treated vs control,Reported,Table 1
+VEGFA,Vascular endothelial growth factor A,Angiogenesis,-0.33,0.7955364837549187,-0.2044635162450813,Down,55,Cilengitide treated vs control,Reported,Table 1

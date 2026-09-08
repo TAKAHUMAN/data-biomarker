@@ -1,0 +1,11 @@
+figure_panel,cell_line_or_model,fgfr_alteration,assay,time,quantitative,extraction_type,potential_model_use,quality
+Fig.2A,KG1a,FGFR1OP2-FGFR1 fusion,Western pFGFR/pERK/pSTAT5,2 h,yes,single-blot densitometry,DOWNSTREAM_SIGNALING,semi_quantitative_fitting
+Fig.2B,RT-4,FGFR3-TACC3 fusion,Western pFRS2/pERK,2 h,no,exact lane labels plus raw-blot review,DOWNSTREAM_SIGNALING,qualitative_validation_only
+Fig.2C,RT-112,FGFR3-TACC3 fusion,pFGFR3 proximity ligation,not stated,no,image-only,PROXIMAL_TARGET,qualitative_validation_only
+Fig.3A,KATO III tumor-bearing mouse,FGFR2 amplification,plasma PK,4-24 h,yes,coarse log-plot digitization,PK_PD,validation_only
+Fig.3B,KATO III tumor-bearing mouse,FGFR2 amplification,tumor pFGFR2 ELISA,after single oral dose,yes,text-derived IC50,PK_PD,validation_only
+Fig.3C,C57BL/6 mouse,physiologic FGF23 pathway,serum phosphate,24 h,yes,text-derived ED50,PK_PD,validation_only
+Fig.4A,KATO III xenograft,FGFR2 amplification,tumor volume,10 days,no,direct regimen/caption extraction,IN_VIVO_VALIDATION,validation_only
+Fig.4B,KG1 xenograft,FGFR1OP2-FGFR1 fusion,tumor volume,14 days,no,direct regimen/caption extraction,IN_VIVO_VALIDATION,validation_only
+Fig.4C,RT-112 xenograft,FGFR3-TACC3 fusion,tumor volume,14 days,no,direct regimen/caption extraction,IN_VIVO_VALIDATION,validation_only
+Fig.4D,CTG-0997 PDX,FGFR2-TRA2B fusion,tumor volume,42 days,no,direct regimen/caption extraction,IN_VIVO_VALIDATION,validation_only

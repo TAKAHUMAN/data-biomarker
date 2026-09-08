@@ -1,0 +1,2 @@
+context_key,species,cell_line,cell_type,tissue,disease,culture_context,notes
+mda_mb_231_bone_metastasis_rnu_rat,Rattus norvegicus,MDA-MB-231,human breast cancer bone-metastasis xenograft,"femur, tibia and fibula of right hind leg",breast cancer bone metastasis,human-cell xenograft in nude RNU rat,10^5 MDA-MB-231 cells were injected through the superficial epigastric artery; lesions formed in the right hind-leg bones.

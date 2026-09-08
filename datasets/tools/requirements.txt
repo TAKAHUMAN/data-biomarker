@@ -1,0 +1,2 @@
+pyarrow>=25,<26
+openpyxl>=3.1,<4

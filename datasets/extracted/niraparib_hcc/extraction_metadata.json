@@ -1,0 +1,11 @@
+{
+  "drug": "Niraparib (PARP inhibitor)",
+  "combination": "Niraparib + Chloroquine (autophagy inhibitor)",
+  "cancer_type": "Hepatocellular carcinoma (HCC)",
+  "cell_line": "Huh7",
+  "extraction": {
+    "extraction_date": "2026-09-08",
+    "total_observations": 25,
+    "key_finding": "Synergistic PARP + autophagy inhibition: niraparib + CQ combination shows enhanced HCC cell killing."
+  }
+}

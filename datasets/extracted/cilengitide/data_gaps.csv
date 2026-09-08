@@ -1,0 +1,12 @@
+missing_input,why_needed,minimum_acceptable_source,recommended_handling_now,parameter_status
+Rat concentration-time profile at 25 mg/kg IP,Connect existing PK/exposure to the paper regimen,Cilengitide rat PK study or validated cross-study PK,"Input from separate PK model; align route, species, dose and schedule",External
+Free drug concentration / plasma binding,Target-driving concentration,Rat fu or justified surrogate,Sensitivity analysis if unavailable,External
+Bone-metastasis penetration,Effect-site exposure,Tumor/bone Kp or effect-compartment delay,Use estimated Ke0 with wide uncertainty; label assumed,External / assumed
+alpha-v beta-3 and alpha-v beta-5 affinity or IC50,Target inhibition curve,Biochemical/cellular potency under relevant assay,Use target-specific values; do not combine both targets blindly,External
+Proximal signaling time course,Identify cascade kinetics,pFAK/pSRC/AKT/ERK dose-time experiment,Use reduced latent pathway state if absent,External
+Protein biomarker time course,Translate mRNA to active biology,"VEGF, RANKL, GLUT1/HK protein or activity",Treat transcript changes as terminal calibration targets only,External
+Longitudinal tumor/lesion burden,Estimate growth and drug effect,VCT/MRI/lesion volume from companion cilengitide studies,Do not estimate tumor kill from PET alone,External essential
+Bone turnover endpoint,Estimate osteolysis/remodelling effect,"Osteoclast counts, CT lesion, BMD, TRAP or histomorphometry",Keep bone module biomarker-only until obtained,External essential
+Individual-animal PET values,Residual variability and VPC,Raw study data,Use digitized mean +/- SE only for aggregate fitting; avoid pseudo-individuals,Unavailable
+Gene-expression SE / individual values,Weight terminal transcript endpoints,Raw array values,Do not invent SE; use directional/relative calibration,Unavailable
+Control disease progression before day 30,Separate natural history from treatment,Untreated longitudinal biomarker/outcome series,Control PET exists only at days 30/35/55; outcome still required,Partial

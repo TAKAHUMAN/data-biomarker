@@ -1,0 +1,10 @@
+context_key,gene,alteration_type,alteration,source
+huh7_xu_in_vitro,CCNE1,OTHER,"CCNE1-low (baseline expression level, per Xu Fig1C western blot 6-line panel; not a mutation/CNV -- controlled vocabulary has no EXPRESSION_LEVEL type)",Xu et al. Figure 1C
+hepg2_xu_in_vitro,CCNE1,OTHER,"CCNE1-low (baseline expression level, per Xu Fig1C western blot 6-line panel; not a mutation/CNV -- controlled vocabulary has no EXPRESSION_LEVEL type)",Xu et al. Figure 1C
+snu475_xu_in_vitro,CCNE1,OTHER,"CCNE1-low (baseline expression level, per Xu Fig1C western blot 6-line panel; not a mutation/CNV -- controlled vocabulary has no EXPRESSION_LEVEL type)",Xu et al. Figure 1C
+skhep1_xu_in_vitro,CCNE1,OTHER,"CCNE1-high (baseline expression level, per Xu Fig1C western blot 6-line panel; not a mutation/CNV -- controlled vocabulary has no EXPRESSION_LEVEL type)",Xu et al. Figure 1C
+snu398_xu_in_vitro,CCNE1,OTHER,"CCNE1-high (baseline expression level, per Xu Fig1C western blot 6-line panel; not a mutation/CNV -- controlled vocabulary has no EXPRESSION_LEVEL type)",Xu et al. Figure 1C
+hep3b_xu_in_vitro,CCNE1,OTHER,"CCNE1-high (baseline expression level, per Xu Fig1C western blot 6-line panel; not a mutation/CNV -- controlled vocabulary has no EXPRESSION_LEVEL type)",Xu et al. Figure 1C
+huh7_ccne1_plasmid_xu,CCNE1,OVEREXPRESSION,CCNE1 transient overexpression plasmid,Xu et al. Figure 2 genetic-rescue subline
+huh7_mcl1_oe_xu,MCL1,OVEREXPRESSION,Mcl-1 overexpression plasmid,Xu et al. Figure 4E-F genetic-rescue subline
+huh7_stat3_oe_xu,STAT3,OVEREXPRESSION,STAT3 overexpression plasmid,Xu et al. Figure 5E-G genetic-rescue subline
