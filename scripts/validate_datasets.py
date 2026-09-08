@@ -32,12 +32,12 @@ def validate_csv(filepath: Path) -> Tuple[bool, str]:
 
 def validate_drug(drug_dir: Path) -> Dict[str, any]:
     """Validate a single drug dataset."""
-    result = {'drug': drug_dir.name, 'status': '✅', 'files': {}, 'observations': 0}
+    result = {'drug': drug_dir.name, 'status': 'OK', 'files': {}, 'observations': 0}
 
     for required_file in REQUIRED_FILES:
         filepath = drug_dir / required_file
         if not filepath.exists():
-            result['status'] = '❌'
+            result['status'] = 'FAIL'
             result['files'][required_file] = 'MISSING'
         else:
             if filepath.suffix == '.csv':
@@ -49,17 +49,17 @@ def validate_drug(drug_dir: Path) -> Dict[str, any]:
                     except:
                         result['observations'] = 0
             else:
-                result['files'][required_file] = '✓'
+                result['files'][required_file] = 'OK'
 
     return result
 
 def main():
     """Run validation on all drugs."""
     if not EXTRACTED_DIR.exists():
-        print(f"❌ Extracted directory not found: {EXTRACTED_DIR}")
+        print(f"FAIL: Extracted directory not found: {EXTRACTED_DIR}")
         return
 
-    print(f"\n📊 VALIDATING {EXTRACTED_DIR.name}")
+    print(f"\nVALIDATING {EXTRACTED_DIR.name}")
     print("=" * 80)
 
     results = []
@@ -72,28 +72,28 @@ def main():
         status = result['status']
         drug = result['drug']
         obs = result['observations']
-        print(f"{status} {drug:30s} | {obs:4d} observations")
+        print(f"[{status}] {drug:30s} | {obs:4d} observations")
 
     print("=" * 80)
 
     # Summary
     total_drugs = len(results)
-    complete = sum(1 for r in results if r['status'] == '✅')
+    complete = sum(1 for r in results if r['status'] == 'OK')
     total_obs = sum(r['observations'] for r in results)
 
-    print(f"\n✅ Complete: {complete}/{total_drugs} drugs")
-    print(f"📈 Total observations: {total_obs}")
-    print(f"📚 Average obs/drug: {total_obs//complete if complete > 0 else 0}")
+    print(f"\nComplete: {complete}/{total_drugs} drugs")
+    print(f"Total observations: {total_obs}")
+    print(f"Average obs/drug: {total_obs//complete if complete > 0 else 0}")
 
     # Issues
-    issues = [r for r in results if r['status'] == '❌']
+    issues = [r for r in results if r['status'] == 'FAIL']
     if issues:
-        print(f"\n⚠️  {len(issues)} INCOMPLETE DATASETS:")
+        print(f"\nINCOMPLETE DATASETS ({len(issues)}):")
         for issue in issues:
             missing = [k for k, v in issue['files'].items() if v == 'MISSING']
             print(f"  - {issue['drug']}: missing {', '.join(missing)}")
 
-    print("\n✅ Validation complete!")
+    print("\nValidation complete!")
 
 if __name__ == '__main__':
     main()
