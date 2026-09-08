@@ -29,10 +29,10 @@ print("\nFirst 5 observations:")
 print(data.observations.head())
 
 print(f"\n\nAvailable assays ({len(data.assays)}):")
-print(data.assays[['assay_key', 'assay_name', 'measurement_type']].head(10))
+print(data.assays[['assay_key', 'assay_name', 'assay_type']].head(10))
 
 print(f"\n\nExperimental conditions ({len(data.conditions)}):")
-print(data.conditions[['condition_key', 'dose_value', 'timepoint_hours']].head(10))
+print(data.conditions[['condition_key', 'condition_label', 'notes']].head(10))
 
 
 # ============================================================================
@@ -47,7 +47,7 @@ quantitative = data.observations[data.observations['quality_class'] == 'QUANTITA
 print(f"\nQuantitative observations: {len(quantitative)} / {len(data.observations)}")
 
 # Get observations from specific sources (highest confidence)
-explicit_data = quantitative[quantitative['notes'].str.contains('explicit|printed')]
+explicit_data = quantitative[quantitative['notes'].str.contains('explicit|printed', na=False)]
 print(f"Explicit (printed in paper): {len(explicit_data)} observations")
 
 # Example: Extract IC50 values
@@ -91,20 +91,20 @@ print("EXAMPLE 4: Dose-Response Curve Preparation")
 print("=" * 80)
 
 # Filter for viability/apoptosis dose-response data
-data = BiomarkerDataset('evofosfamide_breast')
+data = BiomarkerDataset('dordaprivone_ovarian')
 viability_assays = data.observations[
-    data.observations['assay_key'].str.contains('viability|apoptosis', na=False)
+    data.observations['assay_key'].str.contains('mtt|viability|apoptosis', na=False, case=False)
 ]
 
 print(f"Viability/apoptosis observations: {len(viability_assays)}")
 print("\nExample observations for curve fitting:")
 
-# Show data organized by context/cell line
-for context_key in viability_assays['context_key'].unique()[:3]:
-    context_data = viability_assays[viability_assays['context_key'] == context_key]
-    print(f"\n  {context_key}: {len(context_data)} points")
-    print(f"    Values: {sorted(context_data['value'].dropna().values)}")
-    print(f"    Units: {context_data['unit'].unique()[0]}")
+# Show data organized by assay
+for assay in viability_assays['assay_key'].unique()[:3]:
+    assay_data = viability_assays[viability_assays['assay_key'] == assay]
+    print(f"\n  {assay}: {len(assay_data)} points")
+    print(f"    Values: {sorted(assay_data['value'].dropna().values[:5])}")
+    print(f"    Units: {assay_data['unit'].unique()[0]}")
 
 
 # ============================================================================
@@ -137,7 +137,7 @@ print(f"Tier 3 (Cell-level): {len(tier3)} obs")
 
 # Tier 4: In vivo effects
 tier4 = data.observations[
-    data.observations['context_key'].str.contains('xenograft|tumor|vivo', na=False, case=False)
+    data.observations['assay_key'].str.contains('tumor|xenograft|vivo', na=False, case=False)
 ]
 print(f"Tier 4 (In vivo): {len(tier4)} obs")
 
@@ -182,7 +182,7 @@ print(data.readme[:500])
 
 # Check assays defined
 print("\n\nAssays in dataset:")
-print(data.assays[['assay_key', 'assay_name', 'measurement_type']].to_string(index=False))
+print(data.assays[['assay_key', 'assay_name', 'assay_type']].to_string(index=False))
 
 
 # ============================================================================
@@ -217,13 +217,13 @@ print("\n" + "=" * 80)
 print("SUMMARY: Next Steps for QSP Modeling")
 print("=" * 80)
 print("""
-1. ✓ Load drug dataset(s) using BiomarkerDataset
-2. ✓ Filter by quality_class and notes (quantitative/explicit data preferred)
-3. ✓ Organize by assay_key and context_key for your PD cascade model
-4. ✓ Read README.md for mechanistic insights and modeling recommendations
-5. ✓ Fit dose-response curves (IC50 extraction already done)
-6. ✓ Build Tier 1→2→3→4 cascade equations based on data structure
-7. ✓ Export clean data for R/Stan/NONMEM with 'drug' column for multi-drug analysis
+1. Load drug dataset(s) using BiomarkerDataset
+2. Filter by quality_class and notes (quantitative/explicit data preferred)
+3. Organize by assay_key and context_key for your PD cascade model
+4. Read README.md for mechanistic insights and modeling recommendations
+5. Fit dose-response curves (IC50 extraction already done)
+6. Build Tier 1->2->3->4 cascade equations based on data structure
+7. Export clean data for R/Stan/NONMEM with 'drug' column for multi-drug analysis
 
 Questions?
 - Check USAGE.md in repo root for API documentation
